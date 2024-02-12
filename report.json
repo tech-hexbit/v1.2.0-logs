@@ -34,7 +34,8 @@
     }
   },
   "on_search_inc_refresh": {
-    "prvdr0id": "provider id: 659e2966a76d8a2005ebffe5 in bpp/providers didn't matched for providers id of /on_search_full_catalog_refresh"
+    "StoreEnableDisable": "store enable/disable timestamp (/bpp/providers/time/timestamp) should be less then or equal to context.timestamp",
+    "locationObject": "Location id sent in payload was not present in /on_search_full_catalog_refresh api "
   },
   "select": {
     "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'",
