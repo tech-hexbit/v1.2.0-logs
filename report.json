@@ -30,10 +30,7 @@
   },
   "search_inc_refresh": {
     "intent": {
-      "tags": [
-        "/message/intent/tags/list/start_time/value cannot be greater than or equal to /context/timestamp",
-        "/message/intent/tags/list/end_time/value cannot be greater than /context/timestamp"
-      ]
+      "tags": null
     }
   },
   "on_search_inc_refresh": {
