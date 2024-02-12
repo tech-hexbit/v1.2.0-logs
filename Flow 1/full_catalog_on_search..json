@@ -11,7 +11,7 @@
     "bpp_uri": "https://techondc.hexbit.io/",
     "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
     "message_id": "22bc3d34-a49d-4056-8fe4-3d6fc5a0aa93",
-    "timestamp": "2024-01-30T06:39:38.019Z",
+    "timestamp": "2024-02-12T15:23:22.845Z",
     "ttl": "PT30S"
   },
   "message": {
@@ -42,15 +42,15 @@
             "list": [
               {
                 "code": "np_type",
-                "value": "MSN142"
+                "value": "MSN"
               },
               {
                 "code": "accept_bap_terms",
-                "value": "Y143"
+                "value": "Y"
               },
               {
                 "code": "collect_payment144",
-                "value": "Y145"
+                "value": "Y"
               }
             ]
           }
@@ -58,10 +58,1459 @@
       },
       "bpp/providers": [
         {
+          "id": "659e2966a76d8a2005ebffe5",
+          "time": {
+            "label": "enable",
+            "timestamp": "2024-02-12T15:23:22.845Z"
+          },
+          "descriptor": {
+            "name": "qq",
+            "symbol": "//www.gravatar.com/avatar/dbad01eafd6bbe57a6ee8ecb094a14af?s=200&r=pg&d=mm",
+            "long_desc": "Hexbit",
+            "short_desc": "Hexbit",
+            "images": [
+              "//www.gravatar.com/avatar/dbad01eafd6bbe57a6ee8ecb094a14af?s=200&r=pg&d=mm"
+            ]
+          },
+          "@ondc/org/fssai_license_no": "31109234124311",
+          "ttl": "PT30S",
+          "locations": [
+            {
+              "id": "659e2966a76d8a2005ebffe5",
+              "gps": "19.114424,72.867943",
+              "address": {
+                "locality": "Maharashtra",
+                "street": "Andheri",
+                "city": "Mumbai",
+                "area_code": "160017",
+                "state": "MH"
+              },
+              "circle": {
+                "gps": "19.114424,72.867943",
+                "radius": {
+                  "unit": "km",
+                  "value": "1500"
+                }
+              },
+              "time": {
+                "label": "enable",
+                "timestamp": "2023-12-27T11:09:46.362Z",
+                "days": "1,2,3,4,5,6,7",
+                "schedule": {
+                  "holidays": ["2023-08-15", "2023-08-19"],
+                  "frequency": "PT4H",
+                  "times": ["0900", "1800"]
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "659ea5f6a76d8a2005ec1c87",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "qweqw",
+                "code": "hexbit0",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704895989621.png",
+                "long_desc": "qweqwe",
+                "short_desc": "qweqwe",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704895989621.png"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "-3834.46",
+                "maximum_value": "122.00"
+              },
+              "category_id": "Fashion",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "qweqwe",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "12",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "65a02778c0813f1131f74254",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "wqwrq",
+                "code": "hexbit1",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704994679839.png",
+                "long_desc": "adasd",
+                "short_desc": "dfad",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704994679839.png"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "43"
+                },
+                "maximum": {
+                  "count": "43"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "-0.79",
+                "maximum_value": "-1.00"
+              },
+              "category_id": "RET-12-14",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "asdas",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "werwew",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "65ae46046794b1132649e3bb",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "books",
+                "code": "hexbit2",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920004356.png",
+                "long_desc": "dsfsadf",
+                "short_desc": "fhksjdfh",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920004356.png"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "122"
+                },
+                "maximum": {
+                  "count": "122"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "-3.30",
+                "maximum_value": "10.00"
+              },
+              "category_id": "Fashion",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "sdfsd",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "sdfa",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "65ae467c6794b1132649e3c9",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "dsaasd",
+                "code": "hexbit3",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920124433.png",
+                "long_desc": "sdf",
+                "short_desc": "sdfas",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920124433.png"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "122"
+                },
+                "maximum": {
+                  "count": "122"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "-26.84",
+                "maximum_value": "122.00"
+              },
+              "category_id": "RET-12-14",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "sdf",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "sdfa",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "type": "Delivery",
+              "start": {
+                "time": {
+                  "range": {
+                    "start": "0900",
+                    "end": "1800"
+                  }
+                }
+              },
+              "contact": {
+                "phone": "7994309304",
+                "email": "support@hexbit.in"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "code": "serviceability",
+              "list": [
+                {
+                  "code": "location",
+                  "value": "hexbit-store-location-id-1"
+                },
+                {
+                  "code": "category",
+                  "value": "Snacks & Branded Foods"
+                },
+                {
+                  "code": "type",
+                  "value": "10"
+                },
+                {
+                  "code": "val",
+                  "value": "1500"
+                },
+                {
+                  "code": "unit",
+                  "value": "km"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "652ea808b82e04de8ebf315d",
+          "time": {
+            "label": "enable",
+            "timestamp": "2024-02-12T15:23:22.845Z"
+          },
+          "descriptor": {
+            "name": "1",
+            "symbol": "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "long_desc": "Hexbit",
+            "short_desc": "Hexbit",
+            "images": [
+              "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ]
+          },
+          "@ondc/org/fssai_license_no": "31109234124311",
+          "ttl": "PT30S",
+          "locations": [
+            {
+              "id": "652ea808b82e04de8ebf315d",
+              "gps": "19.114424,72.867943",
+              "address": {
+                "locality": "Maharashtra",
+                "street": "Andheri",
+                "city": "Mumbai",
+                "area_code": "160017",
+                "state": "MH"
+              },
+              "circle": {
+                "gps": "19.114424,72.867943",
+                "radius": {
+                  "unit": "km",
+                  "value": "1500"
+                }
+              },
+              "time": {
+                "label": "enable",
+                "timestamp": "2023-12-27T11:09:46.362Z",
+                "days": "1,2,3,4,5,6,7",
+                "schedule": {
+                  "holidays": ["2023-08-15", "2023-08-19"],
+                  "frequency": "PT4H",
+                  "times": ["0900", "1800"]
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "652e9645b82e04de8ebf1df0",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "Final Test",
+                "code": "hexbit0",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1697551940321.jpg",
+                "long_desc": "Test",
+                "short_desc": "Test",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1697551940321.jpg"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "100"
+                },
+                "maximum": {
+                  "count": "100"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "269.10",
+                "maximum_value": "299.00"
+              },
+              "category_id": "RET-12-14",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "Hexbit",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121g",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "Test",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121g"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "652ea8b4b82e04de8ebf3178",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "test new del",
+                "code": "hexbit1",
+                "symbol": "https://images.unsplash.com/photo-1557180295-76eee20ae8aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80",
+                "long_desc": "test new del",
+                "short_desc": "test new del",
+                "images": [
+                  "https://images.unsplash.com/photo-1557180295-76eee20ae8aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "12"
+                },
+                "maximum": {
+                  "count": "12"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "220.00",
+                "maximum_value": "300.00"
+              },
+              "category_id": "Fashion",
+              "fulfillment_id": "1",
+              "location_id": "location_id",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "true",
+              "@ondc/org/seller_pickup_return": true,
+              "@ondc/org/time_to_ship": "true",
+              "@ondc/org/available_on_cod": true,
+              "@ondc/org/contact_details_consumer_care": "true",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "true",
+                "manufacturer_or_packer_address": "true",
+                "common_or_generic_name_of_commodity": "true",
+                "net_quantity_or_measure_of_commodity_in_pkg": "1g",
+                "month_year_of_manufacture_packing_import": "true",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "true",
+                "additives_info": "true",
+                "brand_owner_FSSAI_license_no": 1,
+                "other_FSSAI_license_no": 1,
+                "importer_FSSAI_license_no": 1,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "1g"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "653291a1e90ceed169077a9a",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "test new del 20:10",
+                "code": "hexbit2",
+                "symbol": "https://images.unsplash.com/photo-1415604934674-561df9abf539?auto=format&fit=crop&q=80&w=1980&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "long_desc": "test new del",
+                "short_desc": "test new del",
+                "images": [
+                  "https://images.unsplash.com/photo-1415604934674-561df9abf539?auto=format&fit=crop&q=80&w=1980&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "12"
+                },
+                "maximum": {
+                  "count": "12"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "220.00",
+                "maximum_value": "300.00"
+              },
+              "category_id": "Fashion",
+              "fulfillment_id": "1",
+              "location_id": "location_id",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "true",
+              "@ondc/org/seller_pickup_return": true,
+              "@ondc/org/time_to_ship": "true",
+              "@ondc/org/available_on_cod": true,
+              "@ondc/org/contact_details_consumer_care": "true",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "true",
+                "manufacturer_or_packer_address": "true",
+                "common_or_generic_name_of_commodity": "true",
+                "net_quantity_or_measure_of_commodity_in_pkg": "12g",
+                "month_year_of_manufacture_packing_import": "true",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "true",
+                "additives_info": "true",
+                "brand_owner_FSSAI_license_no": 1,
+                "other_FSSAI_license_no": 1,
+                "importer_FSSAI_license_no": 1,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "12g"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "type": "Delivery",
+              "start": {
+                "time": {
+                  "range": {
+                    "start": "0900",
+                    "end": "1800"
+                  }
+                }
+              },
+              "contact": {
+                "phone": "7994309304",
+                "email": "support@hexbit.in"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "code": "serviceability",
+              "list": [
+                {
+                  "code": "location",
+                  "value": "hexbit-store-location-id-1"
+                },
+                {
+                  "code": "category",
+                  "value": "Snacks & Branded Foods"
+                },
+                {
+                  "code": "type",
+                  "value": "10"
+                },
+                {
+                  "code": "val",
+                  "value": "1500"
+                },
+                {
+                  "code": "unit",
+                  "value": "km"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6596685d538429cf502a01a3",
+          "time": {
+            "label": "enable",
+            "timestamp": "2024-02-12T15:23:22.845Z"
+          },
+          "descriptor": {
+            "name": "a",
+            "symbol": "//www.gravatar.com/avatar/894826ff7c273f18e27a335ebf56e002?s=200&r=pg&d=mm",
+            "long_desc": "Hexbit",
+            "short_desc": "Hexbit",
+            "images": [
+              "//www.gravatar.com/avatar/894826ff7c273f18e27a335ebf56e002?s=200&r=pg&d=mm"
+            ]
+          },
+          "@ondc/org/fssai_license_no": "31109234124311",
+          "ttl": "PT30S",
+          "locations": [
+            {
+              "id": "6596685d538429cf502a01a3",
+              "gps": "19.114424,72.867943",
+              "address": {
+                "locality": "Maharashtra",
+                "street": "Andheri",
+                "city": "Mumbai",
+                "area_code": "160017",
+                "state": "MH"
+              },
+              "circle": {
+                "gps": "19.114424,72.867943",
+                "radius": {
+                  "unit": "km",
+                  "value": "1500"
+                }
+              },
+              "time": {
+                "label": "enable",
+                "timestamp": "2023-12-27T11:09:46.362Z",
+                "days": "1,2,3,4,5,6,7",
+                "schedule": {
+                  "holidays": ["2023-08-15", "2023-08-19"],
+                  "frequency": "PT4H",
+                  "times": ["0900", "1800"]
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "6598f47d761ca91190761644",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "realme x7 max",
+                "code": "hexbit0",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704522877181.jpeg",
+                "long_desc": "mobile phone",
+                "short_desc": "mobile phone",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704522877181.jpeg"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "22500.00",
+                "maximum_value": "25000.00"
+              },
+              "category_id": "RET-12-14",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "realme",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "mobile",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "659929de5dbc4d9742989077",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "Asus vivobook",
+                "code": "hexbit1",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704536542211.jpeg",
+                "long_desc": "Laptop",
+                "short_desc": "Laptop",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704536542211.jpeg"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "49500.00",
+                "maximum_value": "55000.00"
+              },
+              "category_id": "RET-12-14",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": " Asus Laptop",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "laptop",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "659bdb1447a2bba36eb0fd5f",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "realme x7 max",
+                "code": "hexbit2",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704712979355.jpeg",
+                "long_desc": "realme",
+                "short_desc": "realme",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704712979355.jpeg"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "0.99",
+                "maximum_value": "1.00"
+              },
+              "category_id": "RET-12-14",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "realme",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "mobile",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "659c0ce3f2b5fc58c2bc8937",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "Soap",
+                "code": "hexbit3",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704725730842.jpeg",
+                "long_desc": "soap",
+                "short_desc": "soap",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704725730842.jpeg"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "35.60",
+                "maximum_value": "40.00"
+              },
+              "category_id": "RET-12-14",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "lux",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "soap",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "659c12021b8a48d46217b52d",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-02-12T15:23:22.845Z"
+              },
+              "descriptor": {
+                "name": "soap lux",
+                "code": "hexbit4",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704727041820.jpeg",
+                "long_desc": "lux",
+                "short_desc": "lux",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704727041820.jpeg"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "gm",
+                    "value": "234"
+                  }
+                },
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1.80",
+                "maximum_value": "2.00"
+              },
+              "category_id": "Fashion",
+              "fulfillment_id": "1",
+              "location_id": "asus-store-location-id-1",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "PT45M",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
+              "@ondc/org/statutory_reqs_packaged_commodities": {
+                "manufacturer_or_packer_name": "lux",
+                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                "common_or_generic_name_of_commodity": "asus shoe 1",
+                "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                "month_year_of_manufacture_packing_import": "08/2022",
+                "imported_product_country_of_origin": "IND"
+              },
+              "@ondc/org/statutory_reqs_prepackaged_food": {
+                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                "additives_info": "ss",
+                "brand_owner_FSSAI_license_no": 1234567890,
+                "other_FSSAI_license_no": 1234567890,
+                "importer_FSSAI_license_no": 1234567890,
+                "imported_product_country_of_origin": "IND",
+                "net_quantity": "121"
+              },
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "image",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "back_image"
+                    },
+                    {
+                      "code": "url",
+                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                    }
+                  ]
+                },
+                {
+                  "code": "veg_nonveg",
+                  "list": [
+                    {
+                      "code": "non_veg",
+                      "value": "yes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "type": "Delivery",
+              "start": {
+                "time": {
+                  "range": {
+                    "start": "0900",
+                    "end": "1800"
+                  }
+                }
+              },
+              "contact": {
+                "phone": "7994309304",
+                "email": "support@hexbit.in"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "code": "serviceability",
+              "list": [
+                {
+                  "code": "location",
+                  "value": "hexbit-store-location-id-1"
+                },
+                {
+                  "code": "category",
+                  "value": "Snacks & Branded Foods"
+                },
+                {
+                  "code": "type",
+                  "value": "10"
+                },
+                {
+                  "code": "val",
+                  "value": "1500"
+                },
+                {
+                  "code": "unit",
+                  "value": "km"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6523f7f10a9003d447f9741e",
           "time": {
             "label": "enable",
-            "timestamp": "2024-02-12T15:12:11.703Z"
+            "timestamp": "2024-02-12T15:23:22.845Z"
           },
           "descriptor": {
             "name": "HEXBit.io",
@@ -109,7 +1558,7 @@
               "id": "64f37f1847c6e1683c9644d6",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "Addidas Shoe HEXBit.io",
@@ -206,7 +1655,7 @@
               "id": "64f37f1847c6e1683c9644d7",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "Rog",
@@ -303,7 +1752,7 @@
               "id": "64f37f1847c6e1683c9644d5",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "Rog 2",
@@ -400,7 +1849,7 @@
               "id": "652d1515724ca5aa0e7252fd",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "test new del",
@@ -497,7 +1946,7 @@
               "id": "652ea8b4b82e04de8ebf3176",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "test new del",
@@ -594,7 +2043,7 @@
               "id": "6535f1da522d972fc345d217",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "Headphones",
@@ -691,7 +2140,7 @@
               "id": "6535f1da522d972fc345d218",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "Oil ",
@@ -788,7 +2237,7 @@
               "id": "6536015f522d972fc345d842",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "Packet",
@@ -885,7 +2334,7 @@
               "id": "65a650eae197ad03868bb982",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "a",
@@ -1031,7 +2480,7 @@
           "id": "65a0c3b308666055201abc01",
           "time": {
             "label": "enable",
-            "timestamp": "2024-02-12T15:12:11.703Z"
+            "timestamp": "2024-02-12T15:23:22.845Z"
           },
           "descriptor": {
             "name": "234",
@@ -1079,7 +2528,7 @@
               "id": "65a0c66e08666055201abc51",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "books",
@@ -1176,7 +2625,7 @@
               "id": "65a121a0a998fda66b6ccae2",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
+                "timestamp": "2024-02-12T15:23:22.845Z"
               },
               "descriptor": {
                 "name": "Oven",
@@ -1229,1455 +2678,6 @@
               "@ondc/org/statutory_reqs_prepackaged_food": {
                 "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
                 "additives_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "1",
-              "type": "Delivery",
-              "start": {
-                "time": {
-                  "range": {
-                    "start": "0900",
-                    "end": "1800"
-                  }
-                }
-              },
-              "contact": {
-                "phone": "7994309304",
-                "email": "support@hexbit.in"
-              }
-            }
-          ],
-          "tags": [
-            {
-              "code": "serviceability",
-              "list": [
-                {
-                  "code": "location",
-                  "value": "hexbit-store-location-id-1"
-                },
-                {
-                  "code": "category",
-                  "value": "Snacks & Branded Foods"
-                },
-                {
-                  "code": "type",
-                  "value": "10"
-                },
-                {
-                  "code": "val",
-                  "value": "1500"
-                },
-                {
-                  "code": "unit",
-                  "value": "km"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "652ea808b82e04de8ebf315d",
-          "time": {
-            "label": "enable",
-            "timestamp": "2024-02-12T15:12:11.703Z"
-          },
-          "descriptor": {
-            "name": "1",
-            "symbol": "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "long_desc": "Hexbit",
-            "short_desc": "Hexbit",
-            "images": [
-              "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            ]
-          },
-          "@ondc/org/fssai_license_no": "31109234124311",
-          "ttl": "PT30S",
-          "locations": [
-            {
-              "id": "652ea808b82e04de8ebf315d",
-              "gps": "19.114424,72.867943",
-              "address": {
-                "locality": "Maharashtra",
-                "street": "Andheri",
-                "city": "Mumbai",
-                "area_code": "160017",
-                "state": "MH"
-              },
-              "circle": {
-                "gps": "19.114424,72.867943",
-                "radius": {
-                  "unit": "km",
-                  "value": "1500"
-                }
-              },
-              "time": {
-                "label": "enable",
-                "timestamp": "2023-12-27T11:09:46.362Z",
-                "days": "1,2,3,4,5,6,7",
-                "schedule": {
-                  "holidays": ["2023-08-15", "2023-08-19"],
-                  "frequency": "PT4H",
-                  "times": ["0900", "1800"]
-                }
-              }
-            }
-          ],
-          "items": [
-            {
-              "id": "652e9645b82e04de8ebf1df0",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "Final Test",
-                "code": "hexbit0",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1697551940321.jpg",
-                "long_desc": "Test",
-                "short_desc": "Test",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1697551940321.jpg"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "100"
-                },
-                "maximum": {
-                  "count": "100"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "269.10",
-                "maximum_value": "299.00"
-              },
-              "category_id": "RET-12-14",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "Hexbit",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121g",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "Test",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121g"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "652ea8b4b82e04de8ebf3178",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "test new del",
-                "code": "hexbit1",
-                "symbol": "https://images.unsplash.com/photo-1557180295-76eee20ae8aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80",
-                "long_desc": "test new del",
-                "short_desc": "test new del",
-                "images": [
-                  "https://images.unsplash.com/photo-1557180295-76eee20ae8aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "12"
-                },
-                "maximum": {
-                  "count": "12"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "220.00",
-                "maximum_value": "300.00"
-              },
-              "category_id": "Fashion",
-              "fulfillment_id": "1",
-              "location_id": "location_id",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "true",
-              "@ondc/org/seller_pickup_return": true,
-              "@ondc/org/time_to_ship": "true",
-              "@ondc/org/available_on_cod": true,
-              "@ondc/org/contact_details_consumer_care": "true",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "true",
-                "manufacturer_or_packer_address": "true",
-                "common_or_generic_name_of_commodity": "true",
-                "net_quantity_or_measure_of_commodity_in_pkg": "1g",
-                "month_year_of_manufacture_packing_import": "true",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "true",
-                "additives_info": "true",
-                "brand_owner_FSSAI_license_no": 1,
-                "other_FSSAI_license_no": 1,
-                "importer_FSSAI_license_no": 1,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "1g"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "653291a1e90ceed169077a9a",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "test new del 20:10",
-                "code": "hexbit2",
-                "symbol": "https://images.unsplash.com/photo-1415604934674-561df9abf539?auto=format&fit=crop&q=80&w=1980&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "long_desc": "test new del",
-                "short_desc": "test new del",
-                "images": [
-                  "https://images.unsplash.com/photo-1415604934674-561df9abf539?auto=format&fit=crop&q=80&w=1980&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "12"
-                },
-                "maximum": {
-                  "count": "12"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "220.00",
-                "maximum_value": "300.00"
-              },
-              "category_id": "Fashion",
-              "fulfillment_id": "1",
-              "location_id": "location_id",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "true",
-              "@ondc/org/seller_pickup_return": true,
-              "@ondc/org/time_to_ship": "true",
-              "@ondc/org/available_on_cod": true,
-              "@ondc/org/contact_details_consumer_care": "true",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "true",
-                "manufacturer_or_packer_address": "true",
-                "common_or_generic_name_of_commodity": "true",
-                "net_quantity_or_measure_of_commodity_in_pkg": "12g",
-                "month_year_of_manufacture_packing_import": "true",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "true",
-                "additives_info": "true",
-                "brand_owner_FSSAI_license_no": 1,
-                "other_FSSAI_license_no": 1,
-                "importer_FSSAI_license_no": 1,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "12g"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "1",
-              "type": "Delivery",
-              "start": {
-                "time": {
-                  "range": {
-                    "start": "0900",
-                    "end": "1800"
-                  }
-                }
-              },
-              "contact": {
-                "phone": "7994309304",
-                "email": "support@hexbit.in"
-              }
-            }
-          ],
-          "tags": [
-            {
-              "code": "serviceability",
-              "list": [
-                {
-                  "code": "location",
-                  "value": "hexbit-store-location-id-1"
-                },
-                {
-                  "code": "category",
-                  "value": "Snacks & Branded Foods"
-                },
-                {
-                  "code": "type",
-                  "value": "10"
-                },
-                {
-                  "code": "val",
-                  "value": "1500"
-                },
-                {
-                  "code": "unit",
-                  "value": "km"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6596685d538429cf502a01a3",
-          "time": {
-            "label": "enable",
-            "timestamp": "2024-02-12T15:12:11.703Z"
-          },
-          "descriptor": {
-            "name": "a",
-            "symbol": "//www.gravatar.com/avatar/894826ff7c273f18e27a335ebf56e002?s=200&r=pg&d=mm",
-            "long_desc": "Hexbit",
-            "short_desc": "Hexbit",
-            "images": [
-              "//www.gravatar.com/avatar/894826ff7c273f18e27a335ebf56e002?s=200&r=pg&d=mm"
-            ]
-          },
-          "@ondc/org/fssai_license_no": "31109234124311",
-          "ttl": "PT30S",
-          "locations": [
-            {
-              "id": "6596685d538429cf502a01a3",
-              "gps": "19.114424,72.867943",
-              "address": {
-                "locality": "Maharashtra",
-                "street": "Andheri",
-                "city": "Mumbai",
-                "area_code": "160017",
-                "state": "MH"
-              },
-              "circle": {
-                "gps": "19.114424,72.867943",
-                "radius": {
-                  "unit": "km",
-                  "value": "1500"
-                }
-              },
-              "time": {
-                "label": "enable",
-                "timestamp": "2023-12-27T11:09:46.362Z",
-                "days": "1,2,3,4,5,6,7",
-                "schedule": {
-                  "holidays": ["2023-08-15", "2023-08-19"],
-                  "frequency": "PT4H",
-                  "times": ["0900", "1800"]
-                }
-              }
-            }
-          ],
-          "items": [
-            {
-              "id": "6598f47d761ca91190761644",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "realme x7 max",
-                "code": "hexbit0",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704522877181.jpeg",
-                "long_desc": "mobile phone",
-                "short_desc": "mobile phone",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704522877181.jpeg"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "1"
-                },
-                "maximum": {
-                  "count": "1"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "22500.00",
-                "maximum_value": "25000.00"
-              },
-              "category_id": "RET-12-14",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "realme",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "mobile",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "659929de5dbc4d9742989077",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "Asus vivobook",
-                "code": "hexbit1",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704536542211.jpeg",
-                "long_desc": "Laptop",
-                "short_desc": "Laptop",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704536542211.jpeg"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "1"
-                },
-                "maximum": {
-                  "count": "1"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "49500.00",
-                "maximum_value": "55000.00"
-              },
-              "category_id": "RET-12-14",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": " Asus Laptop",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "laptop",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "659bdb1447a2bba36eb0fd5f",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "realme x7 max",
-                "code": "hexbit2",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704712979355.jpeg",
-                "long_desc": "realme",
-                "short_desc": "realme",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704712979355.jpeg"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "1"
-                },
-                "maximum": {
-                  "count": "1"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "0.99",
-                "maximum_value": "1.00"
-              },
-              "category_id": "RET-12-14",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "realme",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "mobile",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "659c0ce3f2b5fc58c2bc8937",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "Soap",
-                "code": "hexbit3",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704725730842.jpeg",
-                "long_desc": "soap",
-                "short_desc": "soap",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704725730842.jpeg"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "1"
-                },
-                "maximum": {
-                  "count": "1"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "35.60",
-                "maximum_value": "40.00"
-              },
-              "category_id": "RET-12-14",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "lux",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "soap",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "659c12021b8a48d46217b52d",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "soap lux",
-                "code": "hexbit4",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704727041820.jpeg",
-                "long_desc": "lux",
-                "short_desc": "lux",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704727041820.jpeg"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "1"
-                },
-                "maximum": {
-                  "count": "1"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "1.80",
-                "maximum_value": "2.00"
-              },
-              "category_id": "Fashion",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "lux",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "ss",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "1",
-              "type": "Delivery",
-              "start": {
-                "time": {
-                  "range": {
-                    "start": "0900",
-                    "end": "1800"
-                  }
-                }
-              },
-              "contact": {
-                "phone": "7994309304",
-                "email": "support@hexbit.in"
-              }
-            }
-          ],
-          "tags": [
-            {
-              "code": "serviceability",
-              "list": [
-                {
-                  "code": "location",
-                  "value": "hexbit-store-location-id-1"
-                },
-                {
-                  "code": "category",
-                  "value": "Snacks & Branded Foods"
-                },
-                {
-                  "code": "type",
-                  "value": "10"
-                },
-                {
-                  "code": "val",
-                  "value": "1500"
-                },
-                {
-                  "code": "unit",
-                  "value": "km"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "659e2966a76d8a2005ebffe5",
-          "time": {
-            "label": "enable",
-            "timestamp": "2024-02-12T15:12:11.703Z"
-          },
-          "descriptor": {
-            "name": "qq",
-            "symbol": "//www.gravatar.com/avatar/dbad01eafd6bbe57a6ee8ecb094a14af?s=200&r=pg&d=mm",
-            "long_desc": "Hexbit",
-            "short_desc": "Hexbit",
-            "images": [
-              "//www.gravatar.com/avatar/dbad01eafd6bbe57a6ee8ecb094a14af?s=200&r=pg&d=mm"
-            ]
-          },
-          "@ondc/org/fssai_license_no": "31109234124311",
-          "ttl": "PT30S",
-          "locations": [
-            {
-              "id": "659e2966a76d8a2005ebffe5",
-              "gps": "19.114424,72.867943",
-              "address": {
-                "locality": "Maharashtra",
-                "street": "Andheri",
-                "city": "Mumbai",
-                "area_code": "160017",
-                "state": "MH"
-              },
-              "circle": {
-                "gps": "19.114424,72.867943",
-                "radius": {
-                  "unit": "km",
-                  "value": "1500"
-                }
-              },
-              "time": {
-                "label": "enable",
-                "timestamp": "2023-12-27T11:09:46.362Z",
-                "days": "1,2,3,4,5,6,7",
-                "schedule": {
-                  "holidays": ["2023-08-15", "2023-08-19"],
-                  "frequency": "PT4H",
-                  "times": ["0900", "1800"]
-                }
-              }
-            }
-          ],
-          "items": [
-            {
-              "id": "659ea5f6a76d8a2005ec1c87",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "qweqw",
-                "code": "hexbit0",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704895989621.png",
-                "long_desc": "qweqwe",
-                "short_desc": "qweqwe",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704895989621.png"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "1"
-                },
-                "maximum": {
-                  "count": "1"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "-3834.46",
-                "maximum_value": "122.00"
-              },
-              "category_id": "Fashion",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "qweqwe",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "12",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "65a02778c0813f1131f74254",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "wqwrq",
-                "code": "hexbit1",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704994679839.png",
-                "long_desc": "adasd",
-                "short_desc": "dfad",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704994679839.png"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "43"
-                },
-                "maximum": {
-                  "count": "43"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "-0.79",
-                "maximum_value": "-1.00"
-              },
-              "category_id": "RET-12-14",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "asdas",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "werwew",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "65ae46046794b1132649e3bb",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "books",
-                "code": "hexbit2",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920004356.png",
-                "long_desc": "dsfsadf",
-                "short_desc": "fhksjdfh",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920004356.png"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "122"
-                },
-                "maximum": {
-                  "count": "122"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "-3.30",
-                "maximum_value": "10.00"
-              },
-              "category_id": "Fashion",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "sdfsd",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "sdfa",
-                "brand_owner_FSSAI_license_no": 1234567890,
-                "other_FSSAI_license_no": 1234567890,
-                "importer_FSSAI_license_no": 1234567890,
-                "imported_product_country_of_origin": "IND",
-                "net_quantity": "121"
-              },
-              "tags": [
-                {
-                  "code": "origin",
-                  "list": [
-                    {
-                      "code": "country",
-                      "value": "IND"
-                    }
-                  ]
-                },
-                {
-                  "code": "image",
-                  "list": [
-                    {
-                      "code": "type",
-                      "value": "back_image"
-                    },
-                    {
-                      "code": "url",
-                      "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-                    }
-                  ]
-                },
-                {
-                  "code": "veg_nonveg",
-                  "list": [
-                    {
-                      "code": "non_veg",
-                      "value": "yes"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "65ae467c6794b1132649e3c9",
-              "time": {
-                "label": "enable",
-                "timestamp": "2024-02-12T15:12:11.703Z"
-              },
-              "descriptor": {
-                "name": "dsaasd",
-                "code": "hexbit3",
-                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920124433.png",
-                "long_desc": "sdf",
-                "short_desc": "sdfas",
-                "images": [
-                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920124433.png"
-                ]
-              },
-              "quantity": {
-                "unitized": {
-                  "measure": {
-                    "unit": "gm",
-                    "value": "234"
-                  }
-                },
-                "available": {
-                  "count": "122"
-                },
-                "maximum": {
-                  "count": "122"
-                }
-              },
-              "price": {
-                "currency": "INR",
-                "value": "-26.84",
-                "maximum_value": "122.00"
-              },
-              "category_id": "RET-12-14",
-              "fulfillment_id": "1",
-              "location_id": "asus-store-location-id-1",
-              "recommended": true,
-              "@ondc/org/returnable": true,
-              "@ondc/org/cancellable": true,
-              "@ondc/org/return_window": "P7D",
-              "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45M",
-              "@ondc/org/available_on_cod": false,
-              "@ondc/org/contact_details_consumer_care": "Ramesh1, Koramangala, Bengaluru, ramesh@abc.com, 9876543210",
-              "@ondc/org/statutory_reqs_packaged_commodities": {
-                "manufacturer_or_packer_name": "sdf",
-                "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
-                "common_or_generic_name_of_commodity": "asus shoe 1",
-                "net_quantity_or_measure_of_commodity_in_pkg": "121",
-                "month_year_of_manufacture_packing_import": "08/2022",
-                "imported_product_country_of_origin": "IND"
-              },
-              "@ondc/org/statutory_reqs_prepackaged_food": {
-                "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
-                "additives_info": "sdfa",
                 "brand_owner_FSSAI_license_no": 1234567890,
                 "other_FSSAI_license_no": 1234567890,
                 "importer_FSSAI_license_no": 1234567890,
