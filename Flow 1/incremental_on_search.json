@@ -84,7 +84,7 @@
               "quantity": {
                 "unitized": {
                   "measure": {
-                    "unit": "gm",
+                    "unit": "gram",
                     "value": "234"
                   }
                 },
@@ -181,7 +181,7 @@
               "quantity": {
                 "unitized": {
                   "measure": {
-                    "unit": "gm",
+                    "unit": "gram",
                     "value": "234"
                   }
                 },
@@ -278,7 +278,7 @@
               "quantity": {
                 "unitized": {
                   "measure": {
-                    "unit": "gm",
+                    "unit": "gram",
                     "value": "234"
                   }
                 },
@@ -375,7 +375,7 @@
               "quantity": {
                 "unitized": {
                   "measure": {
-                    "unit": "gm",
+                    "unit": "gram",
                     "value": "234"
                   }
                 },
