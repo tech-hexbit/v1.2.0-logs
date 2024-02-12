@@ -1,27 +1,8 @@
 {
   "on_search_full_catalog_refresh": {
-    "schemaErr0": "/message/catalog/bpp~1providers/0/items/0/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr1": "/message/catalog/bpp~1providers/0/items/1/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr2": "/message/catalog/bpp~1providers/0/items/2/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr3": "/message/catalog/bpp~1providers/1/items/0/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr4": "/message/catalog/bpp~1providers/1/items/1/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr5": "/message/catalog/bpp~1providers/1/items/2/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr6": "/message/catalog/bpp~1providers/1/items/3/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr7": "/message/catalog/bpp~1providers/1/items/4/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr8": "/message/catalog/bpp~1providers/2/items/0/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr9": "/message/catalog/bpp~1providers/2/items/1/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr10": "/message/catalog/bpp~1providers/3/items/0/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr11": "/message/catalog/bpp~1providers/3/items/1/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr12": "/message/catalog/bpp~1providers/3/items/2/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr13": "/message/catalog/bpp~1providers/3/items/3/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr14": "/message/catalog/bpp~1providers/3/items/4/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr15": "/message/catalog/bpp~1providers/3/items/5/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr16": "/message/catalog/bpp~1providers/3/items/6/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr17": "/message/catalog/bpp~1providers/3/items/7/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
-    "schemaErr18": "/message/catalog/bpp~1providers/3/items/8/descriptor/code item/descriptor/code should be in this format - \"type:code\" where type is 1 - EAN, 2 - ISBN, 3 - GTIN, 4 - HSN, 5 - others",
+    "prvdr0item0Price": "selling price of item /price/value with id: (65a0c66e08666055201abc51) can't be greater than the maximum price /price/maximum_value in /bpp/providers[0]/items[0]/",
     "prvdr0item0loc": "location_id in /bpp/providers[0]/items[0] should be one of the locations id in /bpp/providers[0]/locations",
     "prvdr0item1loc": "location_id in /bpp/providers[0]/items[1] should be one of the locations id in /bpp/providers[0]/locations",
-    "prvdr0item2loc": "location_id in /bpp/providers[0]/items[2] should be one of the locations id in /bpp/providers[0]/locations",
     "prvdr0tags0loc": "location in serviceability construct should be one of the location ids bpp/providers[0]/locations",
     "prvdr0tags0ctgry": "category in serviceability construct should be one of the category ids bpp/providers[0]/items/category_id",
     "prvdr1item0loc": "location_id in /bpp/providers[1]/items[0] should be one of the locations id in /bpp/providers[1]/locations",
@@ -29,11 +10,15 @@
     "prvdr1item2loc": "location_id in /bpp/providers[1]/items[2] should be one of the locations id in /bpp/providers[1]/locations",
     "prvdr1item3loc": "location_id in /bpp/providers[1]/items[3] should be one of the locations id in /bpp/providers[1]/locations",
     "prvdr1item4loc": "location_id in /bpp/providers[1]/items[4] should be one of the locations id in /bpp/providers[1]/locations",
+    "prvdr1item5loc": "location_id in /bpp/providers[1]/items[5] should be one of the locations id in /bpp/providers[1]/locations",
+    "prvdr1item6loc": "location_id in /bpp/providers[1]/items[6] should be one of the locations id in /bpp/providers[1]/locations",
+    "prvdr1item7loc": "location_id in /bpp/providers[1]/items[7] should be one of the locations id in /bpp/providers[1]/locations",
+    "prvdr1item8loc": "location_id in /bpp/providers[1]/items[8] should be one of the locations id in /bpp/providers[1]/locations",
     "prvdr1tags0loc": "location in serviceability construct should be one of the location ids bpp/providers[1]/locations",
     "prvdr1tags0ctgry": "category in serviceability construct should be one of the category ids bpp/providers[1]/items/category_id",
-    "prvdr2item0Price": "selling price of item /price/value with id: (65a0c66e08666055201abc51) can't be greater than the maximum price /price/maximum_value in /bpp/providers[2]/items[0]/",
     "prvdr2item0loc": "location_id in /bpp/providers[2]/items[0] should be one of the locations id in /bpp/providers[2]/locations",
     "prvdr2item1loc": "location_id in /bpp/providers[2]/items[1] should be one of the locations id in /bpp/providers[2]/locations",
+    "prvdr2item2loc": "location_id in /bpp/providers[2]/items[2] should be one of the locations id in /bpp/providers[2]/locations",
     "prvdr2tags0loc": "location in serviceability construct should be one of the location ids bpp/providers[2]/locations",
     "prvdr2tags0ctgry": "category in serviceability construct should be one of the category ids bpp/providers[2]/items/category_id",
     "prvdr3item0loc": "location_id in /bpp/providers[3]/items[0] should be one of the locations id in /bpp/providers[3]/locations",
@@ -41,15 +26,10 @@
     "prvdr3item2loc": "location_id in /bpp/providers[3]/items[2] should be one of the locations id in /bpp/providers[3]/locations",
     "prvdr3item3loc": "location_id in /bpp/providers[3]/items[3] should be one of the locations id in /bpp/providers[3]/locations",
     "prvdr3item4loc": "location_id in /bpp/providers[3]/items[4] should be one of the locations id in /bpp/providers[3]/locations",
-    "prvdr3item5loc": "location_id in /bpp/providers[3]/items[5] should be one of the locations id in /bpp/providers[3]/locations",
-    "prvdr3item6loc": "location_id in /bpp/providers[3]/items[6] should be one of the locations id in /bpp/providers[3]/locations",
-    "prvdr3item7loc": "location_id in /bpp/providers[3]/items[7] should be one of the locations id in /bpp/providers[3]/locations",
-    "prvdr3item8loc": "location_id in /bpp/providers[3]/items[8] should be one of the locations id in /bpp/providers[3]/locations",
     "prvdr3tags0loc": "location in serviceability construct should be one of the location ids bpp/providers[3]/locations",
     "prvdr3tags0ctgry": "category in serviceability construct should be one of the category ids bpp/providers[3]/items/category_id"
   },
   "search_inc_refresh": {
-    "context,CityError": "context/city should be \"*\" while sending search_inc_catalog request",
     "intent": {
       "tags": [
         "/message/intent/tags/list/start_time/value cannot be greater than or equal to /context/timestamp",
@@ -58,10 +38,6 @@
     }
   },
   "on_search_inc_refresh": {
-    "schemaErr0": "/message/catalog/bpp~1providers/0/items/0/quantity/unitized/measure/unit must be equal to one of the allowed values (unit,dozen,gram,kilogram,tonne,litre,millilitre)",
-    "schemaErr1": "/message/catalog/bpp~1providers/0/items/1/quantity/unitized/measure/unit must be equal to one of the allowed values (unit,dozen,gram,kilogram,tonne,litre,millilitre)",
-    "schemaErr2": "/message/catalog/bpp~1providers/0/items/2/quantity/unitized/measure/unit must be equal to one of the allowed values (unit,dozen,gram,kilogram,tonne,litre,millilitre)",
-    "schemaErr3": "/message/catalog/bpp~1providers/0/items/3/quantity/unitized/measure/unit must be equal to one of the allowed values (unit,dozen,gram,kilogram,tonne,litre,millilitre)",
     "prvdr0id": "provider id: 659e2966a76d8a2005ebffe5 in bpp/providers didn't matched for providers id of /on_search_full_catalog_refresh"
   },
   "select": {
