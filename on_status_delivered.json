@@ -10,14 +10,14 @@
     "bpp_id": "techondc.hexbit.io",
     "bpp_uri": "https://techondc.hexbit.io/",
     "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
-    "message_id": "ef9ce831-3cfd-484c-8a7d-abf78e5a2260",
+    "message_id": "cc1dfcca-d70a-4c4e-aa9a-671f74df53db",
     "timestamp": "2024-01-30T11:33:58.119Z",
     "ttl": "PT30S"
   },
   "message": {
     "order": {
       "id": "2024-01-16-140301",
-      "state": "In-progress",
+      "state": "Completed",
       "provider": {
         "id": "6523f7f10a9003d447f9741e",
         "locations": [
@@ -56,7 +56,7 @@
         "name": "Hexbit",
         "email": "support@hexbit.io",
         "created_at": "2024-01-30T11:33:58.119Z",
-        "updated_at": "2024-01-30T12:33:58.119Z"
+        "updated_at": "2024-01-30T11:33:58.119Z"
       },
       "fulfillments": [
         {
@@ -67,7 +67,7 @@
           "tracking": false,
           "state": {
             "descriptor": {
-              "code": "Order-picked-up"
+              "code": "Order-delivered"
             }
           },
           "start": {
