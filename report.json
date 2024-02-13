@@ -19,7 +19,7 @@
     "": "provider.locations[0].id mismatches in /on_search and /on_confirm",
     "": "Key 'created_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
     "": "Key 'updated_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
-    "sellerGpsErr": "store gps location /fulfillments[0]/start/location/gps can't change",
+    "": "store gps location /fulfillments[0]/start/location/gps can't change",
     "sellerNameErr": "store name  /fulfillments[0]/start/location/descriptor/name can't change",
     "buyerGpsErr": "fulfillments[0].end.location gps is not matching with gps in /select",
     "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
