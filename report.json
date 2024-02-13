@@ -5,12 +5,10 @@
     }
   },
   "on_init": {
-    "quoteErr0": "Key length mismatch for breakup.0.item",
-    "quoteErr1": "Key length mismatch for breakup.1.item"
+    "quoteErr0": "Key length mismatch for breakup"
   },
   "confirm": {
-    "quoteErr0": "Key length mismatch for breakup.0.item",
-    "quoteErr1": "Key length mismatch for breakup.1.item"
+    "quoteErr0": "Key length mismatch for breakup"
   },
   "on_confirm": {
     "tmpstmp": "Timestamp for /confirm api cannot be greater than or equal to /on_confirm api",
