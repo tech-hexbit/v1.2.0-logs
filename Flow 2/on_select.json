@@ -74,7 +74,7 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "649.00"
+          "value": "540.00"
         },
         "breakup": [
           {
@@ -115,24 +115,6 @@
             ]
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
-            "title": "Delivery charges",
-            "@ondc/org/title_type": "delivery",
-            "price": {
-              "currency": "INR",
-              "value": "99.00"
-            }
-          },
-          {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
-            "title": "Convenience Fee",
-            "@ondc/org/title_type": "misc",
-            "price": {
-              "currency": "INR",
-              "value": "10.00"
-            }
-          },
-          {
             "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
             "@ondc/org/item_quantity": {
               "count": 1
@@ -170,7 +152,7 @@
             ]
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "1",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -179,7 +161,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "1",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
