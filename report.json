@@ -5,8 +5,7 @@
     }
   },
   "select": {
-    "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'",
-    "tmpstmp": "Timestamp for /on_search api cannot be greater than or equal to /select api"
+    "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'"
   },
   "on_select": {
     "prvdrId": "provider.id mismatches in /on_search and /on_select",
