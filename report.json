@@ -11,22 +11,16 @@
     "quoteErr0": "Key length mismatch for breakup"
   },
   "on_confirm": {
-    "": "Timestamp for /confirm api cannot be greater than or equal to /on_confirm api",
-    "": "Transaction Id should be same from /select onwards",
-    "": "order.created_at timestamp mismatches in /confirm and /on_confirm",
-    "": "order.updated_at timestamp should be updated as per the context.timestamp (since default fulfillment state is added)",
-    "": "Provider Id mismatches in /on_search and /on_confirm",
-    "": "provider.locations[0].id mismatches in /on_search and /on_confirm",
-    "": "Key 'created_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
-    "": "Key 'updated_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
-    "": "store gps location /fulfillments[0]/start/location/gps can't change",
+    "schemaErr0": "/message/order/quote must have required property 'breakup'",
+    "tmpstmp": "context/timestamp difference between /on_confirm and /confirm should be less than 5 sec",
+    "crtdtmstmp": "order.created_at timestamp mismatches in /confirm and /on_confirm",
+    "sellerGpsErr": "store gps location /fulfillments[0]/start/location/gps can't change",
     "sellerNameErr": "store name  /fulfillments[0]/start/location/descriptor/name can't change",
     "buyerGpsErr": "fulfillments[0].end.location gps is not matching with gps in /select",
-    "": "Key 'price.value' mismatch: 540.00 !== 695.00",
-    "quoteErr1": "Key length mismatch for breakup",
-    "": "Quoted Price in /on_confirm 695 does not match with the quoted price in /on_select 540.00",
-    "": "payment object mismatches in /confirm & /on_confirm",
-    "tags_bap_terms": "Tags should have same and valid gst_number as passed in /confirm"
+    "onConfirmedAmount": "Quoted price (/on_confirm) doesn't match with the amount in payment.params",
+    "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
+    "quoteErr1": "Key 'breakup' mismatch: [object Object],[object Object],[object Object],[object Object] !== undefined",
+    "quoteErr": "Quoted Price in /on_confirm 695 does not match with the quoted price in /on_select 540.00"
   },
   "on_status_pending": {
     "txnId": "Transaction Id should be same from /select onwards"
