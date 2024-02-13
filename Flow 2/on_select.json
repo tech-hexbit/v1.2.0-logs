@@ -82,7 +82,7 @@
             "@ondc/org/item_quantity": {
               "count": 1
             },
-            "title": "Addidas Shoe HEXBit.io",
+            "title": "nike jacket",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
@@ -137,7 +137,7 @@
             "@ondc/org/item_quantity": {
               "count": 1
             },
-            "title": "Headphones",
+            "title": "adidas shoes",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
