@@ -14,9 +14,6 @@
       "tags": null
     }
   },
-  "on_search_inc_refresh": {
-    "locationObject": "Location id sent in payload was not present in /on_search_full_catalog_refresh api "
-  },
   "select": {
     "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'",
     "tmpstmp": "Timestamp for /on_search api cannot be greater than or equal to /select api",
