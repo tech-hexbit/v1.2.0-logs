@@ -13,17 +13,10 @@
   "on_confirm": {
     "quoteErr0": "Key length mismatch for breakup"
   },
-  "on_status_pending": {
-    "txnId": "Transaction Id should be same from /select onwards"
-  },
   "on_status_picked": {
-    "invalid_message_id": "Message_id cannot be same for on_status.pending and on_status.picked",
-    "txnId": "Transaction Id should be same from /select onwards",
     "updatedAt": "order/updated_at timestamp can't be less than the pickup time"
   },
   "on_status_delivered": {
-    "invalid_message_id": "Message_id cannot be same for on_status.delivered and on_status.picked and on_status.pending ",
-    "txnId": "Transaction Id should be same from /select onwards",
     "delPickTime": "delivery timestamp (/end/time/timestamp) can't be less than or equal to the pickup timestamp (start/time/timestamp)",
     "updatedAt": "order/updated_at timestamp can't be less than the delivery time"
   }
