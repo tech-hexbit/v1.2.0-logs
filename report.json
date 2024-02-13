@@ -5,7 +5,6 @@
     }
   },
   "init": {
-    "tmpstmp": "Timestamp for  /on_select api cannot be greater than or equal to /init api",
     "prvdId": "Provider Id mismatches in /select and /init",
     "prvdfrLoc": "Provider.locations[0].id mismatches in /select and /init",
     "gpsKey0": "gps coordinates in fulfillments[0].end.location mismatch in /select & /init"
