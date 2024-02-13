@@ -10,8 +10,8 @@
     "bpp_id": "techondc.hexbit.io",
     "bpp_uri": "https://techondc.hexbit.io/",
     "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
-    "message_id": "22bc3d34-a49d-4056-8fe4-3d6fc5a0aa93",
-    "timestamp": "2024-01-30T07:09:41.531Z",
+    "message_id": "357d1a5a-407e-4951-a186-1b4206d5b05d",
+    "timestamp": "2024-02-13T03:01:17.321Z",
     "ttl": "PT30S"
   },
   "message": {
@@ -45,6 +45,9 @@
           "end": {
             "location": {
               "gps": "30.741626701365448, 76.78115181915683"
+            },
+            "address": {
+              "area_code": "400037"
             }
           }
         }
