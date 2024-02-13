@@ -12,12 +12,5 @@
   },
   "on_confirm": {
     "quoteErr0": "Key length mismatch for breakup"
-  },
-  "on_status_picked": {
-    "updatedAt": "order/updated_at timestamp can't be less than the pickup time"
-  },
-  "on_status_delivered": {
-    "delPickTime": "delivery timestamp (/end/time/timestamp) can't be less than or equal to the pickup timestamp (start/time/timestamp)",
-    "updatedAt": "order/updated_at timestamp can't be less than the delivery time"
   }
 }
