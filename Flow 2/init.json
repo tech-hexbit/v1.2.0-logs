@@ -35,10 +35,10 @@
         }
       ],
       "provider": {
-        "id": "6523f7f10a9003d447f9741e",
+        "id": "657bc4de1fae5fe37194130f",
         "locations": [
           {
-            "id": "6523f7f10a9003d447f9741e"
+            "id": "657bc4de1fae5fe37194130f"
           }
         ]
       },
@@ -52,7 +52,7 @@
               "phone": "9939197376"
             },
             "location": {
-              "gps": "19.018467341372276,72.86167144775392",
+              "gps": "30.741626701365448, 76.78115181915683",
               "address": {
                 "building": "near Barkat Ali Dargah",
                 "city": "Mumbai",
