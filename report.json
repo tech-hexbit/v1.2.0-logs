@@ -1,11 +1,8 @@
 {
-  "search_,inc_refresh": {
+  "search_i,nc_refresh": {
     "intent": {
       "tags": null
     }
-  },
-  "on_search_inc_refresh": {
-    "prvdr0id": "provider id: 652ea808b82e04de8ebf315d in bpp/providers didn't matched for providers id of /on_search_full_catalog_refresh"
   },
   "select": {
     "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'",
