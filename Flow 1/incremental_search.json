@@ -2,7 +2,7 @@
   "context": {
     "domain": "ONDC:RET10",
     "country": "IND",
-    "city": "std:080",
+    "city": "*",
     "action": "search",
     "timestamp": "2024-01-29T02:10:01.566Z",
     "core_version": "1.2.0",
@@ -26,12 +26,8 @@
           "code": "catalog_inc",
           "list": [
             {
-              "code": "start_time",
-              "value": "2024-01-29T02:00:01.566Z"
-            },
-            {
-              "code": "end_time",
-              "value": "2024-01-29T02:00:14.466Z"
+              "code": "mode",
+              "value": "start"
             }
           ]
         }
