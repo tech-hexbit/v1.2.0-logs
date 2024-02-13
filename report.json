@@ -4,9 +4,6 @@
       "tags": null
     }
   },
-  "select": {
-    "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'"
-  },
   "on_select": {
     "prvdrId": "provider.id mismatches in /on_search and /on_select",
     "brkupfftitles1": "invalid  id: 64f37f1847c6e1683c9644d6 in delivery line item (should be a valid fulfillment_id)",
