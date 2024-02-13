@@ -219,7 +219,6 @@
           }
         ]
       },
-
       "cancellation_terms": [
         {
           "fulfillment_state": {
