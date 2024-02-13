@@ -9,14 +9,8 @@
     "quoteErr1": "Key length mismatch for breakup.1.item"
   },
   "confirm": {
-    "billingErr0": "Key 'created_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-02-13T05:55:01.366Z",
-    "billingErr1": "Key 'updated_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-02-13T05:55:01.366Z",
-    "sttlmntdtls": "payment settlement_details mismatch in /on_init & /confirm",
-    "orderCrtd": "order.created_at timestamp should match context.timestamp",
-    "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
-    "quoteErr1": "Key length mismatch for breakup",
-    "quoteErr": "Quoted Price in /confirm INR 695 does not match with the quoted price in /on_select INR 540.00",
-    "bapGstTags": "Tags/bap_terms should have valid gst number and fields in /confirm"
+    "quoteErr0": "Key length mismatch for breakup.0.item",
+    "quoteErr1": "Key length mismatch for breakup.1.item"
   },
   "on_confirm": {
     "tmpstmp": "Timestamp for /confirm api cannot be greater than or equal to /on_confirm api",
