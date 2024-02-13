@@ -5,7 +5,6 @@
     }
   },
   "on_init": {
-    "gpsKey0": "gps coordinates in fulfillments[0].end.location mismatch in /select & /on_init",
     "quoteErr0": "Key length mismatch for breakup.0.item",
     "quoteErr1": "Key length mismatch for breakup.1.item"
   },
