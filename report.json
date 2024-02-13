@@ -11,8 +11,6 @@
     "quoteErr0": "Key length mismatch for breakup"
   },
   "on_confirm": {
-    "sellerGpsErr": "store gps location /fulfillments[0]/start/location/gps can't change",
-    "sellerNameErr": "store name  /fulfillments[0]/start/location/descriptor/name can't change",
     "quoteErr0": "Key length mismatch for breakup"
   },
   "on_status_pending": {
