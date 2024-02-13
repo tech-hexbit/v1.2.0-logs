@@ -31,8 +31,8 @@
         "phone": "9939197376",
         "name": "Hexbit",
         "email": "support@hexbit.io",
-        "created_at": "2024-02-13T05:55:01.366Z",
-        "updated_at": "2024-02-13T05:55:01.366Z"
+        "created_at": "2024-01-30T07:09:41.531Z",
+        "updated_at": "2024-01-30T07:09:41.531Z"
       },
       "items": [
         {
@@ -90,7 +90,7 @@
         "uri": "https://juspay.in/",
         "tl_method": "http/get",
         "params": {
-          "amount": "695.00",
+          "amount": "540.00",
           "currency": "INR",
           "transaction_id": "ff83d9b3-42c1-452c-8400-067f9ae2e473"
         },
@@ -107,7 +107,7 @@
             "upi_address": "gft@oksbi",
             "settlement_bank_account_no": "123456789087",
             "settlement_ifsc_code": "SBIN0070074",
-            "settlement_timestamp": "2024-02-13T05:55:01.366Z",
+            "settlement_timestamp": "2024-01-29T05:20:49.714Z",
             "beneficiary_name": "Xilligence PRIVATE LIMITED",
             "bank_name": "SBI",
             "branch_name": "Andheri"
@@ -117,15 +117,15 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "695.00"
+          "value": "540.00"
         },
         "breakup": [
           {
-            "@ondc/org/item_id": "652bc2f0c74738e1e91d26b0",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
             "@ondc/org/item_quantity": {
               "count": 1
             },
-            "title": "Puma Shoe HEXBit.io",
+            "title": "nike jacket",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
@@ -158,33 +158,15 @@
             ]
           },
           {
-            "@ondc/org/item_id": "652bc2f0c74738e1e91d26b0",
-            "title": "Delivery charges",
-            "@ondc/org/title_type": "delivery",
-            "price": {
-              "currency": "INR",
-              "value": "99.00"
-            }
-          },
-          {
-            "@ondc/org/item_id": "652bc2f0c74738e1e91d26b0",
-            "title": "Convenience Fee",
-            "@ondc/org/title_type": "misc",
-            "price": {
-              "currency": "INR",
-              "value": "10.00"
-            }
-          },
-          {
-            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
             "@ondc/org/item_quantity": {
               "count": 1
             },
-            "title": "Addidas Shoe HEXBit.io",
+            "title": "adidas shoes",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
-              "value": "245.00"
+              "value": "199.00"
             },
             "item": {
               "quantity": {
@@ -197,7 +179,7 @@
               },
               "price": {
                 "currency": "INR",
-                "value": "245.00"
+                "value": "199.00"
               }
             },
             "tags": [
@@ -213,7 +195,7 @@
             ]
           },
           {
-            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+            "@ondc/org/item_id": "1",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -222,7 +204,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+            "@ondc/org/item_id": "1",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
@@ -248,13 +230,13 @@
           "list": [
             {
               "code": "tax_number",
-              "value": "BUYER-APP-GSTN-ONDC"
+              "value": "07AALCB2977P1ZV"
             }
           ]
         }
       ],
-      "created_at": "2024-02-13T05:52:01.366Z",
-      "updated_at": "2024-02-13T05:52:01.366Z"
+      "created_at": "2024-02-13T05:55:01.366Z",
+      "updated_at": "2024-02-13T05:55:01.366Z"
     }
   }
 }
