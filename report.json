@@ -4,41 +4,21 @@
       "tags": null
     }
   },
-  "on_select": {
-    "prvdrId": "provider.id mismatches in /on_search and /on_select",
-    "brkupfftitles1": "invalid  id: 64f37f1847c6e1683c9644d6 in delivery line item (should be a valid fulfillment_id)",
-    "brkupfftitles2": "invalid  id: 64f37f1847c6e1683c9644d6 in misc line item (should be a valid fulfillment_id)",
-    "brkupfftitles4": "invalid  id: 6535f1da522d972fc345d217 in delivery line item (should be a valid fulfillment_id)",
-    "brkupfftitles5": "invalid  id: 6535f1da522d972fc345d217 in misc line item (should be a valid fulfillment_id)",
-    "quoteBrkup": "quote.price.value 750.00 does not match with the price breakup 649.00"
-  },
   "init": {
     "tmpstmp": "Timestamp for  /on_select api cannot be greater than or equal to /init api",
     "prvdId": "Provider Id mismatches in /select and /init",
     "prvdfrLoc": "Provider.locations[0].id mismatches in /select and /init",
-    "gpsKey0": "gps coordinates in fulfillments[0].end.location mismatch in /select & /init",
-    "addrKey0": "address.area_code in fulfillments[0].end.location mismatch in /select & /init"
+    "gpsKey0": "gps coordinates in fulfillments[0].end.location mismatch in /select & /init"
   },
   "on_init": {
     "schemaErr0": "/message/order must have required property 'payment'",
     "schemaErr1": "/message/order must have required property 'tags'",
     "tmpstmp": "Timestamp for init api cannot be greater than or equal to on_init api",
     "gpsKey0": "gps coordinates in fulfillments[0].end.location mismatch in /select & /on_init",
-    "addrKey0": "address.area_code in fulfillments[0].end.location mismatch in /select & /on_init",
-    "onInitPriceErr2": "Quoted Price in /on_init INR 695 does not match with the quoted price in /on_select INR 750.00",
+    "onInitPriceErr2": "Quoted Price in /on_init INR 695 does not match with the quoted price in /on_select INR 540.00",
     "pymntOnInitObj": "Payment Object can't be null in /on_init",
-    "quoteErr0": "Key 'price.value' mismatch: 750.00 !== 695.00",
-    "quoteErr1": "Key 'breakup.0.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr2": "Key 'breakup.0.title' mismatch: Addidas Shoe HEXBit.io !== Puma Shoe HEXBit.io",
-    "quoteErr3": "Key length mismatch for breakup.0.item",
-    "quoteErr4": "Key 'breakup.1.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr5": "Key 'breakup.2.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr6": "Key 'breakup.3.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr7": "Key 'breakup.3.title' mismatch: Headphones !== Addidas Shoe HEXBit.io",
-    "quoteErr8": "Key 'breakup.3.price.value' mismatch: 199.00 !== 245.00",
-    "quoteErr9": "Key length mismatch for breakup.3.item",
-    "quoteErr10": "Key 'breakup.4.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr11": "Key 'breakup.5.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6"
+    "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
+    "quoteErr1": "Key length mismatch for breakup"
   },
   "confirm": {
     "txnId": "Transaction Id should be same from /select onwards",
@@ -46,21 +26,11 @@
     "prvdrLoc": "provider.locations[0].id mismatches in /on_search and /confirm",
     "billingErr0": "Key 'created_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
     "billingErr1": "Key 'updated_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
-    "gpsErr": "fulfillments[0].end.location.address.area_code is not matching with area_code in /select",
+    "gpsErr": "fulfillments[0].end.location gps is not matching with gps in /select",
     "sttlmntdtls": "payment settlement_details mismatch in /on_init & /confirm",
-    "quoteErr0": "Key 'price.value' mismatch: 750.00 !== 695.00",
-    "quoteErr1": "Key 'breakup.0.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr2": "Key 'breakup.0.title' mismatch: Addidas Shoe HEXBit.io !== Puma Shoe HEXBit.io",
-    "quoteErr3": "Key length mismatch for breakup.0.item",
-    "quoteErr4": "Key 'breakup.1.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr5": "Key 'breakup.2.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr6": "Key 'breakup.3.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr7": "Key 'breakup.3.title' mismatch: Headphones !== Addidas Shoe HEXBit.io",
-    "quoteErr8": "Key 'breakup.3.price.value' mismatch: 199.00 !== 245.00",
-    "quoteErr9": "Key length mismatch for breakup.3.item",
-    "quoteErr10": "Key 'breakup.4.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr11": "Key 'breakup.5.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr": "Quoted Price in /confirm INR 695 does not match with the quoted price in /on_select INR 750.00"
+    "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
+    "quoteErr1": "Key length mismatch for breakup",
+    "quoteErr": "Quoted Price in /confirm INR 695 does not match with the quoted price in /on_select INR 540.00"
   },
   "on_confirm": {
     "tmpstmp": "Timestamp for /confirm api cannot be greater than or equal to /on_confirm api",
@@ -70,22 +40,12 @@
     "prvdrLoc": "provider.locations[0].id mismatches in /on_search and /on_confirm",
     "billingErr0": "Key 'created_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
     "billingErr1": "Key 'updated_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
+    "sellerGpsErr": "store gps location /fulfillments[0]/start/location/gps can't change",
     "sellerNameErr": "store name  /fulfillments[0]/start/location/descriptor/name can't change",
     "buyerGpsErr": "fulfillments[0].end.location gps is not matching with gps in /select",
-    "gpsErr": "fulfillments[0].end.location.address.area_code is not matching with area_code in /select",
-    "quoteErr0": "Key 'price.value' mismatch: 750.00 !== 695.00",
-    "quoteErr1": "Key 'breakup.0.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr2": "Key 'breakup.0.title' mismatch: Addidas Shoe HEXBit.io !== Puma Shoe HEXBit.io",
-    "quoteErr3": "Key length mismatch for breakup.0.item",
-    "quoteErr4": "Key 'breakup.1.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr5": "Key 'breakup.2.@ondc/org/item_id' mismatch: 64f37f1847c6e1683c9644d6 !== 652bc2f0c74738e1e91d26b0",
-    "quoteErr6": "Key 'breakup.3.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr7": "Key 'breakup.3.title' mismatch: Headphones !== Addidas Shoe HEXBit.io",
-    "quoteErr8": "Key 'breakup.3.price.value' mismatch: 199.00 !== 245.00",
-    "quoteErr9": "Key length mismatch for breakup.3.item",
-    "quoteErr10": "Key 'breakup.4.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr11": "Key 'breakup.5.@ondc/org/item_id' mismatch: 6535f1da522d972fc345d217 !== 64f37f1847c6e1683c9644d6",
-    "quoteErr": "Quoted Price in /on_confirm 695 does not match with the quoted price in /on_select 750.00"
+    "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
+    "quoteErr1": "Key length mismatch for breakup",
+    "quoteErr": "Quoted Price in /on_confirm 695 does not match with the quoted price in /on_select 540.00"
   },
   "on_status_pending": {
     "txnId": "Transaction Id should be same from /select onwards"
