@@ -18,7 +18,7 @@
     "catalog": {
       "bpp/providers": [
         {
-          "id": "652ea808b82e04de8ebf315d",
+          "id": "657bc4de1fae5fe37194130f",
           "items": [
             {
               "id": "652e9645b82e04de8ebf1df1",
@@ -57,7 +57,7 @@
               },
               "category_id": "RET-12-14",
               "fulfillment_id": "1",
-              "location_id": "652ea808b82e04de8ebf315d",
+              "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
               "@ondc/org/returnable": true,
               "@ondc/org/cancellable": true,
