@@ -11,16 +11,11 @@
     "quoteErr0": "Key length mismatch for breakup"
   },
   "on_confirm": {
-    "schemaErr0": "/message/order/quote must have required property 'breakup'",
     "tmpstmp": "context/timestamp difference between /on_confirm and /confirm should be less than 5 sec",
-    "crtdtmstmp": "order.created_at timestamp mismatches in /confirm and /on_confirm",
+    "updtdtmstmp": "order.updated_at timestamp should be updated as per the context.timestamp (since default fulfillment state is added)",
     "sellerGpsErr": "store gps location /fulfillments[0]/start/location/gps can't change",
     "sellerNameErr": "store name  /fulfillments[0]/start/location/descriptor/name can't change",
-    "buyerGpsErr": "fulfillments[0].end.location gps is not matching with gps in /select",
-    "onConfirmedAmount": "Quoted price (/on_confirm) doesn't match with the amount in payment.params",
-    "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
-    "quoteErr1": "Key 'breakup' mismatch: [object Object],[object Object],[object Object],[object Object] !== undefined",
-    "quoteErr": "Quoted Price in /on_confirm 695 does not match with the quoted price in /on_select 540.00"
+    "quoteErr0": "Key length mismatch for breakup"
   },
   "on_status_pending": {
     "txnId": "Transaction Id should be same from /select onwards"
