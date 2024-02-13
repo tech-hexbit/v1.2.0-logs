@@ -115,6 +115,7 @@
               "value": "232.00"
             },
             "item": {
+              "parent_item_id": "DI1",
               "quantity": {
                 "available": {
                   "count": "1"
@@ -152,6 +153,7 @@
               "value": "199.00"
             },
             "item": {
+              "parent_item_id": "DI1",
               "quantity": {
                 "available": {
                   "count": "1"
