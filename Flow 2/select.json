@@ -18,25 +18,25 @@
     "order": {
       "items": [
         {
-          "id": "6535f1da522d972fc345d217",
+          "id": "6596b1113affdbaf0d33ebb4",
           "quantity": {
             "count": 1
           },
-          "location_id": "asus-store-location-id-1"
+          "location_id": "657bc4de1fae5fe37194130f"
         },
         {
-          "id": "64f37f1847c6e1683c9644d6",
+          "id": "6596b1113affdbaf0d33ebb5",
           "quantity": {
             "count": 1
           },
-          "location_id": "asus-store-location-id-1"
+          "location_id": "657bc4de1fae5fe37194130f"
         }
       ],
       "provider": {
-        "id": "6523f7f10a9003d447f9741e",
+        "id": "657bc4de1fae5fe37194130f",
         "locations": [
           {
-            "id": "6523f7f10a9003d447f9741e"
+            "id": "657bc4de1fae5fe37194130f"
           }
         ]
       },
