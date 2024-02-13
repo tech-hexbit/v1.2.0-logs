@@ -1,5 +1,6 @@
 {
   "on_search_full_catalog_refresh": {
+    "StoreEnableDisable": "store enable/disable timestamp (/bpp/providers/time/timestamp) should be less then or equal to context.timestamp",
     "prvdr0tags0loc": "location in serviceability construct should be one of the location ids bpp/providers[0]/locations",
     "prvdr0tags0ctgry": "category in serviceability construct should be one of the category ids bpp/providers[0]/items/category_id",
     "prvdr1tags0loc": "location in serviceability construct should be one of the location ids bpp/providers[1]/locations",
@@ -15,17 +16,12 @@
     }
   },
   "select": {
-    "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'",
-    "tmpstmp": "Timestamp for /on_search api cannot be greater than or equal to /select api",
-    "on_search_full_catalog_refresh_msgId": "Message Id for /on_search_full_catalog_refresh and /select api cannot be same",
-    "search_full_catalog_refresh_msgId": "Message Id for /search_full_catalog_refresh and /select api cannot be same"
+    "schemaErr0": "/message/order/fulfillments/0/end/location must have required property 'address'"
   },
   "on_select": {
     "schemaErr0": "/message/order/items/0 must have required property 'fulfillment_id'",
     "schemaErr1": "/message/order/items/1 must have required property 'fulfillment_id'",
-    "tmpstmp": "context/timestamp difference between /on_select and /select should be less than 5 sec",
     "txnId": "Transaction Id should be same from /select onwards",
-    "msgId": "Message Id for /select and /on_select api should be same",
     "fId0": "fulfillment_id for item 652bc2f0c74738e1e91d26b0 does not exist in order.fulfillments[]",
     "fId1": "fulfillment_id for item 64f37f1847c6e1683c9644d6 does not exist in order.fulfillments[]",
     "brkupfftitles1": "invalid  id: 652bc2f0c74738e1e91d26b0 in delivery line item (should be a valid fulfillment_id)",
@@ -34,7 +30,6 @@
     "brkupfftitles5": "invalid  id: 64f37f1847c6e1683c9644d6 in misc line item (should be a valid fulfillment_id)"
   },
   "init": {
-    "tmpstmp": "Timestamp for  /on_select api cannot be greater than or equal to /init api",
     "ffID1": "fulfillment id 1 does not exist in /on_select",
     "gpsKey0": "gps coordinates in fulfillments[0].end.location mismatch in /select & /init",
     "addrKey0": "address.area_code in fulfillments[0].end.location mismatch in /select & /init"
