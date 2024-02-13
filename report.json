@@ -11,12 +11,12 @@
     "quoteErr0": "Key length mismatch for breakup"
   },
   "on_confirm": {
-    "tmpstmp": "Timestamp for /confirm api cannot be greater than or equal to /on_confirm api",
-    "txnId": "Transaction Id should be same from /select onwards",
-    "crtdtmstmp": "order.created_at timestamp mismatches in /confirm and /on_confirm",
-    "updtdtmstmp": "order.updated_at timestamp should be updated as per the context.timestamp (since default fulfillment state is added)",
-    "prvdrId": "Provider Id mismatches in /on_search and /on_confirm",
-    "prvdrLoc": "provider.locations[0].id mismatches in /on_search and /on_confirm",
+    "": "Timestamp for /confirm api cannot be greater than or equal to /on_confirm api",
+    "": "Transaction Id should be same from /select onwards",
+    "": "order.created_at timestamp mismatches in /confirm and /on_confirm",
+    "": "order.updated_at timestamp should be updated as per the context.timestamp (since default fulfillment state is added)",
+    "": "Provider Id mismatches in /on_search and /on_confirm",
+    "": "provider.locations[0].id mismatches in /on_search and /on_confirm",
     "billingErr0": "Key 'created_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
     "billingErr1": "Key 'updated_at' mismatch: 2024-01-30T07:09:41.531Z !== 2024-01-30T11:33:58.119Z",
     "sellerGpsErr": "store gps location /fulfillments[0]/start/location/gps can't change",
