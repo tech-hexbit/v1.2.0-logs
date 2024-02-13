@@ -22,10 +22,10 @@
     "": "store gps location /fulfillments[0]/start/location/gps can't change",
     "sellerNameErr": "store name  /fulfillments[0]/start/location/descriptor/name can't change",
     "buyerGpsErr": "fulfillments[0].end.location gps is not matching with gps in /select",
-    "quoteErr0": "Key 'price.value' mismatch: 540.00 !== 695.00",
+    "": "Key 'price.value' mismatch: 540.00 !== 695.00",
     "quoteErr1": "Key length mismatch for breakup",
-    "quoteErr": "Quoted Price in /on_confirm 695 does not match with the quoted price in /on_select 540.00",
-    "pymntObj": "payment object mismatches in /confirm & /on_confirm",
+    "": "Quoted Price in /on_confirm 695 does not match with the quoted price in /on_select 540.00",
+    "": "payment object mismatches in /confirm & /on_confirm",
     "tags_bap_terms": "Tags should have same and valid gst_number as passed in /confirm"
   },
   "on_status_pending": {
