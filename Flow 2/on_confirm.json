@@ -11,7 +11,7 @@
     "bpp_uri": "https://techondc.hexbit.io/",
     "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
     "message_id": "357d1a5a-407e-4951-a186-1b4206d5b05d",
-    "timestamp": "2024-02-13T05:58:01.366Z",
+    "timestamp": "2024-02-13T05:56:01.366Z",
     "ttl": "PT30S"
   },
   "message": {
@@ -103,7 +103,7 @@
           },
           "end": {
             "location": {
-              "gps": "19.018467341372276,72.86167144775392",
+              "gps": "30.741626701365448, 76.78115181915683",
               "address": {
                 "building": "near Barkat Ali Dargah",
                 "name": "Hexbit",
@@ -166,127 +166,120 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "695.00"
+          "value": "540.00"
         },
-        "quote": {
-          "price": {
-            "currency": "INR",
-            "value": "540.00"
-          },
-          "breakup": [
-            {
-              "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
-              "@ondc/org/item_quantity": {
-                "count": 1
+        "breakup": [
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "@ondc/org/item_quantity": {
+              "count": 1
+            },
+            "title": "nike jacket",
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "232.00"
+            },
+            "item": {
+              "quantity": {
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
               },
-              "title": "nike jacket",
-              "@ondc/org/title_type": "item",
               "price": {
                 "currency": "INR",
                 "value": "232.00"
               },
-              "item": {
-                "quantity": {
-                  "available": {
-                    "count": "1"
-                  },
-                  "maximum": {
-                    "count": "1"
-                  }
-                },
-                "price": {
-                  "currency": "INR",
-                  "value": "232.00"
-                },
-                "tags": [
-                  {
-                    "code": "type",
-                    "list": [
-                      {
-                        "code": "type",
-                        "value": "item"
-                      }
-                    ]
-                  }
-                ]
-              }
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            }
+          },
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_quantity": {
+              "count": 1
             },
-            {
-              "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
-              "title": "Tax",
-              "@ondc/org/title_type": "tax",
-              "price": {
-                "currency": "INR",
-                "value": "0.00"
-              }
+            "title": "adidas shoes",
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "199.00"
             },
-            {
-              "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
-              "@ondc/org/item_quantity": {
-                "count": 1
+            "item": {
+              "quantity": {
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
               },
-              "title": "adidas shoes",
-              "@ondc/org/title_type": "item",
               "price": {
                 "currency": "INR",
                 "value": "199.00"
               },
-              "item": {
-                "quantity": {
-                  "available": {
-                    "count": "1"
-                  },
-                  "maximum": {
-                    "count": "1"
-                  }
-                },
-                "price": {
-                  "currency": "INR",
-                  "value": "199.00"
-                },
-                "tags": [
-                  {
-                    "code": "type",
-                    "list": [
-                      {
-                        "code": "type",
-                        "value": "item"
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
-              "title": "Tax",
-              "@ondc/org/title_type": "tax",
-              "price": {
-                "currency": "INR",
-                "value": "0.00"
-              }
-            },
-            {
-              "@ondc/org/item_id": "1",
-              "title": "Delivery charges",
-              "@ondc/org/title_type": "delivery",
-              "price": {
-                "currency": "INR",
-                "value": "99.00"
-              }
-            },
-            {
-              "@ondc/org/item_id": "1",
-              "title": "Convenience Fee",
-              "@ondc/org/title_type": "misc",
-              "price": {
-                "currency": "INR",
-                "value": "10.00"
-              }
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
             }
-          ],
-          "ttl": "P1D"
-        },
+          },
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            }
+          },
+          {
+            "@ondc/org/item_id": "1",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "99.00"
+            }
+          },
+          {
+            "@ondc/org/item_id": "1",
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "10.00"
+            }
+          }
+        ],
         "ttl": "P1D"
       },
       "tags": [
@@ -309,8 +302,8 @@
           ]
         }
       ],
-      "created_at": "2024-02-13T05:58:01.366Z",
-      "updated_at": "2024-02-13T05:58:01.366Z"
+      "created_at": "2024-02-13T05:55:01.366Z",
+      "updated_at": "2024-02-13T05:55:01.366Z"
     }
   }
 }
