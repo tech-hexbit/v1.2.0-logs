@@ -11,8 +11,6 @@
     "quoteErr0": "Key length mismatch for breakup"
   },
   "on_confirm": {
-    "tmpstmp": "context/timestamp difference between /on_confirm and /confirm should be less than 5 sec",
-    "updtdtmstmp": "order.updated_at timestamp should be updated as per the context.timestamp (since default fulfillment state is added)",
     "sellerGpsErr": "store gps location /fulfillments[0]/start/location/gps can't change",
     "sellerNameErr": "store name  /fulfillments[0]/start/location/descriptor/name can't change",
     "quoteErr0": "Key length mismatch for breakup"
