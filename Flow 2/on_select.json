@@ -100,19 +100,28 @@
               "price": {
                 "currency": "INR",
                 "value": "232.00"
-              }
-            },
-            "tags": [
-              {
-                "code": "type",
-                "list": [
-                  {
-                    "code": "type",
-                    "value": "item"
-                  }
-                ]
-              }
-            ]
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            }
           },
           {
             "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
@@ -137,19 +146,28 @@
               "price": {
                 "currency": "INR",
                 "value": "199.00"
-              }
-            },
-            "tags": [
-              {
-                "code": "type",
-                "list": [
-                  {
-                    "code": "type",
-                    "value": "item"
-                  }
-                ]
-              }
-            ]
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            }
           },
           {
             "@ondc/org/item_id": "1",
