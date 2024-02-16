@@ -31,7 +31,7 @@
           "fulfillment_id": "1",
           "id": "6596b1113affdbaf0d33ebb4",
           "quantity": {
-            "count": 0
+            "count": 1
           }
         },
         {
@@ -189,7 +189,7 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "341.00"
+          "value": "540.00"
         },
         "breakup": [
           {
@@ -241,21 +241,21 @@
           {
             "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
             "@ondc/org/item_quantity": {
-              "count": 0
+              "count": 1
             },
             "title": "adidas shoes",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
-              "value": "0.00"
+              "value": "199.00"
             },
             "item": {
               "quantity": {
                 "available": {
-                  "count": "0"
+                  "count": "1"
                 },
                 "maximum": {
-                  "count": "0"
+                  "count": "1"
                 }
               },
               "price": {
