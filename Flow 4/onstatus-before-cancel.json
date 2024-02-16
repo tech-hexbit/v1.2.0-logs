@@ -28,15 +28,15 @@
       },
       "items": [
         {
-          "id": "652bc2f0c74738e1e91d26b0",
           "fulfillment_id": "1",
+          "id": "6596b1113affdbaf0d33ebb4",
           "quantity": {
-            "count": 1
+            "count": 0
           }
         },
         {
-          "id": "64f37f1847c6e1683c9644d6",
           "fulfillment_id": "1",
+          "id": "6596b1113affdbaf0d33ebb5",
           "quantity": {
             "count": 1
           }
