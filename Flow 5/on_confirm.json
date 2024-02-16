@@ -139,7 +139,7 @@
         "uri": "https://juspay.in/",
         "tl_method": "http/get",
         "params": {
-          "amount": "695.00",
+          "amount": "540.00",
           "currency": "INR",
           "transaction_id": "ff83d9b3-42c1-452c-8400-067f9ae2e473"
         },
@@ -166,7 +166,7 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "695.00"
+          "value": "540.00"
         },
         "breakup": [
           {
