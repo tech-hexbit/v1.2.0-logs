@@ -67,7 +67,7 @@
           "tracking": false,
           "state": {
             "descriptor": {
-              "code": "Order-delivered"
+              "code": "Cancelled"
             }
           },
           "start": {
@@ -141,169 +141,15 @@
           },
           "tags": [
             {
-              "code": "state",
+              "code": "cancel_request",
               "list": [
-                {
-                  "code": "ready_to_ship",
-                  "value": "yes"
-                }
-              ]
-            },
-            {
-              "code": "tracking",
-              "list": [
-                {
-                  "code": "gps_enabled",
-                  "value": "yes"
-                },
-                {
-                  "code": "url_enabled",
-                  "value": "no"
-                },
-                {
-                  "code": "url",
-                  "value": "https://sellerNP.com/ondc/tracking_url"
-                }
-              ]
-            },
-            {
-              "code": "fulfillment_delay",
-              "list": [
-                {
-                  "code": "state",
-                  "value": "Order-picked-up"
-                },
                 {
                   "code": "reason_id",
                   "value": "002"
-                },
-                {
-                  "code": "timestamp",
-                  "value": "2024-01-06T22:00:00.000Z"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "65b77ccd138bb829a2b1e5cf",
-          "@ondc/org/provider_name": "Hexbit",
-          "type": "Return",
-          "@ondc/org/TAT": "PT60M",
-          "tracking": false,
-          "state": {
-            "descriptor": {
-              "code": "Return_Approved"
-            }
-          },
-          "start": {
-            "location": {
-              "id": "hexbit-store-location-id-1",
-              "descriptor": {
-                "name": "Hexbit"
-              },
-              "address": {
-                "locality": "Maharashtra",
-                "city": "Mumbai",
-                "area_code": "160017",
-                "state": "MH"
-              },
-              "gps": "19.1196976,72.8464205"
-            },
-            "time": {
-              "timestamp": "2023-12-04T07:14:01.947Z",
-              "range": {
-                "start": "2023-12-04T07:19:17.286Z",
-                "end": "2023-12-04T07:49:17.286Z"
-              }
-            },
-            "instructions": {
-              "code": "2",
-              "name": "ONDC order",
-              "short_desc": "value of PCC",
-              "long_desc": "additional instructions such as register or counter no for self-pickup"
-            },
-            "contact": {
-              "phone": "9939197376",
-              "email": "support@hexbit.io"
-            }
-          },
-          "end": {
-            "person": {
-              "name": "Hexbit"
-            },
-            "contact": {
-              "email": "support@hexbit.io",
-              "phone": "9939197376"
-            },
-            "location": {
-              "gps": "19.018467341372276,72.86167144775392",
-              "address": {
-                "building": "near Barkat Ali Dargah",
-                "city": "Mumbai",
-                "name": "Sherin",
-                "state": "Maharashtra",
-                "country": "IND",
-                "locality": "Nana Phadnavis Bridge",
-                "area_code": "400037"
-              }
-            },
-            "time": {
-              "timestamp": "2023-12-04T06:49:17.286Z",
-              "range": {
-                "start": "2023-12-04T07:19:17.286Z",
-                "end": "2023-12-04T07:49:17.286Z"
-              }
-            }
-          },
-          "agent": {
-            "name": "Ramu",
-            "phone": "9886098860"
-          },
-          "vehicle": {
-            "category": "mini-truck",
-            "size": "small",
-            "registration": "2020"
-          },
-          "tags": [
-            {
-              "code": "return_request",
-              "list": [
-                {
-                  "code": "id",
-                  "value": "65b77ccd138bb829a2b1e5cf"
-                },
-                {
-                  "code": "item_id",
-                  "value": "490926"
-                },
-                {
-                  "code": "item_quantity",
-                  "value": "2"
-                },
-                {
-                  "code": "reason_id",
-                  "value": "002"
-                },
-                {
-                  "code": "reason_desc",
-                  "value": "detailed description for return"
-                },
-                {
-                  "code": "images",
-                  "value": "url_for_image1,url_for_image2"
-                },
-                {
-                  "code": "ttl_approval",
-                  "value": "PT24H"
-                },
-                {
-                  "code": "ttl_reverseqc",
-                  "value": "P3D"
                 },
                 {
                   "code": "initiated_by",
-                  "value": "buyerNP.com"
+                  "value": "sellerNP.com"
                 }
               ]
             }
