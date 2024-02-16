@@ -17,7 +17,7 @@
   "message": {
     "order": {
       "id": "2024-01-16-140301",
-      "state": "Accepted",
+      "state": "Completed",
       "provider": {
         "id": "6523f7f10a9003d447f9741e",
         "locations": [
@@ -31,7 +31,7 @@
           "fulfillment_id": "1",
           "id": "6596b1113affdbaf0d33ebb4",
           "quantity": {
-            "count": 0
+            "count": 1
           }
         },
         {
