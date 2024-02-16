@@ -70,10 +70,10 @@
           "@ondc/org/provider_name": "Hexbit",
           "state": {
             "descriptor": {
-              "code": "Cancelled"
+              "code": "RTO-Initiated"
             }
           },
-          "type": "Delivery",
+          "type": "RTO",
           "tracking": false,
           "start": {
             "location": {
