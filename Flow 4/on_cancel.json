@@ -143,15 +143,15 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "695.00"
+          "value": "341.00"
         },
         "breakup": [
           {
-            "@ondc/org/item_id": "652bc2f0c74738e1e91d26b0",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
             "@ondc/org/item_quantity": {
               "count": 1
             },
-            "title": "Puma Shoe HEXBit.io",
+            "title": "nike jacket",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
@@ -169,77 +169,77 @@
               "price": {
                 "currency": "INR",
                 "value": "232.00"
-              }
-            },
-            "tags": [
-              {
-                "code": "type",
-                "list": [
-                  {
-                    "code": "type",
-                    "value": "item"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "@ondc/org/item_id": "652bc2f0c74738e1e91d26b0",
-            "title": "Delivery charges",
-            "@ondc/org/title_type": "delivery",
-            "price": {
-              "currency": "INR",
-              "value": "99.00"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
             }
           },
           {
-            "@ondc/org/item_id": "652bc2f0c74738e1e91d26b0",
-            "title": "Convenience Fee",
-            "@ondc/org/title_type": "misc",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
             "price": {
               "currency": "INR",
-              "value": "10.00"
+              "value": "0.00"
             }
           },
           {
-            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
             "@ondc/org/item_quantity": {
-              "count": 1
+              "count": 0
             },
-            "title": "Addidas Shoe HEXBit.io",
+            "title": "adidas shoes",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
-              "value": "245.00"
+              "value": "0.00"
             },
             "item": {
               "quantity": {
                 "available": {
-                  "count": "1"
+                  "count": "0"
                 },
                 "maximum": {
-                  "count": "1"
+                  "count": "0"
                 }
               },
               "price": {
                 "currency": "INR",
-                "value": "245.00"
-              }
-            },
-            "tags": [
-              {
-                "code": "type",
-                "list": [
-                  {
-                    "code": "type",
-                    "value": "item"
-                  }
-                ]
-              }
-            ]
+                "value": "199.00"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
-            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            }
+          },
+          {
+            "@ondc/org/item_id": "1",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
             "price": {
@@ -248,7 +248,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+            "@ondc/org/item_id": "1",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
             "price": {
