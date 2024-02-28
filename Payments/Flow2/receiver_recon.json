@@ -2,7 +2,7 @@
   "context": {
     "domain": "ONDC:NTS10",
     "country": "IND",
-    "city": "std:022",
+    "city": "std:080",
     "action": "receiver_recon",
     "core_version": "1.0.0",
     "bap_id": "abc.rsp.com",
