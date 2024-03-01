@@ -37,7 +37,7 @@
           "id": "6596b1113affdbaf0d33ebb4",
           "fulfillment_id": "1",
           "quantity": {
-            "count": 0
+            "count": 1
           }
         },
         {
@@ -45,6 +45,20 @@
           "fulfillment_id": "1",
           "quantity": {
             "count": 1
+          }
+        },
+        {
+          "id": "6596b1113affdbaf0d33ebb4",
+          "fulfillment_id": "1C",
+          "quantity": {
+            "count": 0
+          }
+        },
+        {
+          "id": "6596b1113affdbaf0d33ebb5",
+          "fulfillment_id": "1C",
+          "quantity": {
+            "count": 0
           }
         }
       ],
@@ -138,6 +152,102 @@
             }
           },
           "rateable": true
+        },
+        {
+          "id": "1C",
+          "@ondc/org/provider_name": "Hexbit",
+          "state": {
+            "descriptor": {
+              "code": "Cancelled"
+            }
+          },
+          "type": "Cancel",
+          "tags": [
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "6596b1113affdbaf0d33ebb5"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-1000.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "discount"
+                },
+                {
+                  "code": "id",
+                  "value": "6596b1113affdbaf0d33ebb5"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "402.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "6596b1113affdbaf0d33ebb4"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-1000.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "discount"
+                },
+                {
+                  "code": "id",
+                  "value": "6596b1113affdbaf0d33ebb4"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "302.0"
+                }
+              ]
+            }
+          ]
         }
       ],
       "quote": {
