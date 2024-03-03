@@ -152,6 +152,127 @@
             }
           },
           "rateable": true
+        },
+        {
+          "id": "1-RTO",
+          "state": {
+            "descriptor": {
+              "code": "RTO-Initiated"
+            }
+          },
+          "type": "RTO",
+          "start": {
+            "time": {
+              "timestamp": "2024-02-24T04:38:00.494Z"
+            }
+          },
+          "tags": [
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "delivery"
+                },
+                {
+                  "code": "id",
+                  "value": "F1-RTO"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "200.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "7402d18fd624412a9c804f987f96c6c0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-232.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "discount"
+                },
+                {
+                  "code": "id",
+                  "value": "7402d18fd624412a9c804f987f96c6c0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "402.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "f61e10aa600b412c9233caf0a8fae364"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-1000.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "discount"
+                },
+                {
+                  "code": "id",
+                  "value": "f61e10aa600b412c9233caf0a8fae364"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "302.0"
+                }
+              ]
+            }
+          ]
         }
       ],
       "quote": {
