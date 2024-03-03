@@ -214,27 +214,6 @@
               "list": [
                 {
                   "code": "type",
-                  "value": "discount"
-                },
-                {
-                  "code": "id",
-                  "value": "7402d18fd624412a9c804f987f96c6c0"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "402.0"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
                   "value": "item"
                 },
                 {
@@ -247,28 +226,7 @@
                 },
                 {
                   "code": "value",
-                  "value": "-1000.0"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "discount"
-                },
-                {
-                  "code": "id",
-                  "value": "f61e10aa600b412c9233caf0a8fae364"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "302.0"
+                  "value": "-402.0"
                 }
               ]
             }
