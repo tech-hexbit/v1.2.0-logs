@@ -28,15 +28,29 @@
       },
       "items": [
         {
-          "fulfillment_id": "1",
           "id": "6596b1113affdbaf0d33ebb4",
+          "fulfillment_id": "1",
           "quantity": {
             "count": 0
           }
         },
         {
-          "fulfillment_id": "1",
           "id": "6596b1113affdbaf0d33ebb5",
+          "fulfillment_id": "1",
+          "quantity": {
+            "count": 0
+          }
+        },
+        {
+          "id": "6596b1113affdbaf0d33ebb4",
+          "fulfillment_id": "1-RTO",
+          "quantity": {
+            "count": 1
+          }
+        },
+        {
+          "id": "6596b1113affdbaf0d33ebb5",
+          "fulfillment_id": "1-RTO",
           "quantity": {
             "count": 1
           }
@@ -62,12 +76,12 @@
         {
           "id": "1",
           "@ondc/org/provider_name": "Hexbit",
-          "type": "RTO",
+          "type": "Delivery",
           "@ondc/org/TAT": "PT60M",
           "tracking": false,
           "state": {
             "descriptor": {
-              "code": "RTO-Disposed"
+              "code": "Cancelled"
             }
           },
           "start": {
@@ -141,45 +155,145 @@
           },
           "tags": [
             {
-              "code": "state",
+              "code": "cancel_request",
               "list": [
-                {
-                  "code": "ready_to_ship",
-                  "value": "yes"
-                }
-              ]
-            },
-            {
-              "code": "tracking",
-              "list": [
-                {
-                  "code": "gps_enabled",
-                  "value": "yes"
-                },
-                {
-                  "code": "url_enabled",
-                  "value": "no"
-                },
-                {
-                  "code": "url",
-                  "value": "https://sellerNP.com/ondc/tracking_url"
-                }
-              ]
-            },
-            {
-              "code": "fulfillment_delay",
-              "list": [
-                {
-                  "code": "state",
-                  "value": "Order-picked-up"
-                },
                 {
                   "code": "reason_id",
-                  "value": "002"
+                  "value": "015"
                 },
                 {
-                  "code": "timestamp",
-                  "value": "2024-01-06T22:00:00.000Z"
+                  "code": "cancelled_by",
+                  "value": "buyer-app-preprod-v2.ondc.org"
+                },
+                {
+                  "code": "retry_count",
+                  "value": "3"
+                },
+                {
+                  "code": "rto_id",
+                  "value": "F1-RTO"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1-RTO",
+          "state": {
+            "descriptor": {
+              "code": "RTO-Disposed"
+            }
+          },
+          "type": "RTO",
+          "tracking": false,
+          "start": {
+            "time": {
+              "timestamp": "2024-02-26T04:38:00.494Z"
+            }
+          },
+          "tags": [
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "delivery"
+                },
+                {
+                  "code": "id",
+                  "value": "F1-RTO"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "200.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "7402d18fd624412a9c804f987f96c6c0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-1000.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "discount"
+                },
+                {
+                  "code": "id",
+                  "value": "7402d18fd624412a9c804f987f96c6c0"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "402.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "item"
+                },
+                {
+                  "code": "id",
+                  "value": "f61e10aa600b412c9233caf0a8fae364"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "-1000.0"
+                }
+              ]
+            },
+            {
+              "code": "quote_trail",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "discount"
+                },
+                {
+                  "code": "id",
+                  "value": "f61e10aa600b412c9233caf0a8fae364"
+                },
+                {
+                  "code": "currency",
+                  "value": "INR"
+                },
+                {
+                  "code": "value",
+                  "value": "302.0"
                 }
               ]
             }
