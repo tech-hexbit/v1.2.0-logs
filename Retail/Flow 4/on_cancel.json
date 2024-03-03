@@ -213,19 +213,19 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "341.00"
+          "value": "109.00"
         },
         "breakup": [
           {
             "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
             "@ondc/org/item_quantity": {
-              "count": 1
+              "count": 0
             },
             "title": "nike jacket",
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
-              "value": "232.00"
+              "value": "0.00"
             },
             "item": {
               "quantity": {
