@@ -21,7 +21,7 @@
       "cancellation": {
         "cancelled_by": "buyer-app-preprod-v2.ondc.org",
         "reason": {
-          "id": "012"
+          "id": "010"
         }
       },
       "provider": {
@@ -43,6 +43,20 @@
         {
           "id": "6596b1113affdbaf0d33ebb5",
           "fulfillment_id": "1",
+          "quantity": {
+            "count": 0
+          }
+        },
+        {
+          "id": "6596b1113affdbaf0d33ebb4",
+          "fulfillment_id": "1-RTO",
+          "quantity": {
+            "count": 1
+          }
+        },
+        {
+          "id": "6596b1113affdbaf0d33ebb5",
+          "fulfillment_id": "1-RTO",
           "quantity": {
             "count": 1
           }
