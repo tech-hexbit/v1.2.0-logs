@@ -180,28 +180,7 @@
                 },
                 {
                   "code": "value",
-                  "value": "-1000.0"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "discount"
-                },
-                {
-                  "code": "id",
-                  "value": "6596b1113affdbaf0d33ebb5"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "402.0"
+                  "value": "-232.0"
                 }
               ]
             },
@@ -222,28 +201,7 @@
                 },
                 {
                   "code": "value",
-                  "value": "-1000.0"
-                }
-              ]
-            },
-            {
-              "code": "quote_trail",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "discount"
-                },
-                {
-                  "code": "id",
-                  "value": "6596b1113affdbaf0d33ebb4"
-                },
-                {
-                  "code": "currency",
-                  "value": "INR"
-                },
-                {
-                  "code": "value",
-                  "value": "302.0"
+                  "value": "-402.0"
                 }
               ]
             }
