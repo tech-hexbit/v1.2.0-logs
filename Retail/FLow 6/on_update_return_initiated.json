@@ -46,81 +46,137 @@
         }
       ],
       "billing": {
-        "name": "sherin",
-        "email": "sherinsha.aj@xilligence.com",
-        "phone": "9633432807",
         "address": {
+          "building": "near Barkat Ali Dargah",
           "city": "Mumbai",
-          "name": "sherin",
+          "name": "Sherin",
           "state": "Maharashtra",
           "country": "IND",
-          "building": "near Barkat Ali Dargah",
-          "locality": "Barkat Ali Dargah Lane",
+          "locality": "Nana Phadnavis Bridge",
           "area_code": "400037"
         },
-        "created_at": "2024-02-20T10:48:16.130Z",
-        "updated_at": "2024-02-20T10:48:16.130Z"
+        "phone": "9939197376",
+        "name": "Hexbit",
+        "email": "support@hexbit.io",
+        "created_at": "2024-01-30T11:33:58.119Z",
+        "updated_at": "2024-01-30T11:33:58.119Z"
       },
       "quote": {
         "ttl": "P1D",
         "price": {
-          "value": "213.09",
-          "currency": "INR"
+          "currency": "INR",
+          "value": "540.00"
         },
         "breakup": [
           {
-            "item": {
-              "price": {
-                "value": "37.00",
-                "currency": "INR"
-              }
-            },
-            "price": {
-              "value": "74.00",
-              "currency": "INR"
-            },
-            "title": "Jetter Ball Pen Blue",
-            "@ondc/org/item_id": "171576",
-            "@ondc/org/title_type": "item",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
             "@ondc/org/item_quantity": {
-              "count": 2
+              "count": 1
+            },
+            "title": "nike jacket",
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "232.00"
+            },
+            "item": {
+              "quantity": {
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "232.00"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
             }
           },
           {
-            "item": {
-              "price": {
-                "value": "17.90",
-                "currency": "INR"
-              }
-            },
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
             "price": {
-              "value": "35.80",
-              "currency": "INR"
-            },
-            "title": "Pointec Gel",
-            "@ondc/org/item_id": "171578",
-            "@ondc/org/title_type": "item",
-            "@ondc/org/item_quantity": {
-              "count": 2
+              "currency": "INR",
+              "value": "0.00"
             }
           },
           {
-            "price": {
-              "value": "100.00",
-              "currency": "INR"
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_quantity": {
+              "count": 1
             },
+            "title": "adidas shoes",
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "199.00"
+            },
+            "item": {
+              "quantity": {
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "199.00"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            }
+          },
+          {
+            "@ondc/org/item_id": "1",
             "title": "Delivery charges",
-            "@ondc/org/item_id": "1",
-            "@ondc/org/title_type": "delivery"
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "99.00"
+            }
           },
           {
-            "price": {
-              "value": "3.29",
-              "currency": "INR"
-            },
-            "title": "Convenience Fee",
             "@ondc/org/item_id": "1",
-            "@ondc/org/title_type": "misc"
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "10.00"
+            }
           }
         ]
       },
