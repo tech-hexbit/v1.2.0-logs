@@ -46,10 +46,8 @@
         }
       ],
       "billing": {
-        "name": "Sherin",
-        "email": "sherinsha.aj@xilligence.com",
-        "phone": "9633432807",
         "address": {
+          "building": "near Barkat Ali Dargah",
           "city": "Mumbai",
           "name": "Sherin",
           "state": "Maharashtra",
@@ -57,8 +55,11 @@
           "locality": "Nana Phadnavis Bridge",
           "area_code": "400037"
         },
-        "created_at": "2024-02-20T11:09:17.820Z",
-        "updated_at": "2024-02-20T11:09:17.820Z"
+        "phone": "9939197376",
+        "name": "Hexbit",
+        "email": "support@hexbit.io",
+        "created_at": "2024-01-30T11:33:58.119Z",
+        "updated_at": "2024-01-30T11:33:58.119Z"
       },
       "quote": {
         "ttl": "P1D",
