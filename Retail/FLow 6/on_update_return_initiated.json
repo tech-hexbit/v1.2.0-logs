@@ -191,16 +191,16 @@
           },
           "start": {
             "location": {
-              "id": "OM Collection_lokal",
+              "id": "hexbit-store-location-id-1",
               "descriptor": {
-                "name": "OM Collection"
+                "name": "Hexbit"
               },
-              "gps": "19.1246,72.9166"
+              "gps": "19.1196976,72.8464205"
             },
             "time": {
               "range": {
-                "start": "2024-02-20T12:04:17.221Z",
-                "end": "2024-02-20T12:34:17.221Z"
+                "start": "2024-02-20T12:49:18.088Z",
+                "end": "2024-02-20T13:19:18.088Z"
               }
             },
             "instructions": {
@@ -208,27 +208,27 @@
               "short_desc": ""
             },
             "contact": {
-              "email": "sherinsha.aj@xilligence.com",
-              "phone": "9633432807"
+              "phone": "9939197376",
+              "email": "support@hexbit.io"
             }
           },
           "end": {
             "location": {
-              "gps": "19.017828319336342,72.863667011261",
+              "gps": "19.018467341372276,72.86167144775392",
               "address": {
+                "building": "near Barkat Ali Dargah",
                 "city": "Mumbai",
-                "name": "sherin",
+                "name": "Sherin",
                 "state": "Maharashtra",
                 "country": "IND",
-                "building": "near Barkat Ali Dargah",
-                "locality": "Barkat Ali Dargah Lane",
+                "locality": "Nana Phadnavis Bridge",
                 "area_code": "400037"
               }
             },
             "time": {
               "range": {
-                "start": "2024-02-20T12:04:17.221Z",
-                "end": "2024-02-20T12:34:17.221Z"
+                "start": "2024-02-20T12:49:18.088Z",
+                "end": "2024-02-20T13:19:18.088Z"
               }
             },
             "instructions": {
