@@ -67,7 +67,7 @@
           "tracking": false,
           "state": {
             "descriptor": {
-              "code": "Cancelled"
+              "code": "Order-delivered"
             }
           },
           "start": {
@@ -138,22 +138,7 @@
             "category": "mini-truck",
             "size": "small",
             "registration": "2020"
-          },
-          "tags": [
-            {
-              "code": "cancel_request",
-              "list": [
-                {
-                  "code": "reason_id",
-                  "value": "002"
-                },
-                {
-                  "code": "initiated_by",
-                  "value": "sellerNP.com"
-                }
-              ]
-            }
-          ]
+          }
         }
       ],
       "quote": {
