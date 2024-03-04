@@ -242,7 +242,7 @@
           }
         },
         {
-          "id": "2024-02-20-848286",
+          "id": "2024-01-16-140301",
           "type": "Cancel",
           "state": {
             "descriptor": {
@@ -255,11 +255,11 @@
               "list": [
                 {
                   "code": "item_id",
-                  "value": "171576"
+                  "value": "6596b1113affdbaf0d33ebb4"
                 },
                 {
                   "code": "item_quantity",
-                  "value": "2"
+                  "value": "1"
                 },
                 {
                   "code": "reason_id",
