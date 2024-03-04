@@ -64,63 +64,119 @@
       "quote": {
         "ttl": "P1D",
         "price": {
-          "value": "242.55",
-          "currency": "INR"
+          "currency": "INR",
+          "value": "540.00"
         },
         "breakup": [
           {
-            "item": {
-              "price": {
-                "value": "2.80",
-                "currency": "INR"
-              }
-            },
-            "price": {
-              "value": "8.40",
-              "currency": "INR"
-            },
-            "title": "Non Dust Eraser",
-            "@ondc/org/item_id": "171561",
-            "@ondc/org/title_type": "item",
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
             "@ondc/org/item_quantity": {
-              "count": 3
+              "count": 1
+            },
+            "title": "nike jacket",
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "232.00"
+            },
+            "item": {
+              "quantity": {
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "232.00"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
             }
           },
           {
-            "item": {
-              "price": {
-                "value": "65.00",
-                "currency": "INR"
-              }
-            },
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
             "price": {
-              "value": "130.00",
-              "currency": "INR"
-            },
-            "title": "Pen 0.45",
-            "@ondc/org/item_id": "171574",
-            "@ondc/org/title_type": "item",
-            "@ondc/org/item_quantity": {
-              "count": 2
+              "currency": "INR",
+              "value": "0.00"
             }
           },
           {
-            "price": {
-              "value": "100.00",
-              "currency": "INR"
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_quantity": {
+              "count": 1
             },
+            "title": "adidas shoes",
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "199.00"
+            },
+            "item": {
+              "quantity": {
+                "available": {
+                  "count": "1"
+                },
+                "maximum": {
+                  "count": "1"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "199.00"
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "title": "Tax",
+            "@ondc/org/title_type": "tax",
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            }
+          },
+          {
+            "@ondc/org/item_id": "1",
             "title": "Delivery charges",
-            "@ondc/org/item_id": "1",
-            "@ondc/org/title_type": "delivery"
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "99.00"
+            }
           },
           {
-            "price": {
-              "value": "4.15",
-              "currency": "INR"
-            },
-            "title": "Convenience Fee",
             "@ondc/org/item_id": "1",
-            "@ondc/org/title_type": "misc"
+            "title": "Convenience Fee",
+            "@ondc/org/title_type": "misc",
+            "price": {
+              "currency": "INR",
+              "value": "10.00"
+            }
           }
         ]
       },
@@ -135,11 +191,11 @@
           },
           "start": {
             "location": {
-              "id": "OM Collection_lokal",
+              "id": "hexbit-store-location-id-1",
               "descriptor": {
-                "name": "OM Collection"
+                "name": "Hexbit"
               },
-              "gps": "19.1246,72.9166"
+              "gps": "19.1196976,72.8464205"
             },
             "time": {
               "range": {
@@ -152,14 +208,15 @@
               "short_desc": ""
             },
             "contact": {
-              "email": "sherinsha.aj@xilligence.com",
-              "phone": "9633432807"
+              "phone": "9939197376",
+              "email": "support@hexbit.io"
             }
           },
           "end": {
             "location": {
               "gps": "19.018467341372276,72.86167144775392",
               "address": {
+                "building": "near Barkat Ali Dargah",
                 "city": "Mumbai",
                 "name": "Sherin",
                 "state": "Maharashtra",
