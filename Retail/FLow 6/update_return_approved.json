@@ -17,7 +17,7 @@
   "message": {
     "update_target": "item",
     "order": {
-      "id": "2024-01-09-474108",
+      "id": "2024-01-16-140301",
       "fulfillments": [
         {
           "type": "Return",
@@ -31,7 +31,7 @@
                 },
                 {
                   "code": "item_id",
-                  "value": "490926"
+                  "value": "6596b1113affdbaf0d33ebb4"
                 },
                 {
                   "code": "parent_item_id",
@@ -39,7 +39,7 @@
                 },
                 {
                   "code": "item_quantity",
-                  "value": "2"
+                  "value": "1"
                 },
                 {
                   "code": "reason_id",
