@@ -25,14 +25,14 @@
             "updated_at": "2024-02-21T07:12:43.025Z",
             "updated_by": {
               "org": {
-                "name": "api.lokal.in"
+                "name": "hexbit.io"
               },
               "contact": {
-                "phone": "8976003624",
-                "email": "support@lokal.in"
+                "phone": "9939197376",
+                "email": "support@hexbit.io"
               },
               "person": {
-                "name": "Ajay Shetty"
+                "name": "Rishav Singh"
               }
             },
             "cascaded_level": 1
@@ -43,14 +43,14 @@
             "updated_at": "2024-02-21T07:12:43.025Z",
             "updated_by": {
               "org": {
-                "name": "api.lokal.in"
+                "name": "hexbit.io"
               },
               "contact": {
-                "phone": "8976003624",
-                "email": "support@lokal.in"
+                "phone": "9939197376",
+                "email": "support@hexbit.io"
               },
               "person": {
-                "name": "Ajay Shetty"
+                "name": "Rishav Singh"
               }
             },
             "cascaded_level": 1
@@ -62,30 +62,30 @@
           "type": "TRANSACTION-COUNTERPARTY-NP",
           "organization": {
             "org": {
-              "name": "api.lokal.in"
+              "name": "hexbit.io"
             },
             "contact": {
-              "phone": "8976003624",
-              "email": "support@lokal.in"
+              "phone": "9939197376",
+              "email": "support@hexbit.io"
             },
             "person": {
-              "name": "Ajay Shetty"
+              "name": "Rishav Singh"
             }
           },
           "resolution_support": {
             "chat_link": "",
             "contact": {
-              "phone": "8976003624",
-              "email": "support@lokal.in"
+              "phone": "9939197376",
+              "email": "support@hexbit.io"
             },
             "gros": [
               {
                 "person": {
-                  "name": "Ajay Shetty"
+                  "name": "Rishav Singh"
                 },
                 "contact": {
-                  "phone": "8976003624",
-                  "email": "support@lokal.in"
+                  "phone": "9939197376",
+                  "email": "support@hexbit.io"
                 },
                 "gro_type": "TRANSACTION-COUNTERPARTY-NP-GRO"
               }
