@@ -2,7 +2,7 @@
   "context": {
     "domain": "ONDC:RET10",
     "country": "IND",
-    "city": "std:080",
+    "city": "std:0172",
     "action": "on_search",
     "core_version": "1.2.0",
     "bap_id": "buyer-app-preprod-v2.ondc.org",
@@ -140,7 +140,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -237,7 +237,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-15",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -334,7 +334,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-16",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -431,7 +431,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-17",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -528,7 +528,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-18",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -625,7 +625,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-19",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -722,7 +722,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-20",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -819,7 +819,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-21",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -916,7 +916,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-22",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1013,7 +1013,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1110,7 +1110,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1207,7 +1207,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1304,7 +1304,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1401,7 +1401,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Eggs, Meat & Fish",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1498,7 +1498,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Fruit Juices and Fruit Drinks",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1595,7 +1595,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Fruit Juices and Fruit Drinks",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1692,7 +1692,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Fruit Juices and Fruit Drinks",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1789,7 +1789,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-24",
+              "category_id": "Fruit Juices and Fruit Drinks",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1886,7 +1886,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Fruit Juices and Fruit Drinks",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -1983,7 +1983,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Ready to Cook and Eat",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2080,7 +2080,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2177,7 +2177,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2274,7 +2274,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2371,7 +2371,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2468,7 +2468,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2565,7 +2565,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2662,7 +2662,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2759,7 +2759,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2856,7 +2856,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -2953,7 +2953,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -3050,7 +3050,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -3147,7 +3147,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -3244,7 +3244,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -3341,7 +3341,7 @@
                 "value": "100.00",
                 "maximum_value": "200.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "657bc4de1fae5fe37194130f",
               "recommended": true,
@@ -3533,7 +3533,7 @@
                 "value": "-3834.46",
                 "maximum_value": "122.00"
               },
-              "category_id": "Fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "659e2966a76d8a2005ebffe5",
               "recommended": true,
@@ -3630,7 +3630,7 @@
                 "value": "79",
                 "maximum_value": "100.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "659e2966a76d8a2005ebffe5",
               "recommended": true,
@@ -3727,7 +3727,7 @@
                 "value": "-3.30",
                 "maximum_value": "10.00"
               },
-              "category_id": "Fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "659e2966a76d8a2005ebffe5",
               "recommended": true,
@@ -3824,7 +3824,7 @@
                 "value": "-26.84",
                 "maximum_value": "122.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "659e2966a76d8a2005ebffe5",
               "recommended": true,
@@ -4017,7 +4017,7 @@
                 "value": "0.02",
                 "maximum_value": "1.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "65b524f88a8ca6444560f1f8",
               "recommended": true,
@@ -4115,7 +4115,7 @@
                 "value": "576.00",
                 "maximum_value": "640.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "65b524f88a8ca6444560f1f8",
               "recommended": true,
@@ -4307,7 +4307,7 @@
                 "value": "234.00",
                 "maximum_value": "350.00"
               },
-              "category_id": "Fashion",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "65a0c3b308666055201abc01",
               "recommended": true,
@@ -4404,7 +4404,7 @@
                 "value": "17500.00",
                 "maximum_value": "35000.00"
               },
-              "category_id": "RET-12-14",
+              "category_id": "Masala & Seasoning",
               "fulfillment_id": "1",
               "location_id": "65a0c3b308666055201abc01",
               "recommended": true,
