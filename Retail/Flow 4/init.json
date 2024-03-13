@@ -9,9 +9,9 @@
     "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
     "bpp_id": "techondc.hexbit.io",
     "bpp_uri": "https://techondc.hexbit.io/",
-    "transaction_id": "d6c2c7d8-c065-4941-a748-e9277b232903",
-    "message_id": "8a39bcab-373f-4769-9f86-da76d6c49a68",
-    "timestamp": "2024-03-13T04:07:06.571Z",
+    "transaction_id": "f34169b5-0a87-4089-9a94-370b57bbe26f",
+    "message_id": "61aa41c9-1553-4faa-ae90-4d570555cd28",
+    "timestamp": "2024-03-13T08:21:41.514Z",
     "ttl": "PT30S"
   },
   "message": {
