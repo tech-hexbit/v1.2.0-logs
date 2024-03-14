@@ -16,7 +16,7 @@
   },
   "message": {
     "order": {
-      "id": "2024-01-16-140301",
+      "id": "2024-03-13-166680",
       "state": "Accepted",
       "billing": {
         "address": {
@@ -156,7 +156,7 @@
             "upi_address": "gft@oksbi",
             "settlement_bank_account_no": "123456789087",
             "settlement_ifsc_code": "SBIN0070074",
-            "settlement_timestamp": "2024-01-29T05:20:49.714Z",
+            "settlement_timestamp": "2024-03-13T13:06:50.940Z",
             "beneficiary_name": "Xilligence PRIVATE LIMITED",
             "bank_name": "SBI",
             "branch_name": "Andheri"
