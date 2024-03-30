@@ -28,6 +28,9 @@
         {
           "fulfillment_id": "1",
           "id": "6596b1113affdbaf0d33ebb4",
+          "quantity": {
+            "count": 1
+          },
           "tags": [
             {
               "code": "type",
@@ -43,6 +46,9 @@
         {
           "fulfillment_id": "1",
           "id": "6596b1113affdbaf0d33ebb5",
+          "quantity": {
+            "count": 1
+          },
           "tags": [
             {
               "code": "type",
