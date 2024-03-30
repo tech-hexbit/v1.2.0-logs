@@ -19,11 +19,17 @@
       "items": [
         {
           "id": "6596b1113affdbaf0d33ebb4",
-          "location_id": "657bc4de1fae5fe37194130f"
+          "location_id": "657bc4de1fae5fe37194130f",
+          "quantity": {
+            "count": 1
+          }
         },
         {
           "id": "6596b1113affdbaf0d33ebb5",
-          "location_id": "657bc4de1fae5fe37194130f"
+          "location_id": "657bc4de1fae5fe37194130f",
+          "quantity": {
+            "count": 1
+          }
         }
       ],
       "provider": {
@@ -38,7 +44,7 @@
         {
           "end": {
             "location": {
-              "gps": "30.741626701365448, 76.78115181915683",
+              "gps": "30.741626701365448,76.78115181915683",
               "address": {
                 "area_code": "400037"
               }
