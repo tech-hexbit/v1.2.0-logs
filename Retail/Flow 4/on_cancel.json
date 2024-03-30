@@ -24,9 +24,6 @@
           "id": "003"
         }
       },
-      "tags": {
-        "cancellation_reason_id": "003"
-      },
       "provider": {
         "id": "657bc4de1fae5fe37194130f",
         "locations": [
@@ -122,6 +119,12 @@
                 "state": "Maharashtra",
                 "country": "IND",
                 "area_code": "400037"
+              }
+            },
+            "time": {
+              "range": {
+                "start": "2024-03-27T05:55:09.389Z",
+                "end": "2024-03-27T06:25:09.389Z"
               }
             }
           },
