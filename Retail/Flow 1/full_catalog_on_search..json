@@ -3530,7 +3530,7 @@
               },
               "price": {
                 "currency": "INR",
-                "value": "-3834.46",
+                "value": "3834.46",
                 "maximum_value": "122.00"
               },
               "category_id": "Masala & Seasoning",
@@ -3724,7 +3724,7 @@
               },
               "price": {
                 "currency": "INR",
-                "value": "-3.30",
+                "value": "3.30",
                 "maximum_value": "10.00"
               },
               "category_id": "Masala & Seasoning",
@@ -3821,7 +3821,7 @@
               },
               "price": {
                 "currency": "INR",
-                "value": "-26.84",
+                "value": "26.84",
                 "maximum_value": "122.00"
               },
               "category_id": "Masala & Seasoning",
