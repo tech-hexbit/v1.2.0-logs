@@ -17,12 +17,17 @@
   "message": {
     "order": {
       "provider": {
-        "id": "657bc4de1fae5fe37194130f"
+        "id": "6523f7f10a9003d447f9741e",
+        "locations": [
+          {
+            "id": "6523f7f10a9003d447f9741e"
+          }
+        ]
       },
       "items": [
         {
-          "id": "6596b1113affdbaf0d33ebb4",
           "fulfillment_id": "1",
+          "id": "64f37f1847c6e1683c9644d6",
           "quantity": {
             "count": 1
           },
@@ -39,8 +44,8 @@
           ]
         },
         {
-          "id": "6596b1113affdbaf0d33ebb5",
           "fulfillment_id": "1",
+          "id": "65a648f9c5a7f79e0e4fee19",
           "quantity": {
             "count": 1
           },
@@ -67,7 +72,7 @@
               "phone": "9939197376"
             },
             "location": {
-              "gps": "30.741626701365448, 76.78115181915683",
+              "gps": "30.741626701365448,76.78115181915683",
               "address": {
                 "building": "near Barkat Ali Dargah",
                 "city": "Mumbai",
@@ -117,7 +122,7 @@
             "item": {
               "quantity": {
                 "available": {
-                  "count": "1"
+                  "count": "99"
                 },
                 "maximum": {
                   "count": "1"
@@ -163,7 +168,7 @@
             "item": {
               "quantity": {
                 "available": {
-                  "count": "1"
+                  "count": "99"
                 },
                 "maximum": {
                   "count": "1"
@@ -287,6 +292,10 @@
             {
               "code": "accept_bap_terms",
               "value": "Y"
+            },
+            {
+              "code": "provider_tax_number",
+              "value": "ABCDE1234F"
             }
           ]
         }

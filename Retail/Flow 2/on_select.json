@@ -17,17 +17,17 @@
   "message": {
     "order": {
       "provider": {
-        "id": "657bc4de1fae5fe37194130f",
+        "id": "6523f7f10a9003d447f9741e",
         "locations": [
           {
-            "id": "657bc4de1fae5fe37194130f"
+            "id": "6523f7f10a9003d447f9741e"
           }
         ]
       },
       "items": [
         {
           "fulfillment_id": "1",
-          "id": "6596b1113affdbaf0d33ebb4",
+          "id": "64f37f1847c6e1683c9644d6",
           "tags": [
             {
               "code": "type",
@@ -42,7 +42,7 @@
         },
         {
           "fulfillment_id": "1",
-          "id": "6596b1113affdbaf0d33ebb5",
+          "id": "65a648f9c5a7f79e0e4fee19",
           "tags": [
             {
               "code": "type",
@@ -78,7 +78,7 @@
         },
         "breakup": [
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
             "@ondc/org/item_quantity": {
               "count": 1
             },
@@ -91,7 +91,7 @@
             "item": {
               "quantity": {
                 "available": {
-                  "count": "1"
+                  "count": "99"
                 },
                 "maximum": {
                   "count": "1"
@@ -115,7 +115,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -124,7 +124,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
             "@ondc/org/item_quantity": {
               "count": 1
             },
@@ -137,7 +137,7 @@
             "item": {
               "quantity": {
                 "available": {
-                  "count": "1"
+                  "count": "99"
                 },
                 "maximum": {
                   "count": "1"
@@ -161,7 +161,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
