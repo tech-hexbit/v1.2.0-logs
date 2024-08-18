@@ -278,18 +278,18 @@
         "ttl": "P1D"
       },
       "payment": {
-        "uri": "https://juspay.in/",
-        "tl_method": "http/get",
         "params": {
           "amount": "540.00",
-          "currency": "INR",
-          "transaction_id": "ff83d9b3-42c1-452c-8400-067f9ae2e473"
+          "currency": "INR"
         },
         "status": "NOT-PAID",
         "type": "ON-FULFILLMENT",
         "collected_by": "BPP",
         "@ondc/org/buyer_app_finder_fee_type": "percent",
-        "@ondc/org/buyer_app_finder_fee_amount": "3.0",
+        "@ondc/org/buyer_app_finder_fee_amount": "3",
+        "@ondc/org/settlement_basis": "return_window_expiry",
+        "@ondc/org/settlement_window": "P1D",
+        "@ondc/org/withholding_amount": "0.00",
         "@ondc/org/settlement_details": [
           {
             "settlement_counterparty": "seller-app",
@@ -298,7 +298,7 @@
             "upi_address": "gft@oksbi",
             "settlement_bank_account_no": "123456789087",
             "settlement_ifsc_code": "SBIN0070074",
-            "settlement_timestamp": "2024-01-29T05:20:49.714Z",
+            "settlement_timestamp": "2024-03-13T04:22:22.016Z",
             "beneficiary_name": "Xilligence PRIVATE LIMITED",
             "bank_name": "SBI",
             "branch_name": "Andheri"
