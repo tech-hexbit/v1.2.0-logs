@@ -11,40 +11,39 @@
     "bpp_uri": "https://techondc.hexbit.io/",
     "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
     "message_id": "bb007300-2ee0-41ce-a652-b8324bc7a44f",
-    "timestamp": "2024-04-18T11:21:00.315Z",
+    "timestamp": "2024-04-14T17:56:48.161Z",
     "ttl": "PT30S"
   },
   "message": {
     "order": {
-      "id": "2024-01-16-140301",
+      "id": "2024-02-13-965022",
       "state": "Accepted",
       "provider": {
-        "id": "657bc4de1fae5fe37194130f",
+        "id": "6523f7f10a9003d447f9741e",
         "locations": [
           {
-            "id": "657bc4de1fae5fe37194130f"
+            "id": "6523f7f10a9003d447f9741e"
           }
-        ],
-        "rateable": true
+        ]
       },
       "items": [
         {
           "fulfillment_id": "1",
-          "id": "6596b1113affdbaf0d33ebb4",
+          "id": "64f37f1847c6e1683c9644d6",
           "quantity": {
             "count": 1
           }
         },
         {
           "fulfillment_id": "1",
-          "id": "6596b1113affdbaf0d33ebb5",
+          "id": "65a648f9c5a7f79e0e4fee19",
           "quantity": {
             "count": 1
           }
         },
         {
           "fulfillment_id": "C1",
-          "id": "6596b1113affdbaf0d33ebb5",
+          "id": "65a648f9c5a7f79e0e4fee19",
           "quantity": {
             "count": 0
           }
@@ -53,18 +52,18 @@
       "billing": {
         "address": {
           "building": "near Barkat Ali Dargah",
-          "name": "Sherin",
-          "locality": "Nana Phadnavis Bridge",
           "city": "Mumbai",
+          "name": "Sherin",
           "state": "Maharashtra",
           "country": "IND",
+          "locality": "Nana Phadnavis Bridge",
           "area_code": "400037"
         },
         "phone": "9939197376",
         "name": "Hexbit",
         "email": "support@hexbit.io",
-        "created_at": "2024-01-30T07:09:41.531Z",
-        "updated_at": "2024-01-30T07:09:41.531Z"
+        "created_at": "2024-01-30T11:33:58.119Z",
+        "updated_at": "2024-01-30T11:33:58.119Z"
       },
       "fulfillments": [
         {
@@ -140,6 +139,15 @@
               "phone": "9939197376"
             }
           },
+          "agent": {
+            "name": "Ramu",
+            "phone": "9886098860"
+          },
+          "vehicle": {
+            "category": "mini-truck",
+            "size": "small",
+            "registration": "2020"
+          },
           "rateable": true
         },
         {
@@ -160,7 +168,7 @@
                 },
                 {
                   "code": "id",
-                  "value": "6596b1113affdbaf0d33ebb5"
+                  "value": "65a648f9c5a7f79e0e4fee19"
                 },
                 {
                   "code": "currency",
@@ -195,7 +203,7 @@
         },
         "breakup": [
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
             "@ondc/org/item_quantity": {
               "count": 1
             },
@@ -232,7 +240,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -241,7 +249,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
             "@ondc/org/item_quantity": {
               "count": 1
             },
@@ -278,7 +286,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -311,7 +319,7 @@
         "uri": "https://juspay.in/",
         "tl_method": "http/get",
         "params": {
-          "amount": "540.00",
+          "amount": "695.00",
           "currency": "INR",
           "transaction_id": "ff83d9b3-42c1-452c-8400-067f9ae2e473"
         },
@@ -328,14 +336,14 @@
             "upi_address": "gft@oksbi",
             "settlement_bank_account_no": "123456789087",
             "settlement_ifsc_code": "SBIN0070074",
-            "settlement_timestamp": "2024-01-29T05:20:49.714Z",
+            "settlement_timestamp": "2024-01-30T11:33:58.119Z",
             "beneficiary_name": "Xilligence PRIVATE LIMITED",
             "bank_name": "SBI",
             "branch_name": "Andheri"
           }
         ]
       },
-      "created_at": "2023-02-03T09:30:00.000Z",
+      "created_at": "2024-03-13T05:55:01.366Z",
       "updated_at": "2023-02-03T10:00:00.201Z"
     }
   }
