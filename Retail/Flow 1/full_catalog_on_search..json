@@ -48,6 +48,7 @@
                 "code": "accept_bap_terms",
                 "value": "Y"
               },
+
               {
                 "code": "collect_payment144",
                 "value": "Y"
@@ -113,7 +114,7 @@
               },
               "descriptor": {
                 "name": "adidas shoes",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/unpaired-red-nike-sneaker-164_6wVEHfI",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -148,7 +149,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P745",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -210,7 +211,7 @@
               },
               "descriptor": {
                 "name": "nike jacket",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/blue-denim-button-up-jacket-QRN47la37gw",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -245,7 +246,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P746",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -307,7 +308,7 @@
               },
               "descriptor": {
                 "name": "boat headphones",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/flatlay-photography-of-wireless-headphones-PDX_a_82obo",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -342,7 +343,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P747",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -404,7 +405,7 @@
               },
               "descriptor": {
                 "name": "titan watches",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/round-silver-colored-fossil-chronograph-watch-at-922-with-brown-leather-band-4R_WEmhx8og",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -439,7 +440,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P748",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -501,7 +502,7 @@
               },
               "descriptor": {
                 "name": "dell laptop",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/macbook-pro-_sg8nXmpWDM",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -536,7 +537,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P749",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -598,7 +599,7 @@
               },
               "descriptor": {
                 "name": "samsung mobile",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/two-black-smartphones-CrPAvN29Nhs",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -633,7 +634,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P750",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -695,7 +696,7 @@
               },
               "descriptor": {
                 "name": "amul milk",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/white-candle-in-black-holder-bKy9GGCAVGE",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -730,7 +731,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P751",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -792,7 +793,7 @@
               },
               "descriptor": {
                 "name": "tyzer shirt",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/black-crew-neck-t-shirt-6Nub980bI3I",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -827,7 +828,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P752",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -889,7 +890,7 @@
               },
               "descriptor": {
                 "name": "raymond pant",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/blue-denim-jeans-on-white-textile-5NPId7L1_p4",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -924,7 +925,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P753",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -986,7 +987,7 @@
               },
               "descriptor": {
                 "name": "adidas shoes",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/unpaired-red-nike-sneaker-164_6wVEHfI",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1021,7 +1022,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P745",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1083,7 +1084,7 @@
               },
               "descriptor": {
                 "name": "nike jacket",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/blue-denim-button-up-jacket-QRN47la37gw",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1118,7 +1119,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P746",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1180,7 +1181,7 @@
               },
               "descriptor": {
                 "name": "boat headphones",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/flatlay-photography-of-wireless-headphones-PDX_a_82obo",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1215,7 +1216,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P747",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1277,7 +1278,7 @@
               },
               "descriptor": {
                 "name": "titan watches",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/round-silver-colored-fossil-chronograph-watch-at-922-with-brown-leather-band-4R_WEmhx8og",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1312,7 +1313,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P748",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1374,7 +1375,7 @@
               },
               "descriptor": {
                 "name": "dell laptop",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/macbook-pro-_sg8nXmpWDM",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1409,7 +1410,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P749",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1471,7 +1472,7 @@
               },
               "descriptor": {
                 "name": "samsung mobile",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/two-black-smartphones-CrPAvN29Nhs",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1506,7 +1507,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P750",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1568,7 +1569,7 @@
               },
               "descriptor": {
                 "name": "amul milk",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/white-candle-in-black-holder-bKy9GGCAVGE",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1603,7 +1604,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P751",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1665,7 +1666,7 @@
               },
               "descriptor": {
                 "name": "tyzer shirt",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/black-crew-neck-t-shirt-6Nub980bI3I",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1700,7 +1701,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P752",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1762,7 +1763,7 @@
               },
               "descriptor": {
                 "name": "raymond pant",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/blue-denim-jeans-on-white-textile-5NPId7L1_p4",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1797,7 +1798,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P753",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1859,7 +1860,7 @@
               },
               "descriptor": {
                 "name": "adidas shoes",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/unpaired-maroon-plimsoll-on-top-of-yellow-textile-a-QH9MAAVNI",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1894,7 +1895,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P745",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -1956,7 +1957,7 @@
               },
               "descriptor": {
                 "name": "nike jacket",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/blue-denim-button-up-jacket-QRN47la37gw",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -1991,7 +1992,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P746",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2053,7 +2054,7 @@
               },
               "descriptor": {
                 "name": "boat headphones",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/flatlay-photography-of-wireless-headphones-PDX_a_82obo",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2088,7 +2089,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P747",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2150,7 +2151,7 @@
               },
               "descriptor": {
                 "name": "titan watches",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/round-silver-colored-fossil-chronograph-watch-at-922-with-brown-leather-band-4R_WEmhx8og",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2185,7 +2186,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P748",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2247,7 +2248,7 @@
               },
               "descriptor": {
                 "name": "dell laptop",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/macbook-pro-_sg8nXmpWDM",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2282,7 +2283,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P749",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2344,7 +2345,7 @@
               },
               "descriptor": {
                 "name": "samsung mobile",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/two-black-smartphones-CrPAvN29Nhs",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2379,7 +2380,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P750",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2441,7 +2442,7 @@
               },
               "descriptor": {
                 "name": "tyzer shirt",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/black-crew-neck-t-shirt-6Nub980bI3I",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2476,7 +2477,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P752",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2538,7 +2539,7 @@
               },
               "descriptor": {
                 "name": "raymond pant",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://unsplash.com/photos/blue-denim-jeans-on-white-textile-5NPId7L1_p4",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2573,7 +2574,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P753",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2635,7 +2636,7 @@
               },
               "descriptor": {
                 "name": "adidas shoes",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2670,7 +2671,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P745",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2732,7 +2733,7 @@
               },
               "descriptor": {
                 "name": "nike jacket",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2767,7 +2768,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P746",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2829,7 +2830,7 @@
               },
               "descriptor": {
                 "name": "boat headphones",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2864,7 +2865,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P747",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -2926,7 +2927,7 @@
               },
               "descriptor": {
                 "name": "titan watches",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -2961,7 +2962,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P748",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -3023,7 +3024,7 @@
               },
               "descriptor": {
                 "name": "samsung mobile",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9iaWxlfGVufDB8fDB8fHww",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -3058,7 +3059,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P750",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -3120,7 +3121,7 @@
               },
               "descriptor": {
                 "name": "amul milk",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1600788907416-456578634209?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -3155,7 +3156,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P751",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -3217,7 +3218,7 @@
               },
               "descriptor": {
                 "name": "tyzer shirt",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hpcnR8ZW58MHx8MHx8fDA%3D",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -3252,7 +3253,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P752",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -3314,7 +3315,7 @@
               },
               "descriptor": {
                 "name": "raymond pant",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhbnR8ZW58MHx8MHx8fDA%3D",
                 "long_desc": "good quality",
                 "short_desc": "good quality",
@@ -3349,7 +3350,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "P753",
+              "@ondc/org/time_to_ship": "PT45M",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "@ondc/org/statutory_reqs_packaged_commodities": {
@@ -3506,7 +3507,7 @@
               },
               "descriptor": {
                 "name": "qweqw",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704895989621.png",
                 "long_desc": "qweqwe",
                 "short_desc": "qweqwe",
@@ -3603,7 +3604,7 @@
               },
               "descriptor": {
                 "name": "wqwrq",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1704994679839.png",
                 "long_desc": "adasd",
                 "short_desc": "dfad",
@@ -3700,7 +3701,7 @@
               },
               "descriptor": {
                 "name": "books",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920004356.png",
                 "long_desc": "dsfsadf",
                 "short_desc": "fhksjdfh",
@@ -3797,7 +3798,7 @@
               },
               "descriptor": {
                 "name": "dsaasd",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705920124433.png",
                 "long_desc": "sdf",
                 "short_desc": "sdfas",
@@ -3989,7 +3990,7 @@
               },
               "descriptor": {
                 "name": "Kitkat",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1706979917557.jpg",
                 "long_desc": "better",
                 "short_desc": "good",
@@ -4087,7 +4088,7 @@
               },
               "descriptor": {
                 "name": "McDowell's No.1",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1707021958243.jpg",
                 "long_desc": "No 1 spirit",
                 "short_desc": "No 1 spirit",
@@ -4280,7 +4281,7 @@
               },
               "descriptor": {
                 "name": "books",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705035373770.png",
                 "long_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -4377,7 +4378,7 @@
               },
               "descriptor": {
                 "name": "Oven",
-                "code": "3:29AAICP2912R1ZR",
+                "code": "1:29116342",
                 "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1705058719969.jpg",
                 "long_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
