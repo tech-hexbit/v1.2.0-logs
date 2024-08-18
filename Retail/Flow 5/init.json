@@ -9,36 +9,36 @@
     "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
     "bpp_id": "techondc.hexbit.io",
     "bpp_uri": "https://techondc.hexbit.io/",
-    "transaction_id": "4caf1312-0f3c-4024-a342-32ea74afc110",
-    "message_id": "be0deaa9-2e50-486d-b453-7184a4eaea26",
-    "timestamp": "2024-03-13T13:05:45.250Z",
+    "transaction_id": "c9c1ba57-319a-4271-b8ab-5b1a2af87170",
+    "message_id": "c4c0fe13-fbaf-4118-b98a-0e064cf15d01",
+    "timestamp": "2024-03-13T04:22:18.286Z",
     "ttl": "PT30S"
   },
   "message": {
     "order": {
       "items": [
         {
-          "id": "652bc2f0c74738e1e91d26b0",
-          "quantity": {
-            "count": 1
-          },
-          "location_id": "asus-store-location-id-1",
-          "fulfillment_id": "1"
-        },
-        {
           "id": "64f37f1847c6e1683c9644d6",
           "quantity": {
             "count": 1
           },
-          "location_id": "asus-store-location-id-1",
+          "location_id": "6523f7f10a9003d447f9741e",
+          "fulfillment_id": "1"
+        },
+        {
+          "id": "65a648f9c5a7f79e0e4fee19",
+          "quantity": {
+            "count": 1
+          },
+          "location_id": "6523f7f10a9003d447f9741e",
           "fulfillment_id": "1"
         }
       ],
       "provider": {
-        "id": "657bc4de1fae5fe37194130f",
+        "id": "6523f7f10a9003d447f9741e",
         "locations": [
           {
-            "id": "657bc4de1fae5fe37194130f"
+            "id": "6523f7f10a9003d447f9741e"
           }
         ]
       },
@@ -52,7 +52,7 @@
               "phone": "9939197376"
             },
             "location": {
-              "gps": "30.741626701365448, 76.78115181915683",
+              "gps": "30.741626701365448,76.78115181915683",
               "address": {
                 "building": "near Barkat Ali Dargah",
                 "city": "Mumbai",
