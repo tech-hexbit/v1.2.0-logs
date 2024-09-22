@@ -1,0 +1,1979 @@
+{
+  "domain": "ONDC:RET10",
+  "version": "1.2.0",
+  "bap_id": "buyer-app-preprod-v2.ondc.org",
+  "bpp_id": "techondc.hexbit.io",
+  "payload": {
+    "search_full_catalog_refresh": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "search",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
+        "message_id": "e9c908cf-609c-4679-8536-343446ee1579",
+        "timestamp": "2024-03-13T03:46:24.009Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "intent": {
+          "fulfillment": {
+            "type": "Delivery"
+          },
+          "payment": {
+            "@ondc/org/buyer_app_finder_fee_type": "percent",
+            "@ondc/org/buyer_app_finder_fee_amount": "3"
+          }
+        }
+      }
+    },
+    "on_search_full_catalog_refresh": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_search",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
+        "message_id": "e9c908cf-609c-4679-8536-343446ee1579",
+        "timestamp": "2024-03-13T03:47:14.009Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "catalog": {
+          "bpp/fulfillments": [
+            {
+              "id": "6523f7f10a9003d447f9741e",
+              "type": "Delivery"
+            }
+          ],
+          "bpp/descriptor": {
+            "name": "Hexbit.in",
+            "symbol": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png",
+            "long_desc": "Hexbit - ONDC Online eCommerce Store",
+            "short_desc": "Hexbit - ONDC Online eCommerce Store",
+            "images": ["https://www.hexbit.io/assets/HexbitLogo-886adfca.png"],
+            "tags": [
+              {
+                "code": "bpp_terms",
+                "list": [
+                  {
+                    "code": "np_type",
+                    "value": "MSN"
+                  },
+                  {
+                    "code": "accept_bap_terms",
+                    "value": "Y"
+                  },
+                  {
+                    "code": "collect_payment144",
+                    "value": "Y"
+                  }
+                ]
+              }
+            ]
+          },
+          "bpp/providers": [
+            {
+              "categories": [
+                {
+                  "id": "207214000000517453",
+                  "descriptor": {
+                    "name": "AACHI CHILLY POWDER"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "variant_group"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "attr",
+                      "list": [
+                        {
+                          "code": "name",
+                          "value": "item.quantity.unitized.measure"
+                        },
+                        {
+                          "code": "seq",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "207214000000330169",
+                  "descriptor": {
+                    "name": "SAKTHI SAMBAR POWDER"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "variant_group"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "attr",
+                      "list": [
+                        {
+                          "code": "name",
+                          "value": "item.quantity.unitized.measure"
+                        },
+                        {
+                          "code": "seq",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "207214000000378005",
+                  "descriptor": {
+                    "name": "INDIA GATE BASMATHI CLASSIC RICE"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "variant_group"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "attr",
+                      "list": [
+                        {
+                          "code": "name",
+                          "value": "item.quantity.unitized.measure"
+                        },
+                        {
+                          "code": "seq",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "207214000000330009",
+                  "descriptor": {
+                    "name": "Gold Winner Refined Sunflower Oil Pouch"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "variant_group"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "attr",
+                      "list": [
+                        {
+                          "code": "name",
+                          "value": "item.quantity.unitized.measure"
+                        },
+                        {
+                          "code": "seq",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "id": "6523f7f10a9003d447f9741e",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-03-13T03:47:14.009Z"
+              },
+              "descriptor": {
+                "name": "HEXBit.io",
+                "symbol": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "long_desc": "Hexbit",
+                "short_desc": "Hexbit",
+                "images": [
+                  "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                ]
+              },
+              "@ondc/org/fssai_license_no": "dd",
+              "ttl": "PT30S",
+              "locations": [
+                {
+                  "id": "6523f7f10a9003d447f9741e",
+                  "gps": "12.982981, 77.686527",
+                  "address": {
+                    "locality": "Maharashtra",
+                    "street": "Andheri",
+                    "city": "Chandra Dhipa",
+                    "area_code": "560001",
+                    "state": "Jharkhand"
+                  },
+                  "circle": {
+                    "gps": "12.982981, 77.686527",
+                    "radius": {
+                      "unit": "km",
+                      "value": "48"
+                    }
+                  },
+                  "time": {
+                    "label": "enable",
+                    "timestamp": "2024-03-13T03:47:14.009Z",
+                    "days": "1,2,3,4,5,6,7",
+                    "schedule": {
+                      "holidays": ["2024-08-15", "2024-08-19"],
+                      "frequency": "PT4H",
+                      "times": ["0830", "2230"]
+                    }
+                  }
+                }
+              ],
+              "items": [
+                {
+                  "id": "64f37f1847c6e1683c9644d6",
+                  "time": {
+                    "label": "enable",
+                    "timestamp": "2024-03-13T03:47:14.009Z"
+                  },
+                  "descriptor": {
+                    "name": "Addidas Shoe HEXBit.io",
+                    "code": "1:29291213",
+                    "symbol": "https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/g/q/l/12-ga1142-12-adidas-cblack-sonink-ftwwht-original-imageh7fdcyg8cvu-bb.jpeg?q=70",
+                    "long_desc": "addidas shoe 1 long desc",
+                    "short_desc": "addidas shoe 1 short desc",
+                    "images": [
+                      "https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/g/q/l/12-ga1142-12-adidas-cblack-sonink-ftwwht-original-imageh7fdcyg8cvu-bb.jpeg?q=70"
+                    ]
+                  },
+                  "quantity": {
+                    "unitized": {
+                      "measure": {
+                        "unit": "gram",
+                        "value": "234"
+                      }
+                    },
+                    "available": {
+                      "count": "99"
+                    },
+                    "maximum": {
+                      "count": "99"
+                    }
+                  },
+                  "price": {
+                    "currency": "INR",
+                    "value": "232.00",
+                    "maximum_value": "245.00"
+                  },
+                  "category_id": "Masala & Seasoning",
+                  "fulfillment_id": "6523f7f10a9003d447f9741e",
+                  "location_id": "6523f7f10a9003d447f9741e",
+                  "recommended": true,
+                  "@ondc/org/returnable": true,
+                  "@ondc/org/cancellable": true,
+                  "@ondc/org/return_window": "P7D",
+                  "@ondc/org/seller_pickup_return": false,
+                  "@ondc/org/time_to_ship": "PT45M",
+                  "@ondc/org/available_on_cod": false,
+                  "@ondc/org/contact_details_consumer_care": "9939197376",
+                  "@ondc/org/statutory_reqs_packaged_commodities": {
+                    "manufacturer_or_packer_name": "Addidas",
+                    "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                    "common_or_generic_name_of_commodity": "addidas shoe 1",
+                    "net_quantity_or_measure_of_commodity_in_pkg": "121g",
+                    "month_year_of_manufacture_packing_import": "08/2022",
+                    "imported_product_country_of_origin": "IND"
+                  },
+                  "@ondc/org/statutory_reqs_prepackaged_food": {
+                    "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                    "additives_info": "Preservatives, Artificial Colours",
+                    "brand_owner_FSSAI_license_no": "1234567890",
+                    "other_FSSAI_license_no": "1234567890",
+                    "importer_FSSAI_license_no": "1234567890",
+                    "imported_product_country_of_origin": "IND",
+                    "net_quantity": "121g"
+                  },
+                  "tags": [
+                    {
+                      "code": "origin",
+                      "list": [
+                        {
+                          "code": "country",
+                          "value": "IND"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "image",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "back_image"
+                        },
+                        {
+                          "code": "url",
+                          "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "veg_nonveg",
+                      "list": [
+                        {
+                          "code": "non_veg",
+                          "value": "yes"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "65a648f9c5a7f79e0e4fee19",
+                  "time": {
+                    "label": "enable",
+                    "timestamp": "2024-03-13T03:47:14.009Z"
+                  },
+                  "descriptor": {
+                    "name": "Tomato Hexbit 1Kg",
+                    "code": "1:29291213",
+                    "symbol": "https://images.unsplash.com/photo-1607305387299-a3d9611cd469?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "long_desc": "hello world",
+                    "short_desc": "hello",
+                    "images": [
+                      "https://images.unsplash.com/photo-1607305387299-a3d9611cd469?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    ]
+                  },
+                  "quantity": {
+                    "unitized": {
+                      "measure": {
+                        "unit": "gram",
+                        "value": "234"
+                      }
+                    },
+                    "available": {
+                      "count": "99"
+                    },
+                    "maximum": {
+                      "count": "99"
+                    }
+                  },
+                  "price": {
+                    "currency": "INR",
+                    "value": "468.16",
+                    "maximum_value": "532.00"
+                  },
+                  "category_id": "Fruits and Vegetables",
+                  "fulfillment_id": "6523f7f10a9003d447f9741e",
+                  "location_id": "6523f7f10a9003d447f9741e",
+                  "recommended": true,
+                  "@ondc/org/returnable": true,
+                  "@ondc/org/cancellable": true,
+                  "@ondc/org/return_window": "P7D",
+                  "@ondc/org/seller_pickup_return": false,
+                  "@ondc/org/time_to_ship": "PT45M",
+                  "@ondc/org/available_on_cod": false,
+                  "@ondc/org/contact_details_consumer_care": "9939197376",
+                  "@ondc/org/statutory_reqs_packaged_commodities": {
+                    "manufacturer_or_packer_name": "Camera",
+                    "manufacturer_or_packer_address": "123, xyz street, Bengaluru",
+                    "common_or_generic_name_of_commodity": "asus shoe 1",
+                    "net_quantity_or_measure_of_commodity_in_pkg": "121",
+                    "month_year_of_manufacture_packing_import": "08/2022",
+                    "imported_product_country_of_origin": "IND"
+                  },
+                  "@ondc/org/statutory_reqs_prepackaged_food": {
+                    "nutritional_info": "Energy(KCal)-(per 100kg) 420, (per serving 50g)250; Protein(g)-(per 100kg) 12, (per serving 50g) 6",
+                    "additives_info": "hw",
+                    "brand_owner_FSSAI_license_no": "1234567890",
+                    "other_FSSAI_license_no": "1234567890",
+                    "importer_FSSAI_license_no": "1234567890",
+                    "imported_product_country_of_origin": "IND",
+                    "net_quantity": "121"
+                  },
+                  "tags": [
+                    {
+                      "code": "origin",
+                      "list": [
+                        {
+                          "code": "country",
+                          "value": "IND"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "image",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "back_image"
+                        },
+                        {
+                          "code": "url",
+                          "value": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
+                        }
+                      ]
+                    },
+                    {
+                      "code": "veg_nonveg",
+                      "list": [
+                        {
+                          "code": "non_veg",
+                          "value": "yes"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "fulfillments": [
+                {
+                  "id": "6523f7f10a9003d447f9741e",
+                  "type": "Delivery",
+                  "start": {
+                    "time": {
+                      "range": {
+                        "start": "0800",
+                        "end": "1800"
+                      }
+                    }
+                  },
+                  "contact": {
+                    "phone": "9939197376",
+                    "email": "support@hexbit.in"
+                  }
+                }
+              ],
+              "tags": [
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "All"
+                    },
+                    {
+                      "code": "location",
+                      "value": "6523f7f10a9003d447f9741e"
+                    },
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "4"
+                    },
+                    {
+                      "code": "time_from",
+                      "value": "0600"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2300"
+                    }
+                  ]
+                },
+                {
+                  "code": "serviceability",
+                  "list": [
+                    {
+                      "code": "location",
+                      "value": "6523f7f10a9003d447f9741e"
+                    },
+                    {
+                      "code": "category",
+                      "value": "Masala & Seasoning"
+                    },
+                    {
+                      "code": "type",
+                      "value": "10"
+                    },
+                    {
+                      "code": "val",
+                      "value": "48"
+                    },
+                    {
+                      "code": "unit",
+                      "value": "km"
+                    }
+                  ]
+                },
+                {
+                  "code": "serviceability",
+                  "list": [
+                    {
+                      "code": "location",
+                      "value": "6523f7f10a9003d447f9741e"
+                    },
+                    {
+                      "code": "category",
+                      "value": "Fruits and Vegetables"
+                    },
+                    {
+                      "code": "type",
+                      "value": "10"
+                    },
+                    {
+                      "code": "val",
+                      "value": "48"
+                    },
+                    {
+                      "code": "unit",
+                      "value": "km"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "select": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "select",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "c9c1ba57-319a-4271-b8ab-5b1a2af87170",
+        "message_id": "60ca00a6-943a-4f30-a22a-b398d489fbf9",
+        "timestamp": "2024-03-13T04:20:11.026Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "64f37f1847c6e1683c9644d6",
+              "quantity": {
+                "count": 1
+              },
+              "location_id": "6523f7f10a9003d447f9741e"
+            },
+            {
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "quantity": {
+                "count": 1
+              },
+              "location_id": "6523f7f10a9003d447f9741e"
+            }
+          ],
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ]
+          },
+          "fulfillments": [
+            {
+              "end": {
+                "location": {
+                  "gps": "30.741626701365448,76.78115181915683",
+                  "address": {
+                    "area_code": "400037"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "on_select": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_select",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "c9c1ba57-319a-4271-b8ab-5b1a2af87170",
+        "message_id": "60ca00a6-943a-4f30-a22a-b398d489fbf9",
+        "timestamp": "2024-03-13T04:20:14.756Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ]
+          },
+          "items": [
+            {
+              "fulfillment_id": "1",
+              "id": "64f37f1847c6e1683c9644d6",
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fulfillment_id": "1",
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "type": "Delivery",
+              "@ondc/org/provider_name": "Hexbit",
+              "tracking": false,
+              "@ondc/org/category": "Standard Delivery",
+              "@ondc/org/TAT": "PT60M",
+              "state": {
+                "descriptor": {
+                  "code": "Serviceable"
+                }
+              }
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "809.16"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "nike jacket",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "468.16"
+                },
+                "item": {
+                  "quantity": {
+                    "available": {
+                      "count": "99"
+                    },
+                    "maximum": {
+                      "count": "1"
+                    }
+                  },
+                  "price": {
+                    "currency": "INR",
+                    "value": "468.16"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "adidas shoes",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "232.00"
+                },
+                "item": {
+                  "quantity": {
+                    "available": {
+                      "count": "99"
+                    },
+                    "maximum": {
+                      "count": "1"
+                    }
+                  },
+                  "price": {
+                    "currency": "INR",
+                    "value": "232.00"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "99.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Convenience Fee",
+                "@ondc/org/title_type": "misc",
+                "price": {
+                  "currency": "INR",
+                  "value": "10.00"
+                }
+              }
+            ],
+            "ttl": "P1D"
+          }
+        }
+      }
+    },
+    "select_out_of_stock": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "select",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "539a7180-062d-4bbe-9fb5-632f1db06e35",
+        "message_id": "da04af8a-5850-47aa-82f0-499644cde28a",
+        "timestamp": "2024-03-13T04:37:32.334Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "64f37f1847c6e1683c9644d6",
+              "location_id": "6523f7f10a9003d447f9741e",
+              "quantity": {
+                "count": 1
+              }
+            },
+            {
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "location_id": "6523f7f10a9003d447f9741e",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ]
+          },
+          "fulfillments": [
+            {
+              "end": {
+                "location": {
+                  "gps": "30.741626701365448,76.78115181915683",
+                  "address": {
+                    "area_code": "400037"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "on_select_out_of_stock": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_select",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "539a7180-062d-4bbe-9fb5-632f1db06e35",
+        "message_id": "da04af8a-5850-47aa-82f0-499644cde28a",
+        "timestamp": "2024-03-13T04:37:36.064Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ]
+          },
+          "items": [
+            {
+              "fulfillment_id": "1",
+              "id": "64f37f1847c6e1683c9644d6",
+              "quantity": {
+                "count": 1
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fulfillment_id": "1",
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "quantity": {
+                "count": 1
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "type": "Delivery",
+              "@ondc/org/provider_name": "Hexbit",
+              "tracking": false,
+              "@ondc/org/category": "Standard Delivery",
+              "@ondc/org/TAT": "PT60M",
+              "state": {
+                "descriptor": {
+                  "code": "Serviceable"
+                }
+              }
+            }
+          ],
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "577.16"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "nike jacket",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "468.16"
+                },
+                "item": {
+                  "quantity": {
+                    "available": {
+                      "count": "99"
+                    },
+                    "maximum": {
+                      "count": "99"
+                    }
+                  },
+                  "price": {
+                    "currency": "INR",
+                    "value": "468.16"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "@ondc/org/item_quantity": {
+                  "count": 0
+                },
+                "title": "adidas shoes",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                },
+                "item": {
+                  "quantity": {
+                    "available": {
+                      "count": "0"
+                    },
+                    "maximum": {
+                      "count": "0"
+                    }
+                  },
+                  "price": {
+                    "currency": "INR",
+                    "value": "232.00"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "99.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Convenience Fee",
+                "@ondc/org/title_type": "misc",
+                "price": {
+                  "currency": "INR",
+                  "value": "10.00"
+                }
+              }
+            ],
+            "ttl": "P1D"
+          }
+        }
+      },
+      "error": {
+        "type": "DOMAIN-ERROR",
+        "code": "40002",
+        "message": "[{\"item_id\":\"64f37f1847c6e1683c9644d6\",\"error\":\"40002\"}]"
+      }
+    },
+    "init": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "init",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "c9c1ba57-319a-4271-b8ab-5b1a2af87170",
+        "message_id": "c4c0fe13-fbaf-4118-b98a-0e064cf15d01",
+        "timestamp": "2024-03-13T04:22:18.286Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "items": [
+            {
+              "id": "64f37f1847c6e1683c9644d6",
+              "quantity": {
+                "count": 1
+              },
+              "location_id": "6523f7f10a9003d447f9741e",
+              "fulfillment_id": "1"
+            },
+            {
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "quantity": {
+                "count": 1
+              },
+              "location_id": "6523f7f10a9003d447f9741e",
+              "fulfillment_id": "1"
+            }
+          ],
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ]
+          },
+          "fulfillments": [
+            {
+              "id": "1",
+              "type": "Delivery",
+              "end": {
+                "contact": {
+                  "email": "support@hexbit.io",
+                  "phone": "9939197376"
+                },
+                "location": {
+                  "gps": "30.741626701365448,76.78115181915683",
+                  "address": {
+                    "building": "near Barkat Ali Dargah",
+                    "city": "Mumbai",
+                    "state": "Maharashtra",
+                    "country": "IND",
+                    "area_code": "400037",
+                    "locality": "Nana Phadnavis Bridge",
+                    "name": "Sherin"
+                  }
+                }
+              }
+            }
+          ],
+          "billing": {
+            "address": {
+              "building": "near Barkat Ali Dargah",
+              "city": "Mumbai",
+              "state": "Maharashtra",
+              "country": "IND",
+              "area_code": "400037",
+              "locality": "Nana Phadnavis Bridge",
+              "name": "Sherin"
+            },
+            "email": "support@hexbit.io",
+            "phone": "9939197376",
+            "name": "Hexbit",
+            "created_at": "2024-01-30T07:09:41.531Z",
+            "updated_at": "2024-01-30T07:09:41.531Z"
+          }
+        }
+      }
+    },
+    "on_init": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_init",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "c9c1ba57-319a-4271-b8ab-5b1a2af87170",
+        "message_id": "c4c0fe13-fbaf-4118-b98a-0e064cf15d01",
+        "timestamp": "2024-03-13T04:22:22.016Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ]
+          },
+          "items": [
+            {
+              "fulfillment_id": "1",
+              "id": "64f37f1847c6e1683c9644d6",
+              "quantity": {
+                "count": 1
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "fulfillment_id": "1",
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "quantity": {
+                "count": 1
+              },
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "type": "Delivery",
+              "end": {
+                "contact": {
+                  "email": "support@hexbit.io",
+                  "phone": "9939197376"
+                },
+                "location": {
+                  "gps": "30.741626701365448,76.78115181915683",
+                  "address": {
+                    "building": "near Barkat Ali Dargah",
+                    "city": "Mumbai",
+                    "state": "Maharashtra",
+                    "country": "IND",
+                    "area_code": "400037",
+                    "locality": "Nana Phadnavis Bridge",
+                    "name": "Sherin"
+                  }
+                }
+              }
+            }
+          ],
+          "billing": {
+            "address": {
+              "building": "near Barkat Ali Dargah",
+              "city": "Mumbai",
+              "state": "Maharashtra",
+              "country": "IND",
+              "area_code": "400037",
+              "locality": "Nana Phadnavis Bridge",
+              "name": "Sherin"
+            },
+            "email": "support@hexbit.io",
+            "phone": "9939197376",
+            "name": "Hexbit",
+            "created_at": "2024-01-30T07:09:41.531Z",
+            "updated_at": "2024-01-30T07:09:41.531Z"
+          },
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "809.16"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "nike jacket",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "468.16"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "468.16"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "adidas shoes",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "232.00"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "232.00"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "99.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Convenience Fee",
+                "@ondc/org/title_type": "misc",
+                "price": {
+                  "currency": "INR",
+                  "value": "10.00"
+                }
+              }
+            ],
+            "ttl": "P1D"
+          },
+          "payment": {
+            "@ondc/org/buyer_app_finder_fee_type": "percent",
+            "@ondc/org/buyer_app_finder_fee_amount": "3",
+            "@ondc/org/settlement_basis": "return_window_expiry",
+            "@ondc/org/settlement_window": "P1D",
+            "@ondc/org/withholding_amount": "0.00",
+            "@ondc/org/settlement_details": [
+              {
+                "settlement_counterparty": "seller-app",
+                "settlement_phase": "sale-amount",
+                "settlement_type": "neft",
+                "upi_address": "gft@oksbi",
+                "settlement_bank_account_no": "123456789087",
+                "settlement_ifsc_code": "SBIN0070074",
+                "settlement_timestamp": "2024-03-13T04:22:22.016Z",
+                "beneficiary_name": "Xilligence PRIVATE LIMITED",
+                "bank_name": "SBI",
+                "branch_name": "Andheri"
+              }
+            ]
+          },
+          "tags": [
+            {
+              "code": "bpp_terms",
+              "list": [
+                {
+                  "code": "max_liability",
+                  "value": "2"
+                },
+                {
+                  "code": "max_liability_cap",
+                  "value": "10000.00"
+                },
+                {
+                  "code": "mandatory_arbitration",
+                  "value": "false"
+                },
+                {
+                  "code": "court_jurisdiction",
+                  "value": "Bengaluru"
+                },
+                {
+                  "code": "delay_interest",
+                  "value": "1000.00"
+                },
+                {
+                  "code": "tax_number",
+                  "value": "24ABMFM0549H1Z8"
+                },
+                {
+                  "code": "accept_bap_terms",
+                  "value": "Y"
+                },
+                {
+                  "code": "provider_tax_number",
+                  "value": "ABCDE1234F"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "confirm": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "confirm",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "c9c1ba57-319a-4271-b8ab-5b1a2af87170",
+        "message_id": "95b67067-0e02-430f-ab7f-87eadf321861",
+        "timestamp": "2024-03-13T05:55:01.366Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "2024-02-13-965022",
+          "state": "Created",
+          "billing": {
+            "address": {
+              "building": "near Barkat Ali Dargah",
+              "name": "Sherin",
+              "locality": "Nana Phadnavis Bridge",
+              "city": "Mumbai",
+              "state": "Maharashtra",
+              "country": "IND",
+              "area_code": "400037"
+            },
+            "phone": "9939197376",
+            "name": "Hexbit",
+            "email": "support@hexbit.io",
+            "created_at": "2024-01-30T07:09:41.531Z",
+            "updated_at": "2024-01-30T07:09:41.531Z"
+          },
+          "items": [
+            {
+              "id": "64f37f1847c6e1683c9644d6",
+              "fulfillment_id": "1",
+              "quantity": {
+                "count": 1
+              }
+            },
+            {
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "fulfillment_id": "1",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ]
+          },
+          "fulfillments": [
+            {
+              "id": "1",
+              "tracking": false,
+              "end": {
+                "contact": {
+                  "email": "support@hexbit.io",
+                  "phone": "9939197376"
+                },
+                "person": {
+                  "name": "Hexbit"
+                },
+                "location": {
+                  "gps": "30.741626701365448,76.78115181915683",
+                  "address": {
+                    "building": "near Barkat Ali Dargah",
+                    "name": "Sherin",
+                    "locality": "Nana Phadnavis Bridge",
+                    "city": "Mumbai",
+                    "state": "Maharashtra",
+                    "country": "IND",
+                    "area_code": "400037"
+                  }
+                }
+              },
+              "type": "Delivery"
+            }
+          ],
+          "payment": {
+            "params": {
+              "amount": "809.16",
+              "currency": "INR"
+            },
+            "status": "NOT-PAID",
+            "type": "ON-FULFILLMENT",
+            "collected_by": "BPP",
+            "@ondc/org/buyer_app_finder_fee_type": "percent",
+            "@ondc/org/buyer_app_finder_fee_amount": "3",
+            "@ondc/org/settlement_basis": "return_window_expiry",
+            "@ondc/org/settlement_window": "P1D",
+            "@ondc/org/withholding_amount": "0.00",
+            "@ondc/org/settlement_details": [
+              {
+                "settlement_counterparty": "seller-app",
+                "settlement_phase": "sale-amount",
+                "settlement_type": "neft",
+                "upi_address": "gft@oksbi",
+                "settlement_bank_account_no": "123456789087",
+                "settlement_ifsc_code": "SBIN0070074",
+                "settlement_timestamp": "2024-03-13T04:22:22.016Z",
+                "beneficiary_name": "Xilligence PRIVATE LIMITED",
+                "bank_name": "SBI",
+                "branch_name": "Andheri"
+              }
+            ]
+          },
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "809.16"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "nike jacket",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "468.16"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "468.16"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "adidas shoes",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "232.00"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "232.00"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "99.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Convenience Fee",
+                "@ondc/org/title_type": "misc",
+                "price": {
+                  "currency": "INR",
+                  "value": "10.00"
+                }
+              }
+            ],
+            "ttl": "P1D"
+          },
+          "tags": [
+            {
+              "code": "bpp_terms",
+              "list": [
+                {
+                  "code": "tax_number",
+                  "value": "24ABMFM0549H1Z8"
+                }
+              ]
+            },
+            {
+              "code": "bap_terms",
+              "list": [
+                {
+                  "code": "tax_number",
+                  "value": "07AALCB2977P1ZV"
+                }
+              ]
+            }
+          ],
+          "created_at": "2024-03-13T05:55:01.366Z",
+          "updated_at": "2024-03-13T05:55:01.366Z"
+        }
+      }
+    },
+    "on_confirm": {
+      "context": {
+        "domain": "ONDC:RET10",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_confirm",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "techondc.hexbit.io",
+        "bpp_uri": "https://techondc.hexbit.io/",
+        "transaction_id": "c9c1ba57-319a-4271-b8ab-5b1a2af87170",
+        "message_id": "95b67067-0e02-430f-ab7f-87eadf321861",
+        "timestamp": "2024-03-13T05:55:03.366Z",
+        "ttl": "PT30S"
+      },
+      "message": {
+        "order": {
+          "id": "2024-02-13-965022",
+          "state": "Accepted",
+          "billing": {
+            "address": {
+              "building": "near Barkat Ali Dargah",
+              "name": "Sherin",
+              "locality": "Nana Phadnavis Bridge",
+              "city": "Mumbai",
+              "state": "Maharashtra",
+              "country": "IND",
+              "area_code": "400037"
+            },
+            "phone": "9939197376",
+            "name": "Hexbit",
+            "email": "support@hexbit.io",
+            "created_at": "2024-01-30T07:09:41.531Z",
+            "updated_at": "2024-01-30T07:09:41.531Z"
+          },
+          "items": [
+            {
+              "fulfillment_id": "1",
+              "id": "64f37f1847c6e1683c9644d6",
+              "quantity": {
+                "count": 1
+              }
+            },
+            {
+              "fulfillment_id": "1",
+              "id": "65a648f9c5a7f79e0e4fee19",
+              "quantity": {
+                "count": 1
+              }
+            }
+          ],
+          "provider": {
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e"
+              }
+            ],
+            "rateable": true
+          },
+          "fulfillments": [
+            {
+              "id": "1",
+              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/provider_name": "Hexbit",
+              "state": {
+                "descriptor": {
+                  "code": "Pending"
+                }
+              },
+              "type": "Delivery",
+              "tracking": false,
+              "start": {
+                "location": {
+                  "id": "6523f7f10a9003d447f9741e",
+                  "descriptor": {
+                    "name": "niyo store"
+                  },
+                  "gps": "19.114424,72.867943",
+                  "address": {
+                    "locality": "Maharashtra",
+                    "city": "Mumbai",
+                    "area_code": "160017",
+                    "state": "MH"
+                  }
+                },
+                "time": {
+                  "range": {
+                    "start": "2024-01-30T11:33:58.119Z",
+                    "end": "2024-01-30T11:43:58.119Z"
+                  }
+                },
+                "instructions": {
+                  "code": "2",
+                  "name": "ONDC order",
+                  "short_desc": "value of PCC",
+                  "long_desc": "additional instructions such as register or counter no for self-pickup"
+                },
+                "contact": {
+                  "email": "support@hexbit.io",
+                  "phone": "9939197376"
+                }
+              },
+              "end": {
+                "location": {
+                  "gps": "30.741626701365448, 76.78115181915683",
+                  "address": {
+                    "building": "near Barkat Ali Dargah",
+                    "name": "Hexbit",
+                    "locality": "Nana Phadnavis Bridge",
+                    "city": "Mumbai",
+                    "state": "Maharashtra",
+                    "country": "IND",
+                    "area_code": "400037"
+                  }
+                },
+                "time": {
+                  "range": {
+                    "start": "2024-01-30T11:33:58.119Z",
+                    "end": "2024-01-30T11:43:58.119Z"
+                  }
+                },
+                "instructions": {
+                  "name": "test",
+                  "short_desc": "test"
+                },
+                "person": {
+                  "name": "Hexbit"
+                },
+                "contact": {
+                  "email": "support@hexbit.io",
+                  "phone": "9939197376"
+                }
+              },
+              "rateable": true
+            }
+          ],
+          "payment": {
+            "params": {
+              "amount": "809.16",
+              "currency": "INR"
+            },
+            "status": "NOT-PAID",
+            "type": "ON-FULFILLMENT",
+            "collected_by": "BPP",
+            "@ondc/org/buyer_app_finder_fee_type": "percent",
+            "@ondc/org/buyer_app_finder_fee_amount": "3",
+            "@ondc/org/settlement_basis": "return_window_expiry",
+            "@ondc/org/settlement_window": "P1D",
+            "@ondc/org/withholding_amount": "0.00",
+            "@ondc/org/settlement_details": [
+              {
+                "settlement_counterparty": "seller-app",
+                "settlement_phase": "sale-amount",
+                "settlement_type": "neft",
+                "upi_address": "gft@oksbi",
+                "settlement_bank_account_no": "123456789087",
+                "settlement_ifsc_code": "SBIN0070074",
+                "settlement_timestamp": "2024-03-13T04:22:22.016Z",
+                "beneficiary_name": "Xilligence PRIVATE LIMITED",
+                "bank_name": "SBI",
+                "branch_name": "Andheri"
+              }
+            ]
+          },
+          "quote": {
+            "price": {
+              "currency": "INR",
+              "value": "809.16"
+            },
+            "breakup": [
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "nike jacket",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "468.16"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "468.16"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "@ondc/org/item_quantity": {
+                  "count": 1
+                },
+                "title": "adidas shoes",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "232.00"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "232.00"
+                  },
+                  "tags": [
+                    {
+                      "code": "type",
+                      "list": [
+                        {
+                          "code": "type",
+                          "value": "item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
+                "title": "Tax",
+                "@ondc/org/title_type": "tax",
+                "price": {
+                  "currency": "INR",
+                  "value": "0.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": {
+                  "currency": "INR",
+                  "value": "99.00"
+                }
+              },
+              {
+                "@ondc/org/item_id": "1",
+                "title": "Convenience Fee",
+                "@ondc/org/title_type": "misc",
+                "price": {
+                  "currency": "INR",
+                  "value": "10.00"
+                }
+              }
+            ],
+            "ttl": "P1D"
+          },
+          "tags": [
+            {
+              "code": "bpp_terms",
+              "list": [
+                {
+                  "code": "tax_number",
+                  "value": "24ABMFM0549H1Z8"
+                },
+                {
+                  "code": "np_type",
+                  "value": "MSN"
+                },
+                {
+                  "code": "provider_tax_number",
+                  "value": "ABCDE1234F"
+                }
+              ]
+            },
+            {
+              "code": "bap_terms",
+              "list": [
+                {
+                  "code": "tax_number",
+                  "value": "07AALCB2977P1ZV"
+                }
+              ]
+            }
+          ],
+          "created_at": "2024-03-13T05:55:01.366Z",
+          "updated_at": "2024-03-13T05:55:03.366Z"
+        }
+      }
+    },
+    "on_status_pending": {},
+    "on_status_packed": {},
+    "on_status_picked": {},
+    "on_status_out_for_delivery": {},
+    "on_status_delivered": {}
+  },
+  "flow": "3"
+}
