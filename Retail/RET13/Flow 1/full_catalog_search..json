@@ -1,6 +1,6 @@
 {
   "context": {
-    "domain": "ONDC:RET12",
+    "domain": "ONDC:RET13",
     "country": "IND",
     "city": "std:080",
     "action": "search",

@@ -1,6 +1,6 @@
 {
   "context": {
-    "domain": "ONDC:RET12",
+    "domain": "ONDC:RET13",
     "country": "IND",
     "city": "std:080",
     "action": "select",
@@ -18,7 +18,7 @@
     "order": {
       "items": [
         {
-          "id": "6647905fee576fad81980ab4",
+          "id": "667eda2af0b342c442711c72",
           "quantity": {
             "count": 1
           },

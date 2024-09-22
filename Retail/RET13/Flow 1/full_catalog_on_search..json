@@ -1,6 +1,6 @@
 {
   "context": {
-    "domain": "ONDC:RET12",
+    "domain": "ONDC:RET13",
     "country": "IND",
     "city": "std:080",
     "action": "on_search",
@@ -52,7 +52,7 @@
         {
           "categories": [
             {
-              "id": "6647905fee576fad81980ab4",
+              "id": "667eda2af0b342c442711c72",
               "descriptor": {
                 "name": "AACHI CHILLY POWDER"
               },
@@ -230,13 +230,13 @@
           ],
           "items": [
             {
-              "id": "6647905fee576fad81980ab4",
+              "id": "667eda2af0b342c442711c72",
               "time": {
                 "label": "enable",
                 "timestamp": "2024-03-13T03:47:14.009Z"
               },
               "descriptor": {
-                "name": "Roadster Formal Shirt",
+                "name": "Lush Red Cream for Oily Skin Hexbit",
                 "code": "4:29291213",
                 "symbol": "https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/g/q/l/12-ga1142-12-adidas-cblack-sonink-ftwwht-original-imageh7fdcyg8cvu-bb.jpeg?q=70",
                 "long_desc": "addidas shoe 1 long desc",
@@ -264,7 +264,7 @@
                 "value": "232.00",
                 "maximum_value": "245.00"
               },
-              "category_id": "Masala & Seasoning",
+              "category_id": "Skin Care - Lotions, Moisturisers, and Creams",
               "fulfillment_id": "6523f7f10a9003d447f9741e",
               "location_id": "6523f7f10a9003d447f9741e",
               "recommended": true,

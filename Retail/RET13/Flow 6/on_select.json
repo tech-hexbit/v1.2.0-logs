@@ -1,6 +1,6 @@
 {
   "context": {
-    "domain": "ONDC:RET12",
+    "domain": "ONDC:RET13",
     "country": "IND",
     "city": "std:080",
     "action": "on_select",
@@ -27,7 +27,7 @@
       "items": [
         {
           "fulfillment_id": "1",
-          "id": "6647905fee576fad81980ab4",
+          "id": "667eda2af0b342c442711c72",
           "tags": [
             {
               "code": "type",
@@ -63,7 +63,7 @@
         },
         "breakup": [
           {
-            "@ondc/org/item_id": "6647905fee576fad81980ab4",
+            "@ondc/org/item_id": "667eda2af0b342c442711c72",
             "@ondc/org/item_quantity": {
               "count": 1
             },
@@ -100,7 +100,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6647905fee576fad81980ab4",
+            "@ondc/org/item_id": "667eda2af0b342c442711c72",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
