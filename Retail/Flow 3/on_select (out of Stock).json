@@ -2,7 +2,7 @@
   "context": {
     "domain": "ONDC:RET10",
     "country": "IND",
-    "city": "std:0172",
+    "city": "std:080",
     "action": "on_select",
     "core_version": "1.2.0",
     "bap_id": "buyer-app-preprod-v2.ondc.org",
@@ -17,17 +17,17 @@
   "message": {
     "order": {
       "provider": {
-        "id": "657bc4de1fae5fe37194130f",
+        "id": "6523f7f10a9003d447f9741e",
         "locations": [
           {
-            "id": "657bc4de1fae5fe37194130f"
+            "id": "6523f7f10a9003d447f9741e"
           }
         ]
       },
       "items": [
         {
           "fulfillment_id": "1",
-          "id": "6596b1113affdbaf0d33ebb4",
+          "id": "64f37f1847c6e1683c9644d6",
           "quantity": {
             "count": 1
           },
@@ -45,7 +45,7 @@
         },
         {
           "fulfillment_id": "1",
-          "id": "6596b1113affdbaf0d33ebb5",
+          "id": "65a648f9c5a7f79e0e4fee19",
           "quantity": {
             "count": 1
           },
@@ -80,11 +80,11 @@
       "quote": {
         "price": {
           "currency": "INR",
-          "value": "341.00"
+          "value": "577.16"
         },
         "breakup": [
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
             "@ondc/org/item_quantity": {
               "count": 1
             },
@@ -92,20 +92,20 @@
             "@ondc/org/title_type": "item",
             "price": {
               "currency": "INR",
-              "value": "232.00"
+              "value": "468.16"
             },
             "item": {
               "quantity": {
                 "available": {
-                  "count": "1"
+                  "count": "99"
                 },
                 "maximum": {
-                  "count": "1"
+                  "count": "99"
                 }
               },
               "price": {
                 "currency": "INR",
-                "value": "232.00"
+                "value": "468.16"
               },
               "tags": [
                 {
@@ -121,7 +121,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb5",
+            "@ondc/org/item_id": "65a648f9c5a7f79e0e4fee19",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -130,7 +130,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
             "@ondc/org/item_quantity": {
               "count": 0
             },
@@ -151,7 +151,7 @@
               },
               "price": {
                 "currency": "INR",
-                "value": "199.00"
+                "value": "232.00"
               },
               "tags": [
                 {
@@ -167,7 +167,7 @@
             }
           },
           {
-            "@ondc/org/item_id": "6596b1113affdbaf0d33ebb4",
+            "@ondc/org/item_id": "64f37f1847c6e1683c9644d6",
             "title": "Tax",
             "@ondc/org/title_type": "tax",
             "price": {
@@ -201,6 +201,6 @@
   "error": {
     "type": "DOMAIN-ERROR",
     "code": "40002",
-    "message": "[{\"item_id\":\"6596b1113affdbaf0d33ebb4\",\"error\":\"40002\"}]"
+    "message": "[{\"item_id\":\"64f37f1847c6e1683c9644d6\",\"error\":\"40002\"}]"
   }
 }
