@@ -84,7 +84,7 @@
             {
               "categories": [
                 {
-                  "id": "207214000000517453",
+                  "id": "64f37f1847c6e1683c9644d6",
                   "descriptor": {
                     "name": "AACHI CHILLY POWDER"
                   },
@@ -250,6 +250,16 @@
                   }
                 }
               ],
+              "categories": [
+                {
+                  "id": "Standard Delivery",
+                  "time": {
+                    "duration": "PT45M",
+                    "label": "TAT",
+                    "timestamp": "2024-02-09"
+                  }
+                }
+              ],
               "items": [
                 {
                   "id": "6647905fee576fad81980ab4",
@@ -259,7 +269,7 @@
                   },
                   "descriptor": {
                     "name": "Roadster Formal Shirt",
-                    "code": "1:29291213",
+                    "code": "4:29291213",
                     "symbol": "https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/g/q/l/12-ga1142-12-adidas-cblack-sonink-ftwwht-original-imageh7fdcyg8cvu-bb.jpeg?q=70",
                     "long_desc": "addidas shoe 1 long desc",
                     "short_desc": "addidas shoe 1 short desc",
