@@ -8,8 +8,8 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "transaction_id": "fa7adcaf-a385-40bb-b8fd-cf8a3e04caaf",
-        "message_id": "47f08bd9-a5c7-4fef-935a-2b8e181dc94f",
-        "timestamp": "2024-10-05T07:38:48.808Z",
+        "message_id": "8fb368ee-5d1e-4701-bc58-cfef0a6c4bd4",
+        "timestamp": "2024-10-05T07:37:14.906Z",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
         "ttl": "PT30S"
@@ -17,7 +17,7 @@
     "message": {
         "order": {
             "id": "2024-10-05-851543",
-            "state": "In-progress",
+            "state": "Created",
             "provider": {
                 "id": "6523f7f10a9003d447f9741e",
                 "locations": [
@@ -44,7 +44,7 @@
                     "tracking": false,
                     "state": {
                         "descriptor": {
-                            "code": "Packed"
+                            "code": "Pending"
                         }
                     },
                     "start": {
@@ -62,9 +62,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-05T07:38:48.808Z",
+                            "timestamp": "2024-10-05T07:37:14.906Z",
                             "range": {
-                                "start": "2024-10-05T07:38:48.808Z",
+                                "start": "2024-10-05T07:37:14.906Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         },
@@ -94,9 +94,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-05T07:38:48.808Z",
+                            "timestamp": "2024-10-05T07:37:14.906Z",
                             "range": {
-                                "start": "2024-10-05T07:38:48.808Z",
+                                "start": "2024-10-05T07:37:14.906Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         }

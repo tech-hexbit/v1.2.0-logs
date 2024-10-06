@@ -8,8 +8,8 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "transaction_id": "fa7adcaf-a385-40bb-b8fd-cf8a3e04caaf",
-        "message_id": "47f08bd9-a5c7-4fef-935a-2b8e181dc94f",
-        "timestamp": "2024-10-05T07:38:48.808Z",
+        "message_id": "1cb5ab46-bad9-40d5-b927-c7138b6ed0c4",
+        "timestamp": "2024-10-05T07:41:27.691Z",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
         "ttl": "PT30S"
@@ -44,7 +44,7 @@
                     "tracking": false,
                     "state": {
                         "descriptor": {
-                            "code": "Packed"
+                            "code": "Out-for-delivery"
                         }
                     },
                     "start": {
@@ -62,9 +62,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-05T07:38:48.808Z",
+                            "timestamp": "2024-10-05T07:41:27.691Z",
                             "range": {
-                                "start": "2024-10-05T07:38:48.808Z",
+                                "start": "2024-10-05T07:41:27.691Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         },
@@ -94,9 +94,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-05T07:38:48.808Z",
+                            "timestamp": "2024-10-05T07:41:27.691Z",
                             "range": {
-                                "start": "2024-10-05T07:38:48.808Z",
+                                "start": "2024-10-05T07:41:27.691Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         }

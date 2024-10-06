@@ -3,21 +3,21 @@
         "domain": "ONDC:RET13",
         "country": "IND",
         "city": "std:080",
-        "action": "on_stauts",
+        "action": "on_status",
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "transaction_id": "fa7adcaf-a385-40bb-b8fd-cf8a3e04caaf",
-        "message_id": "47f08bd9-a5c7-4fef-935a-2b8e181dc94f",
-        "timestamp": "2024-10-05T07:38:48.808Z",
+        "transaction_id": "4ec0c336-bbff-4e0f-90e5-909b841bcecc",
+        "message_id": "6ae719ec-9a3c-4d7f-81d0-969217d2527f",
+        "timestamp": "2024-10-05T05:27:50.291Z",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
         "ttl": "PT30S"
     },
     "message": {
         "order": {
-            "id": "2024-10-05-851543",
-            "state": "In-progress",
+            "id": "2024-10-05-265055",
+            "state": "Created",
             "provider": {
                 "id": "6523f7f10a9003d447f9741e",
                 "locations": [
@@ -44,7 +44,7 @@
                     "tracking": false,
                     "state": {
                         "descriptor": {
-                            "code": "Packed"
+                            "code": "Pending"
                         }
                     },
                     "start": {
@@ -62,9 +62,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-05T07:38:48.808Z",
+                            "timestamp": "2024-10-05T05:27:50.291Z",
                             "range": {
-                                "start": "2024-10-05T07:38:48.808Z",
+                                "start": "2024-10-05T05:27:50.291Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         },
@@ -94,9 +94,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-05T07:38:48.808Z",
+                            "timestamp": "2024-10-05T05:27:50.291Z",
                             "range": {
-                                "start": "2024-10-05T07:38:48.808Z",
+                                "start": "2024-10-05T05:27:50.291Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         }
@@ -144,8 +144,8 @@
                 "phone": "8292447564",
                 "name": "Rishab Raj Singh",
                 "email": "prakashpramanickjsr1717@gmail.com",
-                "created_at": "2024-10-05T07:30:32.800Z",
-                "updated_at": "2024-10-05T07:30:32.800Z"
+                "created_at": "2024-10-05T05:26:41.832Z",
+                "updated_at": "2024-10-05T05:26:41.832Z"
             },
             "quote": {
                 "ttl": "P1D",
@@ -180,7 +180,7 @@
                 "params": {
                     "amount": "509.00",
                     "currency": "INR",
-                    "transaction_id": "order_P5H5REFrYCHKyB"
+                    "transaction_id": "order_P5Eyc07dwzZduj"
                 },
                 "status": "PAID",
                 "type": "ON-ORDER",
@@ -198,7 +198,7 @@
                         "upi_address": "gft@oksbi",
                         "settlement_bank_account_no": "123456789087",
                         "settlement_ifsc_code": "SBIN0070074",
-                        "settlement_timestamp": "2024-10-05T07:30:33.040Z",
+                        "settlement_timestamp": "2024-10-05T05:26:42.067Z",
                         "beneficiary_name": "Xilligence PRIVATE LIMITED",
                         "bank_name": "SBI",
                         "branch_name": "Andheri"
