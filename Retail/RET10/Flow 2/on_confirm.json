@@ -3,13 +3,13 @@
         "domain": "ONDC:RET10",
         "country": "IND",
         "city": "std:080",
-        "action": "on_status",
+        "action": "on_confirm",
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "transaction_id": "b4829ac8-b370-4616-ba1b-ddd2e7718661",
-        "message_id": "b2fdf7cd-8381-432a-a313-cd2336b5ae0a",
-        "timestamp": "2024-10-04T12:11:54.582Z",
+        "message_id": "5a0a65c0-4d3a-4e4f-991d-9cb114683ab1",
+        "timestamp": "2024-10-04T12:04:27.862Z",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
         "ttl": "PT30S"
@@ -24,7 +24,8 @@
                     {
                         "id": "6523f7f10a9003d447f9741e"
                     }
-                ]
+                ],
+                "rateable": true
             },
             "items": [
                 {
@@ -33,102 +34,6 @@
                         "count": 2
                     },
                     "fulfillment_id": "6523f7f10a9003d447f9741e"
-                }
-            ],
-            "fulfillments": [
-                {
-                    "id": "6523f7f10a9003d447f9741e",
-                    "@ondc/org/provider_name": "HEXBit.io",
-                    "type": "Delivery",
-                    "@ondc/org/TAT": "PT60M",
-                    "tracking": false,
-                    "state": {
-                        "descriptor": {
-                            "code": "Pending"
-                        }
-                    },
-                    "start": {
-                        "location": {
-                            "id": "6523f7f10a9003d447f9741e",
-                            "descriptor": {
-                                "name": "HEXBit.io"
-                            },
-                            "gps": "12.982981, 77.686527",
-                            "address": {
-                                "locality": "Doddanekkundi",
-                                "city": "BENGALURU",
-                                "state": "KARNATAKA",
-                                "area_code": "560001"
-                            }
-                        },
-                        "time": {
-                            "timestamp": "2024-10-04T12:11:54.582Z",
-                            "range": {
-                                "start": "2024-10-04T12:11:54.582Z",
-                                "end": "2023-12-04T07:49:17.286Z"
-                            }
-                        },
-                        "contact": {
-                            "email": "rishavrajcrj@gmail.com",
-                            "phone": "9939197376"
-                        }
-                    },
-                    "end": {
-                        "person": {
-                            "name": "Rishab Raj Singh"
-                        },
-                        "contact": {
-                            "email": "prakashpramanickjsr1717@gmail.com",
-                            "phone": "8292447564"
-                        },
-                        "location": {
-                            "gps": "12.979262,77.695246",
-                            "address": {
-                                "name": "Rishab Raj Singh",
-                                "building": "Home 1324",
-                                "locality": "Outer Ring Road",
-                                "city": "Bengaluru",
-                                "state": "Karnataka",
-                                "country": "IND",
-                                "area_code": "560037"
-                            }
-                        },
-                        "time": {
-                            "timestamp": "2024-10-04T12:11:54.582Z",
-                            "range": {
-                                "start": "2024-10-04T12:11:54.582Z",
-                                "end": "2023-12-04T07:49:17.286Z"
-                            }
-                        }
-                    },
-                    "tags": [
-                        {
-                            "code": "state",
-                            "list": [
-                                {
-                                    "code": "ready_to_ship",
-                                    "value": "yes"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "tracking",
-                            "list": [
-                                {
-                                    "code": "gps_enabled",
-                                    "value": "yes"
-                                },
-                                {
-                                    "code": "url_enabled",
-                                    "value": "no"
-                                },
-                                {
-                                    "code": "url",
-                                    "value": "https://sellerNP.com/ondc/tracking_url"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ],
             "billing": {
@@ -147,8 +52,76 @@
                 "created_at": "2024-10-04T12:04:00.696Z",
                 "updated_at": "2024-10-04T12:04:00.696Z"
             },
+            "fulfillments": [
+                {
+                    "id": "6523f7f10a9003d447f9741e",
+                    "@ondc/org/provider_name": "HEXBit.io",
+                    "state": {
+                        "descriptor": {
+                            "code": "Pending"
+                        }
+                    },
+                    "type": "Delivery",
+                    "tracking": false,
+                    "start": {
+                        "location": {
+                            "gps": "12.982981, 77.686527",
+                            "address": {
+                                "name": "Anantha Narayanan Seetharaman",
+                                "country": "IND",
+                                "locality": "Doddanekkundi",
+                                "building": "Sri Venkata Shiva PG",
+                                "city": "BENGALURU",
+                                "state": "KARNATAKA",
+                                "area_code": "560001"
+                            }
+                        },
+                        "time": {
+                            "range": {
+                                "start": "2024-10-04T12:04:27.862Z",
+                                "end": "2023-12-11T07:11:00.743Z"
+                            }
+                        },
+                        "contact": {
+                            "email": "rishavrajcrj@gmail.com",
+                            "phone": "9939197376"
+                        }
+                    },
+                    "end": {
+                        "location": {
+                            "gps": "12.979262,77.695246",
+                            "address": {
+                                "name": "Rishab Raj Singh",
+                                "building": "Home 1324",
+                                "locality": "Outer Ring Road",
+                                "city": "Bengaluru",
+                                "state": "Karnataka",
+                                "country": "IND",
+                                "area_code": "560037"
+                            }
+                        },
+                        "time": {
+                            "range": {
+                                "start": "2024-10-04T12:04:27.862Z",
+                                "end": "2023-12-11T07:11:00.743Z"
+                            }
+                        },
+                        "instructions": {
+                            "name": "HEXBit",
+                            "short_desc": "HEXBit test short_desc"
+                        },
+                        "person": {
+                            "name": "Rishab Raj Singh"
+                        },
+                        "contact": {
+                            "email": "prakashpramanickjsr1717@gmail.com",
+                            "phone": "8292447564"
+                        }
+                    },
+                    "rateable": true
+                }
+            ],
             "quote": {
-                "ttl": "P1D",
                 "price": {
                     "currency": "INR",
                     "value": "1045.32"
@@ -171,8 +144,27 @@
                                 "value": "468.16"
                             }
                         }
+                    },
+                    {
+                        "@ondc/org/item_id": "6523f7f10a9003d447f9741e",
+                        "title": "Delivery charges",
+                        "@ondc/org/title_type": "delivery",
+                        "price": {
+                            "currency": "INR",
+                            "value": "99.00"
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "6523f7f10a9003d447f9741e",
+                        "title": "Convenience Fee",
+                        "@ondc/org/title_type": "misc",
+                        "price": {
+                            "currency": "INR",
+                            "value": "10.00"
+                        }
                     }
-                ]
+                ],
+                "ttl": "P1D"
             },
             "payment": {
                 "uri": "https://razorpay.com/",
@@ -205,8 +197,54 @@
                     }
                 ]
             },
-            "created_at": "2023-02-03T09:30:00.000Z",
-            "updated_at": "2023-02-03T10:00:00.201Z"
+            "cancellation_terms": [
+                {
+                    "fulfillment_state": {
+                        "descriptor": {
+                            "code": "Pending",
+                            "short_desc": ""
+                        }
+                    },
+                    "refund_eligible": true,
+                    "reason_required": false,
+                    "cancellation_fee": {
+                        "amount": {
+                            "currency": "INR",
+                            "value": "0.00"
+                        }
+                    }
+                }
+            ],
+            "tags": [
+                {
+                    "code": "bpp_terms",
+                    "list": [
+                        {
+                            "code": "tax_number",
+                            "value": "29AAICP2912R1ZR"
+                        },
+                        {
+                            "code": "provider_tax_number",
+                            "value": "AALCB2977P"
+                        },
+                        {
+                            "code": "np_type",
+                            "value": "MSN"
+                        }
+                    ]
+                },
+                {
+                    "code": "bap_terms",
+                    "list": [
+                        {
+                            "code": "tax_number",
+                            "value": "GSTIN1234567890"
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2024-10-04T12:04:27.421Z",
+            "updated_at": "2024-10-04T12:04:27.421Z"
         }
     }
 }

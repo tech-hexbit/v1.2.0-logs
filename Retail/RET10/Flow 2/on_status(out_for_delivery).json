@@ -7,16 +7,16 @@
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "transaction_id": "ceb956d2-0c8a-416b-acc9-26273f78143e",
-        "message_id": "ccc649cb-6c4f-47d0-9bd6-2a8d4820e509",
-        "timestamp": "2024-10-04T11:31:40.229Z",
+        "transaction_id": "b4829ac8-b370-4616-ba1b-ddd2e7718661",
+        "message_id": "708434bc-e0ce-4b94-a8a6-51b093123354",
+        "timestamp": "2024-10-04T12:20:29.947Z",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
         "ttl": "PT30S"
     },
     "message": {
         "order": {
-            "id": "2024-10-03-429936",
+            "id": "2024-10-04-470191",
             "state": "In-progress",
             "provider": {
                 "id": "6523f7f10a9003d447f9741e",
@@ -62,9 +62,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-04T11:31:40.229Z",
+                            "timestamp": "2024-10-04T12:20:29.947Z",
                             "range": {
-                                "start": "2024-10-04T11:31:40.229Z",
+                                "start": "2024-10-04T12:20:29.947Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         },
@@ -94,9 +94,9 @@
                             }
                         },
                         "time": {
-                            "timestamp": "2024-10-04T11:31:40.229Z",
+                            "timestamp": "2024-10-04T12:20:29.947Z",
                             "range": {
-                                "start": "2024-10-04T11:31:40.229Z",
+                                "start": "2024-10-04T12:20:29.947Z",
                                 "end": "2023-12-04T07:49:17.286Z"
                             }
                         }
@@ -144,8 +144,8 @@
                 "phone": "8292447564",
                 "name": "Rishab Raj Singh",
                 "email": "prakashpramanickjsr1717@gmail.com",
-                "created_at": "2024-10-03T19:30:48.700Z",
-                "updated_at": "2024-10-03T19:30:48.700Z"
+                "created_at": "2024-10-04T12:04:00.696Z",
+                "updated_at": "2024-10-04T12:04:00.696Z"
             },
             "quote": {
                 "ttl": "P1D",
@@ -175,13 +175,16 @@
                 ]
             },
             "payment": {
+                "uri": "https://razorpay.com/",
+                "tl_method": "http/get",
                 "params": {
                     "amount": "1045.32",
-                    "currency": "INR"
+                    "currency": "INR",
+                    "transaction_id": "order_P4xD5Y3PMU0oqG"
                 },
-                "status": "NOT-PAID",
-                "type": "ON-FULFILLMENT",
-                "collected_by": "BPP",
+                "status": "PAID",
+                "type": "ON-ORDER",
+                "collected_by": "BAP",
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
                 "@ondc/org/buyer_app_finder_fee_amount": "3.0",
                 "@ondc/org/settlement_basis": "return_window_expiry",
@@ -195,7 +198,7 @@
                         "upi_address": "gft@oksbi",
                         "settlement_bank_account_no": "123456789087",
                         "settlement_ifsc_code": "SBIN0070074",
-                        "settlement_timestamp": "2024-10-03T19:30:48.946Z",
+                        "settlement_timestamp": "2024-10-04T12:04:00.985Z",
                         "beneficiary_name": "Xilligence PRIVATE LIMITED",
                         "bank_name": "SBI",
                         "branch_name": "Andheri"
