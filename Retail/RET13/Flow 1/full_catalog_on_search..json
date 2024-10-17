@@ -11,7 +11,7 @@
     "bpp_uri": "https://techondc.hexbit.io/",
     "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
     "message_id": "22bc3d34-a49d-4056-8fe4-3d6fc5a0aa93",
-    "timestamp": "2024-10-06T15:53:44.428Z",
+    "timestamp": "2024-10-17T06:08:51.618Z",
     "ttl": "PT30S"
   },
   "message": {
@@ -45,7 +45,7 @@
           "id": "6523f7f10a9003d447f9741e",
           "time": {
             "label": "enable",
-            "timestamp": "2024-10-06T15:53:44.428Z"
+            "timestamp": "2024-10-17T06:08:51.618Z"
           },
           "descriptor": {
             "name": "HEXBit.io",
@@ -77,7 +77,7 @@
               },
               "time": {
                 "label": "enable",
-                "timestamp": "2024-10-06T15:53:44.428Z",
+                "timestamp": "2024-10-17T06:08:51.618Z",
                 "days": "1,2,3,4,5,6,7",
                 "schedule": {
                   "holidays": ["2023-08-15", "2023-08-19"],
@@ -92,7 +92,7 @@
               "id": "667eda2af0b342c442711c72",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-10-06T15:53:44.428Z"
+                "timestamp": "2024-10-17T06:08:51.618Z"
               },
               "descriptor": {
                 "name": "Lush Red Cream for Oily Skin Hexbit",
@@ -134,6 +134,74 @@
               "@ondc/org/seller_pickup_return": false,
               "@ondc/org/time_to_ship": "PT45",
               "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
+              "tags": [
+                {
+                  "code": "origin",
+                  "list": [
+                    {
+                      "code": "country",
+                      "value": "IND"
+                    }
+                  ]
+                },
+                {
+                  "code": "attribute",
+                  "list": [
+                    {
+                      "code": "brand",
+                      "value": "TRESemme"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "670f26b00b24e294d1ab21c8",
+              "time": {
+                "label": "enable",
+                "timestamp": "2024-10-17T06:08:51.618Z"
+              },
+              "descriptor": {
+                "name": "asssssssssssss RET13",
+                "code": "1:8901030705915",
+                "symbol": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1729046190150.jpg",
+                "long_desc": "asssssssssssss RET13",
+                "short_desc": "asssssssssssss RET13",
+                "images": [
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1729046190150.jpg",
+                  "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1729046191327.jpg"
+                ]
+              },
+              "quantity": {
+                "unitized": {
+                  "measure": {
+                    "unit": "unit",
+                    "value": "1"
+                  }
+                },
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "99"
+                }
+              },
+              "price": {
+                "currency": "INR",
+                "value": "121.20",
+                "maximum_value": "120.00"
+              },
+              "category_id": "Makeup - Sets and Kits",
+              "fulfillment_id": "6523f7f10a9003d447f9741e",
+              "location_id": "6523f7f10a9003d447f9741e",
+              "recommended": true,
+              "@ondc/org/returnable": true,
+              "@ondc/org/cancellable": true,
+              "@ondc/org/return_window": "P7D",
+              "@ondc/org/seller_pickup_return": false,
+              "@ondc/org/time_to_ship": "P4D",
+              "@ondc/org/available_on_cod": true,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "tags": [
                 {
