@@ -7,18 +7,22 @@
     "core_version": "1.2.0",
     "bap_id": "buyer-app-preprod-v2.ondc.org",
     "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-    "transaction_id": "5b725863-bcc9-404e-b794-8d293b11ede3",
-    "message_id": "c86406f6-5ea5-4e8e-ba0f-f7fc33691724",
-    "timestamp": "2024-10-18T02:26:31.028Z",
     "bpp_id": "techondc.hexbit.io",
     "bpp_uri": "https://techondc.hexbit.io/",
+    "transaction_id": "5b725863-bcc9-404e-b794-8d293b11ede3",
+    "message_id": "c86406f6-5ea5-4e8e-ba0f-f7fc33691724",
+    "timestamp": "2024-10-18T12:56:05.282Z",
     "ttl": "PT30S"
   },
   "message": {
     "order": {
       "provider": {
         "id": "6523f7f10a9003d447f9741e",
-        "locations": [{ "id": "6523f7f10a9003d447f9741e" }]
+        "locations": [
+          {
+            "id": "6523f7f10a9003d447f9741e"
+          }
+        ]
       },
       "items": [
         {
@@ -33,41 +37,74 @@
           "type": "Delivery",
           "tracking": false,
           "@ondc/org/category": "Standard Delivery",
-          "@ondc/org/TAT": "PT120M",
-          "state": { "descriptor": { "code": "Serviceable" } }
+          "@ondc/org/TAT": "P2D",
+          "state": {
+            "descriptor": {
+              "code": "Serviceable"
+            }
+          }
         }
       ],
       "quote": {
-        "price": { "currency": "INR", "value": "509.00" },
+        "price": {
+          "currency": "INR",
+          "value": "509.00"
+        },
         "breakup": [
           {
             "@ondc/org/item_id": "667eda2af0b342c442711c72",
-            "@ondc/org/item_quantity": { "count": 2 },
+            "@ondc/org/item_quantity": {
+              "count": 2
+            },
             "title": "Lush Red Cream for Oily Skin Hexbit",
             "@ondc/org/title_type": "item",
-            "price": { "currency": "INR", "value": "400.00" },
+            "price": {
+              "currency": "INR",
+              "value": "400.00"
+            },
             "item": {
               "quantity": {
-                "available": { "count": 99 },
-                "maximum": { "count": "14" }
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "8"
+                }
               },
-              "price": { "currency": "INR", "value": "200.00" }
+              "price": {
+                "currency": "INR",
+                "value": "200.00"
+              }
             },
             "tags": [
-              { "code": "type", "list": [{ "code": "type", "value": "item" }] }
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
             ]
           },
           {
             "@ondc/org/item_id": "6523f7f10a9003d447f9741e",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
-            "price": { "currency": "INR", "value": "99.00" }
+            "price": {
+              "currency": "INR",
+              "value": "99.00"
+            }
           },
           {
             "@ondc/org/item_id": "6523f7f10a9003d447f9741e",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
-            "price": { "currency": "INR", "value": "10.00" }
+            "price": {
+              "currency": "INR",
+              "value": "10.00"
+            }
           }
         ],
         "ttl": "P1D"
