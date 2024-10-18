@@ -1,1 +1,1 @@
-# HEXBIT LOGS
+# Hexbit.io Logs
