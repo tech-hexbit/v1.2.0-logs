@@ -11,7 +11,7 @@
     "bpp_uri": "https://techondc.hexbit.io/",
     "transaction_id": "eeb5bd70-112f-4358-bacf-7471137b4874",
     "message_id": "cbbdd185-f1b6-4073-b9ec-629812529b85",
-    "timestamp": "2024-10-17T06:29:28.730Z",
+    "timestamp": "2024-10-18T02:02:12.972Z",
     "ttl": "PT30S"
   },
   "message": {
@@ -22,9 +22,10 @@
           "items": [
             {
               "id": "667eda2af0b342c442711c72",
+              "parent_item_id": "667eda2af0b342c442711c72",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-10-17T06:29:28.730Z"
+                "timestamp": "2024-10-18T01:51:06.942Z"
               },
               "descriptor": {
                 "name": "Lush Red Cream for Oily Skin Hexbit",
@@ -54,7 +55,7 @@
               "price": {
                 "currency": "INR",
                 "value": "200.00",
-                "maximum_value": "310.00"
+                "maximum_value": "410.00"
               },
               "category_id": "Skin Care - Lotions, Moisturisers, and Creams",
               "fulfillment_id": "6523f7f10a9003d447f9741e",
@@ -64,7 +65,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45",
+              "@ondc/org/time_to_ship": "P1D",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "tags": [
