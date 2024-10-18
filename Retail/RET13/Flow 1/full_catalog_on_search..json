@@ -132,7 +132,7 @@
               "@ondc/org/cancellable": true,
               "@ondc/org/return_window": "P7D",
               "@ondc/org/seller_pickup_return": false,
-              "@ondc/org/time_to_ship": "PT45",
+              "@ondc/org/time_to_ship": "P1D",
               "@ondc/org/available_on_cod": false,
               "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
               "tags": [
@@ -241,7 +241,7 @@
                 },
                 {
                   "code": "type",
-                  "value": "12"
+                  "value": "10"
                 },
                 {
                   "code": "val",
