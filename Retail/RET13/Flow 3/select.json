@@ -7,11 +7,11 @@
     "core_version": "1.2.0",
     "bap_id": "buyer-app-preprod-v2.ondc.org",
     "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-    "transaction_id": "40a5bb46-f659-4315-9917-b69db48c96b3",
-    "message_id": "e4a3d730-2914-469c-a411-692e507d622b",
-    "timestamp": "2024-10-17T05:57:51.645Z",
     "bpp_id": "techondc.hexbit.io",
     "bpp_uri": "https://techondc.hexbit.io/",
+    "transaction_id": "f102d6bd-62bd-4d76-82fa-a4d87344977f",
+    "message_id": "d9c3135f-6a64-4b96-a8bd-d479e18760eb",
+    "timestamp": "2024-10-21T03:03:38.767Z",
     "ttl": "PT30S"
   },
   "message": {
@@ -19,7 +19,7 @@
       "items": [
         {
           "id": "667eda2af0b342c442711c72",
-          "quantity": { "count": 1 },
+          "quantity": { "count": 2 },
           "location_id": "6523f7f10a9003d447f9741e"
         }
       ],
@@ -31,8 +31,8 @@
         {
           "end": {
             "location": {
-              "gps": "12.975139,77.693253",
-              "address": { "area_code": "560037" }
+              "gps": "12.982980,77.686515",
+              "address": { "area_code": "560048" }
             }
           }
         }
