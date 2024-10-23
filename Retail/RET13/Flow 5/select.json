@@ -19,7 +19,7 @@
       "items": [
         {
           "id": "667eda2af0b342c442711c72",
-          "quantity": { "count": 1 },
+          "quantity": { "count": 2 },
           "location_id": "6523f7f10a9003d447f9741e"
         }
       ],
@@ -31,8 +31,8 @@
         {
           "end": {
             "location": {
-              "gps": "12.975139,77.693253",
-              "address": { "area_code": "560037" }
+              "gps": "12.982980,77.686515",
+              "address": { "area_code": "560048" }
             }
           }
         }
