@@ -102,11 +102,30 @@
               "value": "400"
             },
             "item": {
+              "quantity": {
+                "available": {
+                  "count": "99"
+                },
+                "maximum": {
+                  "count": "129"
+                }
+              },
               "price": {
                 "currency": "INR",
                 "value": "200"
               }
-            }
+            },
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ]
           },
           {
             "@ondc/org/item_id": "6523f7f10a9003d447f9741e",
