@@ -37,13 +37,19 @@
       "items": [
         {
           "id": "667eda2af0b342c442711c72",
-          "quantity": { "count": 2 },
+          "quantity": {
+            "count": 2
+          },
           "fulfillment_id": "6523f7f10a9003d447f9741e"
         }
       ],
       "provider": {
         "id": "6523f7f10a9003d447f9741e",
-        "locations": [{ "id": "6523f7f10a9003d447f9741e" }]
+        "locations": [
+          {
+            "id": "6523f7f10a9003d447f9741e"
+          }
+        ]
       },
       "fulfillments": [
         {
@@ -55,7 +61,9 @@
               "email": "rishavrajcrj@gmail.com",
               "phone": "9939197376"
             },
-            "person": { "name": "RISHAV RAJ SINGH" },
+            "person": {
+              "name": "RISHAV RAJ SINGH"
+            },
             "location": {
               "gps": "12.982980,77.686515",
               "address": {
@@ -104,27 +112,46 @@
         ]
       },
       "quote": {
-        "price": { "currency": "INR", "value": "509.00" },
+        "price": {
+          "currency": "INR",
+          "value": "509.00"
+        },
         "breakup": [
           {
             "@ondc/org/item_id": "667eda2af0b342c442711c72",
-            "@ondc/org/item_quantity": { "count": 2 },
+            "@ondc/org/item_quantity": {
+              "count": 2
+            },
             "title": "Lush Red Cream for Oily Skin Hexbit",
             "@ondc/org/title_type": "item",
-            "price": { "currency": "INR", "value": "400" },
-            "item": { "price": { "currency": "INR", "value": "200" } }
+            "price": {
+              "currency": "INR",
+              "value": "400"
+            },
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "200"
+              }
+            }
           },
           {
             "@ondc/org/item_id": "6523f7f10a9003d447f9741e",
             "title": "Delivery charges",
             "@ondc/org/title_type": "delivery",
-            "price": { "currency": "INR", "value": "99.00" }
+            "price": {
+              "currency": "INR",
+              "value": "99.00"
+            }
           },
           {
             "@ondc/org/item_id": "6523f7f10a9003d447f9741e",
             "title": "Convenience Fee",
             "@ondc/org/title_type": "misc",
-            "price": { "currency": "INR", "value": "10.00" }
+            "price": {
+              "currency": "INR",
+              "value": "10.00"
+            }
           }
         ],
         "ttl": "P1D"
@@ -133,17 +160,40 @@
         {
           "code": "bpp_terms",
           "list": [
-            { "code": "max_liability", "value": "2" },
-            { "code": "max_liability_cap", "value": "10000.00" },
-            { "code": "mandatory_arbitration", "value": "false" },
-            { "code": "court_jurisdiction", "value": "Bengaluru" },
-            { "code": "delay_interest", "value": "1000.00" },
-            { "code": "tax_number", "value": "29AAICP2912R1ZR" }
+            {
+              "code": "max_liability",
+              "value": "2"
+            },
+            {
+              "code": "max_liability_cap",
+              "value": "10000.00"
+            },
+            {
+              "code": "mandatory_arbitration",
+              "value": "false"
+            },
+            {
+              "code": "court_jurisdiction",
+              "value": "Bengaluru"
+            },
+            {
+              "code": "delay_interest",
+              "value": "1000.00"
+            },
+            {
+              "code": "tax_number",
+              "value": "29AAICP2912R1ZR"
+            }
           ]
         },
         {
           "code": "bap_terms",
-          "list": [{ "code": "tax_number", "value": "GSTIN1234567890" }]
+          "list": [
+            {
+              "code": "tax_number",
+              "value": "GSTIN1234567890"
+            }
+          ]
         }
       ],
       "created_at": "2024-10-21T03:04:45.434Z",

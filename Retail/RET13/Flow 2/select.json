@@ -19,20 +19,28 @@
       "items": [
         {
           "id": "667eda2af0b342c442711c72",
-          "quantity": { "count": 2 },
+          "quantity": {
+            "count": 2
+          },
           "location_id": "6523f7f10a9003d447f9741e"
         }
       ],
       "provider": {
         "id": "6523f7f10a9003d447f9741e",
-        "locations": [{ "id": "6523f7f10a9003d447f9741e" }]
+        "locations": [
+          {
+            "id": "6523f7f10a9003d447f9741e"
+          }
+        ]
       },
       "fulfillments": [
         {
           "end": {
             "location": {
               "gps": "12.982980,77.686515",
-              "address": { "area_code": "560048" }
+              "address": {
+                "area_code": "560048"
+              }
             }
           }
         }

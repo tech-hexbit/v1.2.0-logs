@@ -20,12 +20,18 @@
       "state": "Completed",
       "provider": {
         "id": "6523f7f10a9003d447f9741e",
-        "locations": [{ "id": "6523f7f10a9003d447f9741e" }]
+        "locations": [
+          {
+            "id": "6523f7f10a9003d447f9741e"
+          }
+        ]
       },
       "items": [
         {
           "id": "667eda2af0b342c442711c72",
-          "quantity": { "count": 0 },
+          "quantity": {
+            "count": 0
+          },
           "fulfillment_id": "6523f7f10a9003d447f9741e"
         }
       ],
@@ -36,11 +42,17 @@
           "type": "Delivery",
           "@ondc/org/TAT": "PT60M",
           "tracking": false,
-          "state": { "descriptor": { "code": "Order-delivered" } },
+          "state": {
+            "descriptor": {
+              "code": "Order-delivered"
+            }
+          },
           "start": {
             "location": {
               "id": "6523f7f10a9003d447f9741e",
-              "descriptor": { "name": "HEXBit.io" },
+              "descriptor": {
+                "name": "HEXBit.io"
+              },
               "gps": "12.982981, 77.686527",
               "address": {
                 "locality": "Doddanekkundi",
@@ -62,7 +74,9 @@
             }
           },
           "end": {
-            "person": { "name": "RISHAV RAJ SINGH" },
+            "person": {
+              "name": "RISHAV RAJ SINGH"
+            },
             "contact": {
               "email": "rishavrajcrj@gmail.com",
               "phone": "9939197376"
@@ -90,20 +104,39 @@
           "tags": [
             {
               "code": "state",
-              "list": [{ "code": "ready_to_ship", "value": "yes" }]
+              "list": [
+                {
+                  "code": "ready_to_ship",
+                  "value": "yes"
+                }
+              ]
             },
             {
               "code": "tracking",
               "list": [
-                { "code": "gps_enabled", "value": "yes" },
-                { "code": "url_enabled", "value": "no" },
+                {
+                  "code": "gps_enabled",
+                  "value": "yes"
+                },
+                {
+                  "code": "url_enabled",
+                  "value": "no"
+                },
                 {
                   "code": "url",
                   "value": "https://sellerNP.com/ondc/tracking_url"
                 }
               ]
             },
-            { "code": "routing", "list": [{ "code": "type", "value": "P2P" }] }
+            {
+              "code": "routing",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "P2P"
+                }
+              ]
+            }
           ]
         }
       ],
@@ -125,15 +158,28 @@
       },
       "quote": {
         "ttl": "P1D",
-        "price": { "currency": "INR", "value": "509" },
+        "price": {
+          "currency": "INR",
+          "value": "509"
+        },
         "breakup": [
           {
             "@ondc/org/item_id": "667eda2af0b342c442711c72",
-            "@ondc/org/item_quantity": { "count": 2 },
+            "@ondc/org/item_quantity": {
+              "count": 2
+            },
             "title": "Lush Red Cream for Oily Skin Hexbit",
             "@ondc/org/title_type": "item",
-            "price": { "currency": "INR", "value": "400" },
-            "item": { "price": { "currency": "INR", "value": "200" } }
+            "price": {
+              "currency": "INR",
+              "value": "400"
+            },
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "200"
+              }
+            }
           }
         ]
       },
