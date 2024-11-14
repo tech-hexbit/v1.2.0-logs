@@ -1485,7 +1485,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "P2P"
+                      "value": "P2H2P"
                     }
                   ]
                 }
@@ -1704,7 +1704,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "P2P"
+                      "value": "P2H2P"
                     }
                   ]
                 }
@@ -1924,7 +1924,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "P2P"
+                      "value": "P2H2P"
                     }
                   ]
                 }
@@ -2150,7 +2150,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "P2P"
+                      "value": "P2H2P"
                     }
                   ]
                 }
@@ -2379,7 +2379,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "P2P"
+                      "value": "P2H2P"
                     }
                   ]
                 }
@@ -2697,7 +2697,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "P2P"
+                      "value": "P2H2P"
                     }
                   ]
                 }
@@ -3013,7 +3013,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "P2P"
+                      "value": "P2H2P"
                     }
                   ]
                 }
