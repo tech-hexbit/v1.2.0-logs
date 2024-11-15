@@ -10,3 +10,7 @@
       "invalid_attribute[0][3]": "Invalid attribute for item with category id: colour_name"
     }
 ```
+
+# Flow 3
+
+- Generate Payload
