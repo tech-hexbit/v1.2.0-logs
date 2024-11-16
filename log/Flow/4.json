@@ -918,9 +918,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "dcdf8d76-70f4-47ed-82e4-88d893b984be",
-        "timestamp": "2024-11-15T17:59:35.982Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "8d78b73c-0f30-4a3c-ab8b-9b5e8e526734",
+        "timestamp": "2024-11-16T10:21:24.084Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
@@ -969,9 +969,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "dcdf8d76-70f4-47ed-82e4-88d893b984be",
-        "timestamp": "2024-11-15T17:59:36.314Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "8d78b73c-0f30-4a3c-ab8b-9b5e8e526734",
+        "timestamp": "2024-11-16T10:21:24.500Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -1073,9 +1073,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "cc67adf3-7b6b-4e04-9e84-4b09aeae84ee",
-        "timestamp": "2024-11-15T17:59:51.993Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "d196a897-eb36-4137-b553-7896ed4176f6",
+        "timestamp": "2024-11-16T10:22:04.496Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
@@ -1112,8 +1112,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-15T17:59:51.993Z",
-            "updated_at": "2024-11-15T17:59:51.993Z"
+            "created_at": "2024-11-16T10:22:04.496Z",
+            "updated_at": "2024-11-16T10:22:04.496Z"
           },
           "fulfillments": [
             {
@@ -1153,9 +1153,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "cc67adf3-7b6b-4e04-9e84-4b09aeae84ee",
-        "timestamp": "2024-11-15T17:59:52.234Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "d196a897-eb36-4137-b553-7896ed4176f6",
+        "timestamp": "2024-11-16T10:22:04.744Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -1201,8 +1201,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-15T17:59:51.993Z",
-            "updated_at": "2024-11-15T17:59:51.993Z"
+            "created_at": "2024-11-16T10:22:04.496Z",
+            "updated_at": "2024-11-16T10:22:04.496Z"
           },
           "fulfillments": [
             {
@@ -1288,7 +1288,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-15T17:59:52.234Z",
+                "settlement_timestamp": "2024-11-16T10:22:04.744Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1327,15 +1327,15 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "c39697d2-1f5a-462a-a8b2-f9367e16b66f",
-        "timestamp": "2024-11-15T18:00:18.033Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "434a1a49-4e14-4793-b8c8-6bcd437b5127",
+        "timestamp": "2024-11-16T10:22:29.662Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-15-206773",
+          "id": "2024-11-16-133308",
           "state": "Created",
           "billing": {
             "address": {
@@ -1350,8 +1350,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-15T17:59:51.993Z",
-            "updated_at": "2024-11-15T17:59:51.993Z"
+            "created_at": "2024-11-16T10:22:04.496Z",
+            "updated_at": "2024-11-16T10:22:04.496Z"
           },
           "items": [
             {
@@ -1405,7 +1405,7 @@
             "params": {
               "amount": "509.00",
               "currency": "INR",
-              "transaction_id": "order_PLfi2zTkA8MhqA"
+              "transaction_id": "order_PLwRaZ7AMn77Xf"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -1423,7 +1423,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-15T17:59:52.234Z",
+                "settlement_timestamp": "2024-11-16T10:22:04.744Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1507,8 +1507,8 @@
               ]
             }
           ],
-          "created_at": "2024-11-15T18:00:18.033Z",
-          "updated_at": "2024-11-15T18:00:18.033Z"
+          "created_at": "2024-11-16T10:22:29.662Z",
+          "updated_at": "2024-11-16T10:22:29.662Z"
         }
       }
     },
@@ -1523,14 +1523,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "c39697d2-1f5a-462a-a8b2-f9367e16b66f",
-        "timestamp": "2024-11-15T18:00:18.317Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "434a1a49-4e14-4793-b8c8-6bcd437b5127",
+        "timestamp": "2024-11-16T10:22:29.981Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-15-206773",
+          "id": "2024-11-16-133308",
           "state": "Created",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -1563,8 +1563,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-15T17:59:51.993Z",
-            "updated_at": "2024-11-15T17:59:51.993Z"
+            "created_at": "2024-11-16T10:22:04.496Z",
+            "updated_at": "2024-11-16T10:22:04.496Z"
           },
           "fulfillments": [
             {
@@ -1679,7 +1679,7 @@
             "params": {
               "amount": "509.00",
               "currency": "INR",
-              "transaction_id": "order_PLfi2zTkA8MhqA"
+              "transaction_id": "order_PLwRaZ7AMn77Xf"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -1697,7 +1697,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-15T17:59:52.234Z",
+                "settlement_timestamp": "2024-11-16T10:22:04.744Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1732,8 +1732,8 @@
               ]
             }
           ],
-          "updated_at": "2024-11-15T18:00:18.317Z",
-          "created_at": "2024-11-15T18:00:18.033Z"
+          "updated_at": "2024-11-16T10:22:29.981Z",
+          "created_at": "2024-11-16T10:22:29.662Z"
         }
       }
     },
@@ -1752,15 +1752,15 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "892e3cf6-76f2-4b03-8fd9-ef1df52c6530",
-        "timestamp": "2024-11-15T18:02:42.203Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "9b3f0f2b-a4e6-464e-816e-9cabc2036434",
+        "timestamp": "2024-11-16T10:32:31.840Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
       "message": {
-        "order_id": "2024-11-15-206773",
-        "cancellation_reason_id": "006"
+        "order_id": "2024-11-16-133308",
+        "cancellation_reason_id": "003"
       }
     },
     "on_cancel": {
@@ -1774,26 +1774,25 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "7253d4a6-f4ec-4f9d-b53c-6113dce5cd43",
-        "message_id": "892e3cf6-76f2-4b03-8fd9-ef1df52c6530",
-        "timestamp": "2024-11-15T18:02:42.441Z",
+        "transaction_id": "80f6acca-02de-44d4-ae35-9421b586d0b9",
+        "message_id": "9b3f0f2b-a4e6-464e-816e-9cabc2036434",
+        "timestamp": "2024-11-16T10:32:32.274Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-15-206773",
+          "id": "2024-11-16-133308",
           "state": "Cancelled",
           "items": [
             {
-              "id": {
-                "$oid": "667eda2af0b342c442711c72"
-              },
-              "quantity": {
-                "count": 2
-              },
-              "fulfillment_id": {
-                "$oid": "6523f7f10a9003d447f9741e"
-              }
+              "id": "667eda2af0b342c442711c72",
+              "quantity": { "count": 0 },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "667eda2af0b342c442711c72",
+              "quantity": { "count": 2 },
+              "fulfillment_id": "6523f7f10a9003d447f9741e-C0"
             }
           ],
           "billing": {
@@ -1809,20 +1808,12 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-15T17:59:51.993Z",
-            "updated_at": "2024-11-15T17:59:51.993Z"
+            "created_at": "2024-11-16T10:22:04.496Z",
+            "updated_at": "2024-11-16T10:22:04.496Z"
           },
           "provider": {
-            "id": {
-              "$oid": "6523f7f10a9003d447f9741e"
-            },
-            "locations": [
-              {
-                "id": {
-                  "$oid": "6523f7f10a9003d447f9741e"
-                }
-              }
-            ]
+            "id": "6523f7f10a9003d447f9741e",
+            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
           },
           "payment": {
             "uri": "https://razorpay.com/",
@@ -1830,7 +1821,7 @@
             "params": {
               "amount": "509.00",
               "currency": "INR",
-              "transaction_id": "order_PLfi2zTkA8MhqA"
+              "transaction_id": "order_PLwRaZ7AMn77Xf"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -1848,7 +1839,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-15T17:59:52.234Z",
+                "settlement_timestamp": "2024-11-16T10:22:04.744Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1857,21 +1848,13 @@
           },
           "fulfillments": [
             {
-              "id": {
-                "$oid": "6523f7f10a9003d447f9741e"
-              },
-              "state": {
-                "descriptor": {
-                  "code": "Cancelled"
-                }
-              },
+              "id": "6523f7f10a9003d447f9741e_Delivery",
+              "state": { "descriptor": { "code": "Cancelled" } },
               "type": "Delivery",
               "tracking": false,
               "start": {
                 "location": {
-                  "id": {
-                    "$oid": "6523f7f10a9003d447f9741e"
-                  },
+                  "id": "6523f7f10a9003d447f9741e_Location",
                   "gps": "12.9687078008986,77.5771969607576",
                   "address": {
                     "locality": "Bengaluru",
@@ -1879,12 +1862,10 @@
                     "area_code": "560053",
                     "state": "KA"
                   },
-                  "descriptor": {
-                    "name": "HEXBit.io"
-                  }
+                  "descriptor": { "name": "HEXBit.io" }
                 },
                 "contact": {
-                  "phone": "+919970968305",
+                  "phone": "9970968305",
                   "email": "marketing@costbo.com"
                 },
                 "time": {
@@ -1899,9 +1880,7 @@
                   "email": "rishavrajcrj@gmail.com",
                   "phone": "9939197376"
                 },
-                "person": {
-                  "name": "RISHAV RAJ SINGH"
-                },
+                "person": { "name": "RISHAV RAJ SINGH" },
                 "location": {
                   "gps": "12.982980,77.686515",
                   "address": {
@@ -1919,27 +1898,98 @@
                 {
                   "code": "cancel_request",
                   "list": [
+                    { "code": "reason_id", "value": "003" },
                     {
-                      "code": "reason_id",
-                      "value": "006"
-                    },
-                    {
-                      "code": "cancelled_by",
+                      "code": "initiated_by",
                       "value": "buyer-app-preprod-v2.ondc.org"
                     }
+                  ]
+                },
+                {
+                  "code": "precancel_state",
+                  "list": [
+                    { "code": "fulfillment_state", "value": "Pending" },
+                    {
+                      "code": "updated_at",
+                      "value": "2024-11-16T10:22:29.981Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "6523f7f10a9003d447f9741e-C0",
+              "type": "Cancel",
+              "state": { "descriptor": { "code": "Cancelled" } },
+              "tags": [
+                {
+                  "code": "quote_trail",
+                  "list": [
+                    { "code": "type", "value": "delivery" },
+                    { "code": "currency", "value": "INR" },
+                    {
+                      "code": "id",
+                      "value": "6523f7f10a9003d447f9741e_Delivery"
+                    },
+                    { "code": "value", "value": "-99" }
+                  ]
+                },
+                {
+                  "code": "quote_trail",
+                  "list": [
+                    { "code": "type", "value": "misc" },
+                    { "code": "currency", "value": "INR" },
+                    {
+                      "code": "id",
+                      "value": "6523f7f10a9003d447f9741e_Delivery"
+                    },
+                    { "code": "value", "value": "-10" }
+                  ]
+                },
+                {
+                  "code": "quote_trail",
+                  "list": [
+                    { "code": "type", "value": "item" },
+                    { "code": "currency", "value": "INR" },
+                    { "code": "id", "value": "667eda2af0b342c442711c72" },
+                    { "code": "value", "value": "-400" }
                   ]
                 }
               ]
             }
           ],
+          "quote": {
+            "price": { "currency": "INR", "value": "0.00" },
+            "ttl": "P1D",
+            "breakup": [
+              {
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
+                "@ondc/org/item_quantity": { "count": 0 },
+                "title": "Lush Red Cream for Oily Skin Hexbit",
+                "@ondc/org/title_type": "item",
+                "price": { "currency": "INR", "value": "0" },
+                "item": { "price": { "currency": "INR", "value": "200.00" } }
+              },
+              {
+                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
+                "title": "Delivery charges",
+                "@ondc/org/title_type": "delivery",
+                "price": { "currency": "INR", "value": "0" }
+              },
+              {
+                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
+                "title": "Convenience Fee",
+                "@ondc/org/title_type": "misc",
+                "price": { "currency": "INR", "value": "0" }
+              }
+            ]
+          },
           "cancellation": {
-            "reason": {
-              "id": "006"
-            },
+            "reason": { "id": "003" },
             "cancelled_by": "buyer-app-preprod-v2.ondc.org"
           },
-          "created_at": "2024-11-15T18:02:42.441Z",
-          "updated_at": "2024-11-15T18:02:42.441Z"
+          "created_at": "2024-11-16T10:22:37.021Z",
+          "updated_at": "2024-11-16T10:32:32.274Z"
         }
       }
     },
