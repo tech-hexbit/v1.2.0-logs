@@ -14,3 +14,14 @@
 # Flow 3
 
 - Generate Payload
+
+# Flow 4
+
+- on_cancel
+
+```
+    on_cancel: {
+      "ordrupdtd": "order.updated_at timestamp should be greater than order.created_at timestamp",
+      "precancelState.updatedAt": "precancel_state.updated_at of on_cancel is not equal with the on_confirm order.updated_at"
+    }
+```
