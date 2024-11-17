@@ -27,9 +27,7 @@
         "symbol": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png",
         "long_desc": "Hexbit - ONDC Online eCommerce Store",
         "short_desc": "Hexbit - ONDC Online eCommerce Store",
-        "images": [
-          "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-        ],
+        "images": ["https://www.hexbit.io/assets/HexbitLogo-886adfca.png"],
         "tags": [
           {
             "code": "bpp_terms",
@@ -155,10 +153,7 @@
                 "schedule": {
                   "holidays": [],
                   "frequency": "PT4H",
-                  "times": [
-                    "0830",
-                    "2230"
-                  ]
+                  "times": ["0830", "2230"]
                 }
               }
             }
@@ -603,36 +598,7 @@
               "list": [
                 {
                   "code": "type",
-                  "value": "Order"
-                },
-                {
-                  "code": "location",
-                  "value": "6523f7f10a9003d447f9741e_Location"
-                },
-                {
-                  "code": "day_from",
-                  "value": "1"
-                },
-                {
-                  "code": "day_to",
-                  "value": "7"
-                },
-                {
-                  "code": "time_from",
-                  "value": "0830"
-                },
-                {
-                  "code": "time_to",
-                  "value": "2230"
-                }
-              ]
-            },
-            {
-              "code": "timing",
-              "list": [
-                {
-                  "code": "type",
-                  "value": "Delivery"
+                  "value": "All"
                 },
                 {
                   "code": "location",
