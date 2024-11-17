@@ -918,9 +918,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "482aaff2-62f8-4586-9aff-2084e7526c18",
-        "timestamp": "2024-11-10T14:51:17.903Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "dd847c8c-a492-48d0-83c8-1879e50378e2",
+        "timestamp": "2024-11-17T14:05:09.887Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
@@ -928,7 +928,14 @@
         "order": {
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": {
+                "count": 2
+              },
+              "location_id": "6523f7f10a9003d447f9741e_Location"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": {
                 "count": 2
               },
@@ -969,9 +976,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "482aaff2-62f8-4586-9aff-2084e7526c18",
-        "timestamp": "2024-11-10T14:51:18.175Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "dd847c8c-a492-48d0-83c8-1879e50378e2",
+        "timestamp": "2024-11-17T14:05:10.211Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -987,7 +994,11 @@
           "items": [
             {
               "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "67134662fa255f9635fb394d"
+              "id": "667eda2af0b342c442711c72"
+            },
+            {
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
+              "id": "67227f8490f83dffd682a117"
             }
           ],
           "fulfillments": [
@@ -1008,19 +1019,19 @@
           "quote": {
             "price": {
               "currency": "INR",
-              "value": "6105.00"
+              "value": "1699.00"
             },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": {
                   "count": 2
                 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
                 "price": {
                   "currency": "INR",
-                  "value": "5996"
+                  "value": "400"
                 },
                 "item": {
                   "quantity": {
@@ -1033,7 +1044,7 @@
                   },
                   "price": {
                     "currency": "INR",
-                    "value": "2998"
+                    "value": "200"
                   }
                 }
               },
@@ -1054,6 +1065,32 @@
                   "currency": "INR",
                   "value": "10.00"
                 }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": {
+                  "count": 2
+                },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "1190"
+                },
+                "item": {
+                  "quantity": {
+                    "available": {
+                      "count": "99"
+                    },
+                    "maximum": {
+                      "count": "99"
+                    }
+                  },
+                  "price": {
+                    "currency": "INR",
+                    "value": "595"
+                  }
+                }
               }
             ],
             "ttl": "P1D"
@@ -1071,9 +1108,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "5b638e6e-2083-4578-a1f0-91db644842db",
-        "message_id": "6c96aba9-07a5-4490-8f03-6b25c405d0ab",
-        "timestamp": "2024-11-10T15:46:20.822Z",
+        "transaction_id": "566380f5-8fe5-43d1-a7f5-f98e9df56206",
+        "message_id": "1eae5c21-2b48-48a4-bf75-e3fbc86917c1",
+        "timestamp": "2024-11-17T14:10:23.601Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
@@ -1081,7 +1118,7 @@
         "order": {
           "items": [
             {
-              "id": "667eda2af0b342c442711c72",
+              "id": "67134662fa255f9635fb394d",
               "quantity": {
                 "count": 2
               },
@@ -1122,9 +1159,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "5b638e6e-2083-4578-a1f0-91db644842db",
-        "message_id": "6c96aba9-07a5-4490-8f03-6b25c405d0ab",
-        "timestamp": "2024-11-10T15:46:21.138Z",
+        "transaction_id": "566380f5-8fe5-43d1-a7f5-f98e9df56206",
+        "message_id": "1eae5c21-2b48-48a4-bf75-e3fbc86917c1",
+        "timestamp": "2024-11-17T14:10:23.934Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -1140,7 +1177,7 @@
           "items": [
             {
               "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "667eda2af0b342c442711c72"
+              "id": "67134662fa255f9635fb394d"
             }
           ],
           "fulfillments": [
@@ -1165,11 +1202,11 @@
             },
             "breakup": [
               {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
+                "@ondc/org/item_id": "67134662fa255f9635fb394d",
                 "@ondc/org/item_quantity": {
                   "count": 0
                 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
+                "title": "Day face serum | Nature 4 Nature",
                 "@ondc/org/title_type": "item",
                 "price": {
                   "currency": "INR",
@@ -1186,7 +1223,7 @@
                   },
                   "price": {
                     "currency": "INR",
-                    "value": "200.00"
+                    "value": "2998.00"
                   }
                 }
               }
@@ -1198,7 +1235,7 @@
       "error": {
         "type": "DOMAIN-ERROR",
         "code": "30009",
-        "message": "[{\"item_id\":\"667eda2af0b342c442711c72\",\"error\":\"30009\"}]"
+        "message": "[{\"item_id\":\"67134662fa255f9635fb394d\",\"error\":\"30009\"}]"
       }
     },
     "init": {
@@ -1211,9 +1248,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "12a62822-9578-477e-91a2-269eaf2a2af5",
-        "timestamp": "2024-11-10T14:51:26.763Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "21ba49e3-6086-4f32-b20e-88c092296936",
+        "timestamp": "2024-11-17T14:05:18.954Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
@@ -1229,7 +1266,15 @@
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": {
+                "count": 2
+              },
+              "location_id": "6523f7f10a9003d447f9741e_Location",
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": {
                 "count": 2
               },
@@ -1250,8 +1295,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "fulfillments": [
             {
@@ -1291,9 +1336,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "12a62822-9578-477e-91a2-269eaf2a2af5",
-        "timestamp": "2024-11-10T14:51:27.008Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "21ba49e3-6086-4f32-b20e-88c092296936",
+        "timestamp": "2024-11-17T14:05:19.208Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -1308,7 +1353,25 @@
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": {
+                "count": 2
+              },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
+              "tags": [
+                {
+                  "code": "type",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "item"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": {
                 "count": 2
               },
@@ -1339,8 +1402,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "fulfillments": [
             {
@@ -1370,24 +1433,42 @@
           "quote": {
             "price": {
               "currency": "INR",
-              "value": "6105.00"
+              "value": "1699.00"
             },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": {
                   "count": 2
                 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
                 "price": {
                   "currency": "INR",
-                  "value": "5996"
+                  "value": "400"
                 },
                 "item": {
                   "price": {
                     "currency": "INR",
-                    "value": "2998"
+                    "value": "200"
+                  }
+                }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": {
+                  "count": 2
+                },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "1190"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "595"
                   }
                 }
               },
@@ -1415,6 +1496,9 @@
           "payment": {
             "@ondc/org/buyer_app_finder_fee_type": "percent",
             "@ondc/org/buyer_app_finder_fee_amount": "3",
+            "@ondc/org/settlement_basis": "return_window_expiry",
+            "@ondc/org/settlement_window": "P1D",
+            "@ondc/org/withholding_amount": "0.00",
             "@ondc/org/settlement_details": [
               {
                 "settlement_counterparty": "seller-app",
@@ -1423,7 +1507,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1462,15 +1546,15 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "38ce4ba9-9a64-4c9e-b5c0-45a7ab0f62a5",
-        "timestamp": "2024-11-10T14:51:53.663Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "30bdc559-bd2a-4848-9070-61a6dcd83f6f",
+        "timestamp": "2024-11-17T14:05:41.323Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-894941",
+          "id": "2024-11-17-937185",
           "state": "Created",
           "billing": {
             "address": {
@@ -1485,12 +1569,19 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": {
+                "count": 2
+              },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": {
                 "count": 2
               },
@@ -1538,9 +1629,9 @@
             "uri": "https://razorpay.com/",
             "tl_method": "http/get",
             "params": {
-              "amount": "6105.00",
+              "amount": "1699.00",
               "currency": "INR",
-              "transaction_id": "order_PJdpQE3QxaCCy2"
+              "transaction_id": "order_PMOmXU3B3yqFr3"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -1558,7 +1649,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1568,24 +1659,42 @@
           "quote": {
             "price": {
               "currency": "INR",
-              "value": "6105.00"
+              "value": "1699.00"
             },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": {
                   "count": 2
                 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
                 "price": {
                   "currency": "INR",
-                  "value": "5996"
+                  "value": "400"
                 },
                 "item": {
                   "price": {
                     "currency": "INR",
-                    "value": "2998"
+                    "value": "200"
+                  }
+                }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": {
+                  "count": 2
+                },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "1190"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "595"
                   }
                 }
               },
@@ -1642,8 +1751,8 @@
               ]
             }
           ],
-          "created_at": "2024-11-10T14:51:53.663Z",
-          "updated_at": "2024-11-10T14:51:53.663Z"
+          "created_at": "2024-11-17T14:05:41.323Z",
+          "updated_at": "2024-11-17T14:05:41.323Z"
         }
       }
     },
@@ -1658,22 +1767,34 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "38ce4ba9-9a64-4c9e-b5c0-45a7ab0f62a5",
-        "timestamp": "2024-11-10T14:51:53.945Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "30bdc559-bd2a-4848-9070-61a6dcd83f6f",
+        "timestamp": "2024-11-17T14:05:41.602Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-894941",
+          "id": "2024-11-17-937185",
           "state": "Created",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
+            "locations": [
+              {
+                "id": "6523f7f10a9003d447f9741e_Location"
+              }
+            ],
+            "rateable": true
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": {
+                "count": 2
+              },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": {
                 "count": 2
               },
@@ -1693,8 +1814,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "fulfillments": [
             {
@@ -1761,24 +1882,42 @@
           "quote": {
             "price": {
               "currency": "INR",
-              "value": "6105.00"
+              "value": "1699.00"
             },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": {
                   "count": 2
                 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
                 "price": {
                   "currency": "INR",
-                  "value": "5996"
+                  "value": "400"
                 },
                 "item": {
                   "price": {
                     "currency": "INR",
-                    "value": "2998"
+                    "value": "200"
+                  }
+                }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": {
+                  "count": 2
+                },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": {
+                  "currency": "INR",
+                  "value": "1190"
+                },
+                "item": {
+                  "price": {
+                    "currency": "INR",
+                    "value": "595"
                   }
                 }
               },
@@ -1807,9 +1946,9 @@
             "uri": "https://razorpay.com/",
             "tl_method": "http/get",
             "params": {
-              "amount": "6105.00",
+              "amount": "1699.00",
               "currency": "INR",
-              "transaction_id": "order_PJdpQE3QxaCCy2"
+              "transaction_id": "order_PMOmXU3B3yqFr3"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -1827,7 +1966,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1862,8 +2001,8 @@
               ]
             }
           ],
-          "updated_at": "2024-11-10T14:51:53.945Z",
-          "created_at": "2024-11-10T14:51:53.663Z"
+          "updated_at": "2024-11-17T14:05:41.602Z",
+          "created_at": "2024-11-17T14:05:41.323Z"
         }
       }
     },
@@ -1878,14 +2017,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "25a1842c-44a1-4e7b-bf3f-e83cb2a88dfb",
-        "timestamp": "2024-11-10T15:35:15.124Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "fab1896e-0de3-4fc1-b4de-8132111ed7fe",
+        "timestamp": "2024-11-17T14:17:06.896Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-894941",
+          "id": "2024-11-17-937185",
           "state": "Accepted",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -1893,7 +2032,12 @@
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": { "count": 2 },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": { "count": 2 },
               "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
             }
@@ -1903,7 +2047,7 @@
               "id": "6523f7f10a9003d447f9741e_Delivery",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
+              "@ondc/org/TAT": "PT60M",
               "tracking": true,
               "state": { "descriptor": { "code": "Pending" } },
               "start": {
@@ -1920,8 +2064,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2024-11-10T15:35:15.124Z",
-                    "end": "2024-11-18T20:35:15.124Z"
+                    "start": "2024-11-17T14:17:06.896Z",
+                    "end": "2024-11-25T01:17:06.896Z"
                   }
                 },
                 "contact": {
@@ -1949,8 +2093,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2025-02-16T15:35:15.124Z",
-                    "end": "2025-02-24T20:35:15.124Z"
+                    "start": "2025-04-27T14:17:06.896Z",
+                    "end": "2025-05-05T01:17:06.896Z"
                   }
                 }
               },
@@ -1966,7 +2110,7 @@
                     { "code": "url_enabled", "value": "yes" },
                     {
                       "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-894941"
+                      "value": "https://hexbit.io/Tracking/2024-11-17-937185"
                     }
                   ]
                 },
@@ -1975,7 +2119,7 @@
                   "list": [
                     { "code": "state", "value": "Pending" },
                     { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T15:35:15.124Z" }
+                    { "code": "timestamp", "value": "2024-11-17T14:17:06.896Z" }
                   ]
                 },
                 {
@@ -1998,19 +2142,27 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "quote": {
-            "price": { "currency": "INR", "value": "6105.00" },
+            "price": { "currency": "INR", "value": "1699.00" },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
+                "price": { "currency": "INR", "value": "400" },
+                "item": { "price": { "currency": "INR", "value": "200" } }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": { "count": 2 },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": { "currency": "INR", "value": "1190" },
+                "item": { "price": { "currency": "INR", "value": "595" } }
               },
               {
                 "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
@@ -2031,9 +2183,9 @@
             "uri": "https://razorpay.com/",
             "tl_method": "http/get",
             "params": {
-              "amount": "6105.00",
+              "amount": "1699.00",
               "currency": "INR",
-              "transaction_id": "order_PJdpQE3QxaCCy2"
+              "transaction_id": "order_PMOmXU3B3yqFr3"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -2051,15 +2203,15 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
               }
             ]
           },
-          "created_at": "2024-11-10T14:51:53.663Z",
-          "updated_at": "2024-11-10T15:35:15.124Z"
+          "created_at": "2024-11-17T14:05:41.323Z",
+          "updated_at": "2024-11-17T14:17:06.896Z"
         }
       }
     },
@@ -2074,14 +2226,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "c723bc67-b3c1-4655-9d54-a9d5fb9e0dd9",
-        "timestamp": "2024-11-10T15:35:56.359Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "89c21997-2e4d-465f-a9bf-f748b1ffb995",
+        "timestamp": "2024-11-17T14:18:45.678Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-894941",
+          "id": "2024-11-17-937185",
           "state": "In-progress",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -2089,7 +2241,12 @@
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": { "count": 2 },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": { "count": 2 },
               "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
             }
@@ -2099,7 +2256,7 @@
               "id": "6523f7f10a9003d447f9741e_Delivery",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
+              "@ondc/org/TAT": "PT60M",
               "tracking": true,
               "state": { "descriptor": { "code": "Packed" } },
               "start": {
@@ -2116,8 +2273,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2024-11-10T15:35:15.124Z",
-                    "end": "2024-11-18T20:35:15.124Z"
+                    "start": "2024-11-17T14:17:06.896Z",
+                    "end": "2024-11-25T01:17:06.896Z"
                   }
                 },
                 "contact": {
@@ -2145,8 +2302,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2025-02-16T15:35:15.124Z",
-                    "end": "2025-02-24T20:35:15.124Z"
+                    "start": "2025-04-27T14:17:06.896Z",
+                    "end": "2025-05-05T01:17:06.896Z"
                   }
                 }
               },
@@ -2162,7 +2319,7 @@
                     { "code": "url_enabled", "value": "yes" },
                     {
                       "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-894941"
+                      "value": "https://hexbit.io/Tracking/2024-11-17-937185"
                     }
                   ]
                 },
@@ -2171,7 +2328,7 @@
                   "list": [
                     { "code": "state", "value": "Packed" },
                     { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T15:35:56.359Z" }
+                    { "code": "timestamp", "value": "2024-11-17T14:18:45.678Z" }
                   ]
                 },
                 {
@@ -2194,19 +2351,27 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "quote": {
-            "price": { "currency": "INR", "value": "6105.00" },
+            "price": { "currency": "INR", "value": "1699.00" },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
+                "price": { "currency": "INR", "value": "400" },
+                "item": { "price": { "currency": "INR", "value": "200" } }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": { "count": 2 },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": { "currency": "INR", "value": "1190" },
+                "item": { "price": { "currency": "INR", "value": "595" } }
               },
               {
                 "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
@@ -2227,9 +2392,9 @@
             "uri": "https://razorpay.com/",
             "tl_method": "http/get",
             "params": {
-              "amount": "6105.00",
+              "amount": "1699.00",
               "currency": "INR",
-              "transaction_id": "order_PJdpQE3QxaCCy2"
+              "transaction_id": "order_PMOmXU3B3yqFr3"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -2247,15 +2412,15 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
               }
             ]
           },
-          "created_at": "2024-11-10T14:51:53.663Z",
-          "updated_at": "2024-11-10T15:35:56.359Z"
+          "created_at": "2024-11-17T14:05:41.323Z",
+          "updated_at": "2024-11-17T14:18:45.678Z"
         }
       }
     },
@@ -2270,14 +2435,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "ab2553a6-89ee-42f5-be06-7e7c8e44c2da",
-        "timestamp": "2024-11-10T15:40:48.028Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "c101b71f-af5d-4dd9-adc1-6fbf32b4da7d",
+        "timestamp": "2024-11-17T14:19:29.319Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-894941",
+          "id": "2024-11-17-937185",
           "state": "In-progress",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -2285,7 +2450,12 @@
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": { "count": 2 },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": { "count": 2 },
               "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
             }
@@ -2295,7 +2465,7 @@
               "id": "6523f7f10a9003d447f9741e_Delivery",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
+              "@ondc/org/TAT": "PT60M",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-picked-up" } },
               "start": {
@@ -2312,10 +2482,10 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2024-11-10T15:35:15.124Z",
-                    "end": "2024-11-18T20:35:15.124Z"
+                    "start": "2024-11-17T14:17:06.896Z",
+                    "end": "2024-11-25T01:17:06.896Z"
                   },
-                  "timestamp": "2024-11-10T15:40:48.028Z"
+                  "timestamp": "2024-11-17T14:19:29.319Z"
                 },
                 "contact": {
                   "email": "rishavrajcrj@gmail.com",
@@ -2342,8 +2512,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2025-02-16T15:35:15.124Z",
-                    "end": "2025-02-24T20:35:15.124Z"
+                    "start": "2025-04-27T14:17:06.896Z",
+                    "end": "2025-05-05T01:17:06.896Z"
                   }
                 }
               },
@@ -2359,7 +2529,7 @@
                     { "code": "url_enabled", "value": "yes" },
                     {
                       "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-894941"
+                      "value": "https://hexbit.io/Tracking/2024-11-17-937185"
                     }
                   ]
                 },
@@ -2368,7 +2538,7 @@
                   "list": [
                     { "code": "state", "value": "Order-picked-up" },
                     { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T15:40:48.028Z" }
+                    { "code": "timestamp", "value": "2024-11-17T14:19:29.319Z" }
                   ]
                 },
                 {
@@ -2391,19 +2561,27 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "quote": {
-            "price": { "currency": "INR", "value": "6105.00" },
+            "price": { "currency": "INR", "value": "1699.00" },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
+                "price": { "currency": "INR", "value": "400" },
+                "item": { "price": { "currency": "INR", "value": "200" } }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": { "count": 2 },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": { "currency": "INR", "value": "1190" },
+                "item": { "price": { "currency": "INR", "value": "595" } }
               },
               {
                 "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
@@ -2424,9 +2602,9 @@
             "uri": "https://razorpay.com/",
             "tl_method": "http/get",
             "params": {
-              "amount": "6105.00",
+              "amount": "1699.00",
               "currency": "INR",
-              "transaction_id": "order_PJdpQE3QxaCCy2"
+              "transaction_id": "order_PMOmXU3B3yqFr3"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -2444,18 +2622,18 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
               }
             ]
           },
-          "created_at": "2024-11-10T14:51:53.663Z",
-          "updated_at": "2024-11-10T15:40:48.028Z",
+          "created_at": "2024-11-17T14:05:41.323Z",
+          "updated_at": "2024-11-17T14:19:29.319Z",
           "documents": [
             {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267241923.pdf",
+              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731852347774.pdf",
               "label": "Invoice"
             }
           ]
@@ -2473,14 +2651,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "6943658d-59a2-4ee4-b86a-78d97305298c",
-        "timestamp": "2024-11-10T15:42:07.421Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "4f4e9e8f-c229-4755-86a0-a72d184391e0",
+        "timestamp": "2024-11-17T14:20:40.753Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-894941",
+          "id": "2024-11-17-937185",
           "state": "In-progress",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -2488,7 +2666,12 @@
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": { "count": 2 },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": { "count": 2 },
               "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
             }
@@ -2498,7 +2681,7 @@
               "id": "6523f7f10a9003d447f9741e_Delivery",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
+              "@ondc/org/TAT": "PT60M",
               "tracking": true,
               "state": { "descriptor": { "code": "Out-for-delivery" } },
               "start": {
@@ -2515,10 +2698,10 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2024-11-10T15:35:15.124Z",
-                    "end": "2024-11-18T20:35:15.124Z"
+                    "start": "2024-11-17T14:17:06.896Z",
+                    "end": "2024-11-25T01:17:06.896Z"
                   },
-                  "timestamp": "2024-11-10T15:40:48.028Z"
+                  "timestamp": "2024-11-17T14:19:29.319Z"
                 },
                 "contact": {
                   "email": "rishavrajcrj@gmail.com",
@@ -2545,8 +2728,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2025-02-16T15:35:15.124Z",
-                    "end": "2025-02-24T20:35:15.124Z"
+                    "start": "2025-04-27T14:17:06.896Z",
+                    "end": "2025-05-05T01:17:06.896Z"
                   }
                 }
               },
@@ -2562,7 +2745,7 @@
                     { "code": "url_enabled", "value": "yes" },
                     {
                       "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-894941"
+                      "value": "https://hexbit.io/Tracking/2024-11-17-937185"
                     }
                   ]
                 },
@@ -2571,7 +2754,7 @@
                   "list": [
                     { "code": "state", "value": "Out-for-delivery" },
                     { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T15:42:07.421Z" }
+                    { "code": "timestamp", "value": "2024-11-17T14:20:40.753Z" }
                   ]
                 },
                 {
@@ -2594,19 +2777,27 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "quote": {
-            "price": { "currency": "INR", "value": "6105.00" },
+            "price": { "currency": "INR", "value": "1699.00" },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
+                "price": { "currency": "INR", "value": "400" },
+                "item": { "price": { "currency": "INR", "value": "200" } }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": { "count": 2 },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": { "currency": "INR", "value": "1190" },
+                "item": { "price": { "currency": "INR", "value": "595" } }
               },
               {
                 "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
@@ -2627,9 +2818,9 @@
             "uri": "https://razorpay.com/",
             "tl_method": "http/get",
             "params": {
-              "amount": "6105.00",
+              "amount": "1699.00",
               "currency": "INR",
-              "transaction_id": "order_PJdpQE3QxaCCy2"
+              "transaction_id": "order_PMOmXU3B3yqFr3"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -2647,18 +2838,18 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
               }
             ]
           },
-          "created_at": "2024-11-10T14:51:53.663Z",
-          "updated_at": "2024-11-10T15:42:07.421Z",
+          "created_at": "2024-11-17T14:05:41.323Z",
+          "updated_at": "2024-11-17T14:20:40.753Z",
           "documents": [
             {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267241923.pdf",
+              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731852347774.pdf",
               "label": "Invoice"
             }
           ]
@@ -2676,14 +2867,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "e4aa612c-cd6a-49c8-bcde-acafb727170b",
-        "message_id": "11848e01-7d72-41a1-9ba9-bab11e828849",
-        "timestamp": "2024-11-10T15:43:21.586Z",
+        "transaction_id": "7eb6db5d-af26-4c88-9b02-332bb9f0236a",
+        "message_id": "75d10792-e54a-4154-aaa8-50f86cbf8ffc",
+        "timestamp": "2024-11-17T14:21:39.464Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-894941",
+          "id": "2024-11-17-937185",
           "state": "Completed",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -2691,7 +2882,12 @@
           },
           "items": [
             {
-              "id": "67134662fa255f9635fb394d",
+              "id": "667eda2af0b342c442711c72",
+              "quantity": { "count": 2 },
+              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
+            },
+            {
+              "id": "67227f8490f83dffd682a117",
               "quantity": { "count": 2 },
               "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
             }
@@ -2701,7 +2897,7 @@
               "id": "6523f7f10a9003d447f9741e_Delivery",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
+              "@ondc/org/TAT": "PT60M",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {
@@ -2718,10 +2914,10 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2024-11-10T15:35:15.124Z",
-                    "end": "2024-11-18T20:35:15.124Z"
+                    "start": "2024-11-17T14:17:06.896Z",
+                    "end": "2024-11-25T01:17:06.896Z"
                   },
-                  "timestamp": "2024-11-10T15:40:48.028Z"
+                  "timestamp": "2024-11-17T14:19:29.319Z"
                 },
                 "contact": {
                   "email": "rishavrajcrj@gmail.com",
@@ -2748,10 +2944,10 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2025-02-16T15:35:15.124Z",
-                    "end": "2025-02-24T20:35:15.124Z"
+                    "start": "2025-04-27T14:17:06.896Z",
+                    "end": "2025-05-05T01:17:06.896Z"
                   },
-                  "timestamp": "2024-11-10T15:43:21.586Z"
+                  "timestamp": "2024-11-17T14:21:39.464Z"
                 }
               },
               "tags": [
@@ -2766,7 +2962,7 @@
                     { "code": "url_enabled", "value": "yes" },
                     {
                       "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-894941"
+                      "value": "https://hexbit.io/Tracking/2024-11-17-937185"
                     }
                   ]
                 },
@@ -2775,7 +2971,7 @@
                   "list": [
                     { "code": "state", "value": "Order-delivered" },
                     { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T15:43:21.586Z" }
+                    { "code": "timestamp", "value": "2024-11-17T14:21:39.464Z" }
                   ]
                 },
                 {
@@ -2798,19 +2994,27 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T14:51:26.763Z",
-            "updated_at": "2024-11-10T14:51:26.763Z"
+            "created_at": "2024-11-17T14:05:18.954Z",
+            "updated_at": "2024-11-17T14:05:18.954Z"
           },
           "quote": {
-            "price": { "currency": "INR", "value": "6105.00" },
+            "price": { "currency": "INR", "value": "1699.00" },
             "breakup": [
               {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
+                "@ondc/org/item_id": "667eda2af0b342c442711c72",
                 "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
+                "title": "Lush Red Cream for Oily Skin Hexbit",
                 "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
+                "price": { "currency": "INR", "value": "400" },
+                "item": { "price": { "currency": "INR", "value": "200" } }
+              },
+              {
+                "@ondc/org/item_id": "67227f8490f83dffd682a117",
+                "@ondc/org/item_quantity": { "count": 2 },
+                "title": "LOreal Concealer",
+                "@ondc/org/title_type": "item",
+                "price": { "currency": "INR", "value": "1190" },
+                "item": { "price": { "currency": "INR", "value": "595" } }
               },
               {
                 "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
@@ -2831,9 +3035,9 @@
             "uri": "https://razorpay.com/",
             "tl_method": "http/get",
             "params": {
-              "amount": "6105.00",
+              "amount": "1699.00",
               "currency": "INR",
-              "transaction_id": "order_PJdpQE3QxaCCy2"
+              "transaction_id": "order_PMOmXU3B3yqFr3"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -2851,18 +3055,18 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T14:51:27.008Z",
+                "settlement_timestamp": "2024-11-17T14:05:19.208Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
               }
             ]
           },
-          "created_at": "2024-11-10T14:51:53.663Z",
-          "updated_at": "2024-11-10T15:43:21.586Z",
+          "created_at": "2024-11-17T14:05:41.323Z",
+          "updated_at": "2024-11-17T14:21:39.464Z",
           "documents": [
             {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267241923.pdf",
+              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731852347774.pdf",
               "label": "Invoice"
             }
           ]
