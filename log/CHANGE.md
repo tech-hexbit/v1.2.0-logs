@@ -11,10 +11,6 @@
     }
 ```
 
-# Flow 3
-
-- Generate Payload
-
 # Flow 4
 
 - on_cancel
