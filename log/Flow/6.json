@@ -15,7 +15,7 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
         "message_id": "22bc3d34-a49d-4056-8fe4-3d6fc5a0aa93",
-        "timestamp": "2024-11-09T15:22:53.163Z",
+        "timestamp": "2024-10-18T01:39:29.001Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -43,7 +43,7 @@
         "bpp_uri": "https://techondc.hexbit.io/",
         "transaction_id": "1d94d1fa-f353-4eaa-83d1-b99a425813dd",
         "message_id": "22bc3d34-a49d-4056-8fe4-3d6fc5a0aa93",
-        "timestamp": "2024-11-09T15:23:53.163Z",
+        "timestamp": "2024-11-15T16:45:16.172Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -77,13 +77,13 @@
               "id": "6523f7f10a9003d447f9741e",
               "time": {
                 "label": "enable",
-                "timestamp": "2024-11-09T15:23:53.163Z"
+                "timestamp": "2024-11-15T16:45:16.172Z"
               },
               "descriptor": {
                 "name": "HEXBit.io",
                 "symbol": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "long_desc": "Hexbit.io Store",
-                "short_desc": "Hexbit.io Store",
+                "long_desc": "Hexbit.io ONDC Store",
+                "short_desc": "Hexbit.io ONDC Store",
                 "images": [
                   "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
@@ -180,7 +180,7 @@
                   },
                   "time": {
                     "label": "enable",
-                    "timestamp": "2024-11-09T15:23:53.163Z",
+                    "timestamp": "2024-11-15T16:45:16.172Z",
                     "days": "1,2,3,4,5,6,7",
                     "schedule": {
                       "holidays": [],
@@ -195,7 +195,7 @@
                   "id": "667eda2af0b342c442711c72",
                   "time": {
                     "label": "enable",
-                    "timestamp": "2024-11-09T15:23:53.163Z"
+                    "timestamp": "2024-11-15T16:45:16.172Z"
                   },
                   "descriptor": {
                     "name": "Lush Red Cream for Oily Skin Hexbit",
@@ -299,7 +299,7 @@
                   "id": "67134662fa255f9635fb394d",
                   "time": {
                     "label": "enable",
-                    "timestamp": "2024-11-09T15:23:53.163Z"
+                    "timestamp": "2024-11-15T16:45:16.172Z"
                   },
                   "descriptor": {
                     "name": "Day face serum | Nature 4 Nature",
@@ -401,10 +401,9 @@
                 },
                 {
                   "id": "67227f8490f83dffd682a117",
-                  "parent_item_id": "3dffd682a116",
                   "time": {
                     "label": "enable",
-                    "timestamp": "2024-11-09T15:23:53.163Z"
+                    "timestamp": "2024-11-15T16:45:16.172Z"
                   },
                   "descriptor": {
                     "name": "LOreal Concealer",
@@ -504,14 +503,14 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parent_item_id": "3dffd682a116"
                 },
                 {
                   "id": "67227f8490f83dffd682a116",
-                  "parent_item_id": "3dffd682a116",
                   "time": {
                     "label": "enable",
-                    "timestamp": "2024-11-09T15:23:53.163Z"
+                    "timestamp": "2024-11-15T16:45:16.172Z"
                   },
                   "descriptor": {
                     "name": "LOreal Concealer",
@@ -611,7 +610,8 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parent_item_id": "3dffd682a116"
                 }
               ],
               "fulfillments": [
@@ -630,7 +630,7 @@
                   "list": [
                     {
                       "code": "type",
-                      "value": "All"
+                      "value": "Order"
                     },
                     {
                       "code": "location",
@@ -646,11 +646,40 @@
                     },
                     {
                       "code": "time_from",
-                      "value": "0000"
+                      "value": "0830"
                     },
                     {
                       "code": "time_to",
-                      "value": "2359"
+                      "value": "2230"
+                    }
+                  ]
+                },
+                {
+                  "code": "timing",
+                  "list": [
+                    {
+                      "code": "type",
+                      "value": "Delivery"
+                    },
+                    {
+                      "code": "location",
+                      "value": "6523f7f10a9003d447f9741e_Location"
+                    },
+                    {
+                      "code": "day_from",
+                      "value": "1"
+                    },
+                    {
+                      "code": "day_to",
+                      "value": "7"
+                    },
+                    {
+                      "code": "time_from",
+                      "value": "0830"
+                    },
+                    {
+                      "code": "time_to",
+                      "value": "2230"
                     }
                   ]
                 },
@@ -721,7 +750,7 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "transaction_id": "eeb5bd70-112f-4358-bacf-7471137b4874",
         "message_id": "cbbdd185-f1b6-4073-b9ec-629812529b85",
-        "timestamp": "2024-11-09T17:41:16.551Z",
+        "timestamp": "2024-11-15T16:53:06.327Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -760,7 +789,7 @@
         "bpp_uri": "https://techondc.hexbit.io/",
         "transaction_id": "eeb5bd70-112f-4358-bacf-7471137b4874",
         "message_id": "1db72b09-0b6d-4d44-9976-6ee18d6e2167",
-        "timestamp": "2024-11-09T17:41:33.118Z",
+        "timestamp": "2024-11-15T16:53:30.477Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -773,7 +802,7 @@
                   "id": "667eda2af0b342c442711c72",
                   "time": {
                     "label": "enable",
-                    "timestamp": "2024-11-09T17:41:33.118Z"
+                    "timestamp": "2024-11-15T16:53:30.477Z"
                   },
                   "descriptor": {
                     "name": "Lush Red Cream for Oily Skin Hexbit",
@@ -889,9 +918,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "509b2707-fabf-4563-9acc-060b59516568",
-        "timestamp": "2024-11-10T17:35:49.407Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "119de0f2-10af-494b-849f-a7953a740905",
+        "timestamp": "2024-11-17T12:15:10.031Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
@@ -954,9 +983,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "509b2707-fabf-4563-9acc-060b59516568",
-        "timestamp": "2024-11-10T17:35:49.747Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "119de0f2-10af-494b-849f-a7953a740905",
+        "timestamp": "2024-11-17T12:15:10.379Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -1118,9 +1147,9 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "bf2e6321-a234-4362-895a-703ff861ffde",
-        "timestamp": "2024-11-10T17:35:58.997Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "2d830ec3-6170-4547-86d2-b2dca2c08d76",
+        "timestamp": "2024-11-17T12:15:21.913Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
@@ -1173,8 +1202,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
+            "created_at": "2024-11-17T12:15:21.913Z",
+            "updated_at": "2024-11-17T12:15:21.913Z"
           },
           "fulfillments": [
             {
@@ -1214,9 +1243,9 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "bf2e6321-a234-4362-895a-703ff861ffde",
-        "timestamp": "2024-11-10T17:35:59.239Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "2d830ec3-6170-4547-86d2-b2dca2c08d76",
+        "timestamp": "2024-11-17T12:15:22.152Z",
         "ttl": "PT30S"
       },
       "message": {
@@ -1298,8 +1327,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
+            "created_at": "2024-11-17T12:15:21.913Z",
+            "updated_at": "2024-11-17T12:15:21.913Z"
           },
           "fulfillments": [
             {
@@ -1410,6 +1439,9 @@
           "payment": {
             "@ondc/org/buyer_app_finder_fee_type": "percent",
             "@ondc/org/buyer_app_finder_fee_amount": "3",
+            "@ondc/org/settlement_basis": "return_window_expiry",
+            "@ondc/org/settlement_window": "P1D",
+            "@ondc/org/withholding_amount": "0.00",
             "@ondc/org/settlement_details": [
               {
                 "settlement_counterparty": "seller-app",
@@ -1418,7 +1450,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
+                "settlement_timestamp": "2024-11-17T12:15:22.152Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1457,15 +1489,15 @@
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "98ee5880-558e-4e71-bcae-227069a06a97",
-        "timestamp": "2024-11-10T17:36:22.730Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "e948e163-627e-4ba3-a491-b2b8658b6bba",
+        "timestamp": "2024-11-17T12:15:53.984Z",
         "bpp_id": "techondc.hexbit.io",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-388834",
+          "id": "2024-11-17-200750",
           "state": "Created",
           "billing": {
             "address": {
@@ -1480,8 +1512,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
+            "created_at": "2024-11-17T12:15:21.913Z",
+            "updated_at": "2024-11-17T12:15:21.913Z"
           },
           "items": [
             {
@@ -1549,7 +1581,7 @@
             "params": {
               "amount": "7695.00",
               "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
+              "transaction_id": "order_PMMuTGA0FH01kt"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -1567,7 +1599,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
+                "settlement_timestamp": "2024-11-17T12:15:22.152Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1687,8 +1719,8 @@
               ]
             }
           ],
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T17:36:22.730Z"
+          "created_at": "2024-11-17T12:15:53.984Z",
+          "updated_at": "2024-11-17T12:15:53.984Z"
         }
       }
     },
@@ -1703,14 +1735,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "98ee5880-558e-4e71-bcae-227069a06a97",
-        "timestamp": "2024-11-10T17:36:23.015Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "e948e163-627e-4ba3-a491-b2b8658b6bba",
+        "timestamp": "2024-11-17T12:15:54.283Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-388834",
+          "id": "2024-11-17-200750",
           "state": "Created",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -1757,8 +1789,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
+            "created_at": "2024-11-17T12:15:21.913Z",
+            "updated_at": "2024-11-17T12:15:21.913Z"
           },
           "fulfillments": [
             {
@@ -1909,7 +1941,7 @@
             "params": {
               "amount": "7695.00",
               "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
+              "transaction_id": "order_PMMuTGA0FH01kt"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -1927,7 +1959,7 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
+                "settlement_timestamp": "2024-11-17T12:15:22.152Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
@@ -1962,8 +1994,8 @@
               ]
             }
           ],
-          "updated_at": "2024-11-10T17:36:23.015Z",
-          "created_at": "2024-11-10T17:36:22.730Z"
+          "updated_at": "2024-11-17T12:15:54.283Z",
+          "created_at": "2024-11-17T12:15:53.984Z"
         }
       }
     },
@@ -1978,14 +2010,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "a650a940-cc83-4643-91e0-13993efdd8d7",
-        "timestamp": "2024-11-10T17:43:56.316Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "9fb60abd-d11c-43d2-963c-bb1f9ccf7f9d",
+        "timestamp": "2024-11-17T12:28:37.674Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-388834",
+          "id": "2024-11-17-200750",
           "state": "Accepted",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -2013,7 +2045,7 @@
               "id": "6523f7f10a9003d447f9741e_Delivery",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
+              "@ondc/org/TAT": "PT60M",
               "tracking": true,
               "state": { "descriptor": { "code": "Pending" } },
               "start": {
@@ -2030,8 +2062,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2024-11-10T17:43:56.316Z",
-                    "end": "2024-11-19T16:43:56.316Z"
+                    "start": "2024-11-17T12:28:37.674Z",
+                    "end": "2024-11-24T05:28:37.674Z"
                   }
                 },
                 "contact": {
@@ -2059,8 +2091,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2025-02-16T17:43:56.316Z",
-                    "end": "2025-02-25T16:43:56.316Z"
+                    "start": "2025-04-27T12:28:37.674Z",
+                    "end": "2025-05-04T05:28:37.674Z"
                   }
                 }
               },
@@ -2076,7 +2108,7 @@
                     { "code": "url_enabled", "value": "yes" },
                     {
                       "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
+                      "value": "https://hexbit.io/Tracking/2024-11-17-200750"
                     }
                   ]
                 },
@@ -2085,7 +2117,7 @@
                   "list": [
                     { "code": "state", "value": "Pending" },
                     { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T17:43:56.316Z" }
+                    { "code": "timestamp", "value": "2024-11-17T12:28:37.674Z" }
                   ]
                 },
                 {
@@ -2108,8 +2140,8 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
+            "created_at": "2024-11-17T12:15:21.913Z",
+            "updated_at": "2024-11-17T12:15:21.913Z"
           },
           "quote": {
             "price": { "currency": "INR", "value": "7695.00" },
@@ -2159,7 +2191,7 @@
             "params": {
               "amount": "7695.00",
               "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
+              "transaction_id": "order_PMMuTGA0FH01kt"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -2177,15 +2209,15 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
+                "settlement_timestamp": "2024-11-17T12:15:22.152Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
               }
             ]
           },
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T17:43:56.316Z"
+          "created_at": "2024-11-17T12:15:53.984Z",
+          "updated_at": "2024-11-17T12:28:37.674Z"
         }
       }
     },
@@ -2200,14 +2232,14 @@
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
         "bpp_id": "techondc.hexbit.io",
         "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "67d61a41-9490-4831-9832-1837d1987fe1",
-        "timestamp": "2024-11-10T17:51:04.779Z",
+        "transaction_id": "12a79685-e6bf-434d-a778-a41728f951b5",
+        "message_id": "ce8ef2ed-ad8c-4376-83e1-ad2b3868b82a",
+        "timestamp": "2024-11-17T12:29:44.572Z",
         "ttl": "PT30S"
       },
       "message": {
         "order": {
-          "id": "2024-11-10-388834",
+          "id": "2024-11-17-200750",
           "state": "In-progress",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
@@ -2232,33 +2264,10 @@
           ],
           "fulfillments": [
             {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "6523f7f10a9003d447f9741e_Delivery",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
+              "@ondc/org/TAT": "PT60M",
               "tracking": true,
               "state": { "descriptor": { "code": "Packed" } },
               "start": {
@@ -2275,8 +2284,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2024-11-10T17:43:56.316Z",
-                    "end": "2024-11-19T16:43:56.316Z"
+                    "start": "2024-11-17T12:28:37.674Z",
+                    "end": "2024-11-24T05:28:37.674Z"
                   }
                 },
                 "contact": {
@@ -2304,8 +2313,8 @@
                 },
                 "time": {
                   "range": {
-                    "start": "2025-02-16T17:43:56.316Z",
-                    "end": "2025-02-25T16:43:56.316Z"
+                    "start": "2025-04-27T12:28:37.674Z",
+                    "end": "2025-05-04T05:28:37.674Z"
                   }
                 }
               },
@@ -2321,7 +2330,7 @@
                     { "code": "url_enabled", "value": "yes" },
                     {
                       "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
+                      "value": "https://hexbit.io/Tracking/2024-11-17-200750"
                     }
                   ]
                 },
@@ -2330,7 +2339,7 @@
                   "list": [
                     { "code": "state", "value": "Packed" },
                     { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T17:51:04.779Z" }
+                    { "code": "timestamp", "value": "2024-11-17T12:29:44.572Z" }
                   ]
                 },
                 {
@@ -2353,12 +2362,11 @@
             "phone": "9939197376",
             "name": "RISHAV RAJ SINGH",
             "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
+            "created_at": "2024-11-17T12:15:21.913Z",
+            "updated_at": "2024-11-17T12:15:21.913Z"
           },
           "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "6505" },
+            "price": { "currency": "INR", "value": "7695.00" },
             "breakup": [
               {
                 "@ondc/org/item_id": "667eda2af0b342c442711c72",
@@ -2378,10 +2386,10 @@
               },
               {
                 "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
+                "@ondc/org/item_quantity": { "count": 2 },
                 "title": "LOreal Concealer",
                 "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
+                "price": { "currency": "INR", "value": "1190" },
                 "item": { "price": { "currency": "INR", "value": "595" } }
               },
               {
@@ -2396,7 +2404,8 @@
                 "@ondc/org/title_type": "misc",
                 "price": { "currency": "INR", "value": "10.00" }
               }
-            ]
+            ],
+            "ttl": "P1D"
           },
           "payment": {
             "uri": "https://razorpay.com/",
@@ -2404,7 +2413,7 @@
             "params": {
               "amount": "7695.00",
               "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
+              "transaction_id": "order_PMMuTGA0FH01kt"
             },
             "status": "PAID",
             "type": "ON-ORDER",
@@ -2422,3349 +2431,35 @@
                 "upi_address": "gft@oksbi",
                 "settlement_bank_account_no": "123456789087",
                 "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
+                "settlement_timestamp": "2024-11-17T12:15:22.152Z",
                 "beneficiary_name": "Xilligence PRIVATE LIMITED",
                 "bank_name": "SBI",
                 "branch_name": "Andheri"
               }
             ]
           },
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T17:51:04.779Z"
+          "created_at": "2024-11-17T12:15:53.984Z",
+          "updated_at": "2024-11-17T12:29:44.572Z"
         }
       }
     },
-    "on_status_picked": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_status",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "1ba8a1bf-148c-411f-8ccd-0c03dffb3d53",
-        "timestamp": "2024-11-10T17:55:32.459Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "In-progress",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-picked-up" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:43:56.316Z",
-                    "end": "2024-11-19T16:43:56.316Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "range": {
-                    "start": "2025-02-16T17:43:56.316Z",
-                    "end": "2025-02-25T16:43:56.316Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-picked-up" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T17:55:32.459Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            }
-          ],
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "6505" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T17:55:32.459Z",
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ]
-        }
-      }
-    },
-    "on_status_out_for_delivery": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_status",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "75c90fd1-7c82-4af4-8582-450c3ef0fb65",
-        "timestamp": "2024-11-10T17:59:09.327Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "In-progress",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Out-for-delivery" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:43:56.316Z",
-                    "end": "2024-11-19T16:43:56.316Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "range": {
-                    "start": "2025-02-16T17:43:56.316Z",
-                    "end": "2025-02-25T16:43:56.316Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Out-for-delivery" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T17:59:09.327Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            }
-          ],
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "6505" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T17:59:09.327Z",
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ]
-        }
-      }
-    },
-    "on_status_delivered": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_status",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "676a79f1-42b0-402b-b8e9-53774ce5448b",
-        "timestamp": "2024-11-10T18:04:27.308Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Completed",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-delivered" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:43:56.316Z",
-                    "end": "2024-11-19T16:43:56.316Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T18:04:27.308Z",
-                  "range": {
-                    "start": "2025-02-16T17:43:56.316Z",
-                    "end": "2025-02-25T16:43:56.316Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-delivered" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T18:04:27.308Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            }
-          ],
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "6505" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T18:04:27.308Z",
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ]
-        }
-      }
-    },
+    "on_status_picked": {},
+    "on_status_out_for_delivery": {},
+    "on_status_delivered": {},
     "cancel": {},
     "on_cancel": {},
-    "on_update_part_cancel": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "action": "on_update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "city": "std:080",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "8143f549-de4e-4402-9178-95f389d04612",
-        "timestamp": "2024-11-10T17:45:15.628Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Created",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e",
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e",
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 0 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e-C2",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 }
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "state": { "descriptor": { "code": "Pending" } },
-              "type": "Delivery",
-              "tracking": true,
-              "@ondc/org/TAT": "P8D",
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "name": "Anantha Narayanan Seetharaman",
-                    "country": "IND",
-                    "locality": "Doddanekkundi",
-                    "building": "Sri Venkata Shiva PG",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:45:15.628Z",
-                  "range": {
-                    "start": "2024-11-10T17:45:15.628Z",
-                    "end": "2024-11-19T16:45:15.628Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:45:15.628Z",
-                  "range": {
-                    "start": "2025-02-16T17:45:15.628Z",
-                    "end": "2025-02-25T16:45:15.628Z"
-                  }
-                },
-                "instructions": {
-                  "code": "1",
-                  "name": "HEXBit",
-                  "short_desc": "HEXBit test short_desc",
-                  "long_desc": "additional instructions for pickup"
-                },
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "rateable": true
-            }
-          ],
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "6505" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "created_at": "2023-06-03T09:30:00.000Z",
-          "updated_at": "2023-06-03T10:31:30.000Z"
-        }
-      }
-    },
-    "update_settlement_part_cancel": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "action": "update",
-        "city": "std:080",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "eed3838b-af97-444a-8716-fb78a375c359",
-        "timestamp": "2024-11-10T17:45:16.776Z"
-      },
-      "message": {
-        "update_target": "payment",
-        "order": {
-          "id": "2024-11-10-388834",
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel"
-            }
-          ],
-          "payment": {
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "1190",
-                "settlement_timestamp": "2024-11-10T17:45:16.776Z"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "update_reverse_qc": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "4dad2bef-7d02-48c0-837c-85b2c7f48d5d",
-        "timestamp": "2024-11-10T18:19:08.645Z",
-        "bpp_id": "techondc.hexbit.io",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "update_target": "item",
-        "order": {
-          "id": "2024-11-10-388834",
-          "fulfillments": [
-            {
-              "type": "Return",
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    {
-                      "code": "id",
-                      "value": "6730f91cf13c5168daa70754"
-                    },
-                    {
-                      "code": "item_id",
-                      "value": "67134662fa255f9635fb394d"
-                    },
-                    {
-                      "code": "parent_item_id",
-                      "value": ""
-                    },
-                    {
-                      "code": "item_quantity",
-                      "value": "2"
-                    },
-                    {
-                      "code": "reason_id",
-                      "value": "001"
-                    },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/d22efb31-e832-4ddb-981b-51126a2edab0.png"
-                    },
-                    {
-                      "code": "ttl_approval",
-                      "value": "PT24H"
-                    },
-                    {
-                      "code": "ttl_reverseqc",
-                      "value": "P3D"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    "on_update_interim_reverse_qc": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "4dad2bef-7d02-48c0-837c-85b2c7f48d5d",
-        "timestamp": "2024-11-10T18:19:09.037Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Completed",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e"
-            },
-            {
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e"
-            },
-            {
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e"
-            }
-          ],
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "001" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-delivered" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:45:15.628Z",
-                    "end": "2024-11-19T16:45:15.628Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T18:04:27.308Z",
-                  "range": {
-                    "start": "2025-02-16T17:45:15.628Z",
-                    "end": "2025-02-25T16:45:15.628Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-delivered" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T18:04:27.308Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            },
-            {
-              "id": "6730f91cf13c5168daa70754",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Return_Initiated" } },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "item_id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "001" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/d22efb31-e832-4ddb-981b-51126a2edab0.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "6505" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "1190",
-                "settlement_timestamp": "2024-11-10T17:45:16.776Z"
-              },
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ],
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T18:19:09.037Z"
-        }
-      }
-    },
-    "on_update_approval": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "f570663f-f0f8-4e67-aac8-051f3a2cf7ad",
-        "timestamp": "2024-11-10T18:24:05.003Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Completed",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 0 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e-C2",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 }
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "001" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-delivered" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:45:15.628Z",
-                    "end": "2024-11-19T16:45:15.628Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T18:04:27.308Z",
-                  "range": {
-                    "start": "2025-02-16T17:45:15.628Z",
-                    "end": "2025-02-25T16:45:15.628Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-delivered" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T18:04:27.308Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            },
-            {
-              "id": "6730f91cf13c5168daa70754",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Return_Approved" } },
-              "start": {
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "range": {
-                    "start": "2024-11-10T18:24:05.003Z",
-                    "end": "2024-11-10T23:24:06.930Z"
-                  }
-                }
-              },
-              "end": {
-                "location": {
-                  "id": "6523f7f10a9003d447f97420",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "name": "HEXBit.io",
-                    "country": "IND",
-                    "locality": "Doddanekkundi",
-                    "building": "Sri Venkata Shiva PG",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "id", "value": "6730f6f8f13c5168daa70656" },
-                    { "code": "item_id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "parent_item_id", "value": "" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "001" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/4303f632-3078-4411-b056-a70785305ceb.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "6505" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "5996" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "1190",
-                "settlement_timestamp": "2024-11-10T17:45:16.776Z"
-              },
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ],
-          "created_at": "2024-11-10T18:10:02.084Z",
-          "updated_at": "2024-11-10T18:10:02.084Z"
-        }
-      }
-    },
-    "on_update_picked": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "e8602d3d-69a6-47a4-b415-072a21ce2055",
-        "timestamp": "2024-11-10T18:27:47.162Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Completed",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 0 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e-C2",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 }
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "001" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-delivered" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:45:15.628Z",
-                    "end": "2024-11-19T16:45:15.628Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T18:04:27.308Z",
-                  "range": {
-                    "start": "2025-02-16T17:45:15.628Z",
-                    "end": "2025-02-25T16:45:15.628Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-delivered" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T18:04:27.308Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            },
-            {
-              "id": "6730f91cf13c5168daa70754",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Return_Picked" } },
-              "start": {
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "range": {
-                    "start": "2024-11-10T18:27:26.296Z",
-                    "end": "2024-11-10T23:27:28.241Z"
-                  },
-                  "timestamp": "2024-11-10T18:27:47.162Z"
-                }
-              },
-              "end": {
-                "location": {
-                  "id": "6523f7f10a9003d447f97420",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "name": "HEXBit.io",
-                    "country": "IND",
-                    "locality": "Doddanekkundi",
-                    "building": "Sri Venkata Shiva PG",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "id", "value": "6730f91cf13c5168daa70754" },
-                    { "code": "item_id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "parent_item_id", "value": "" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "001" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/d22efb31-e832-4ddb-981b-51126a2edab0.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-5996" }
-                  ]
-                }
-              ]
-            }
-          ],
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "509" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "1190",
-                "settlement_timestamp": "2024-11-10T17:45:16.776Z"
-              },
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ],
-          "created_at": "2024-11-10T18:19:10.499Z",
-          "updated_at": "2024-11-10T18:27:28.243Z"
-        }
-      }
-    },
-    "on_update_delivered": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "7fd6dc2a-5b49-494e-9485-41cecc33fde2",
-        "timestamp": "2024-11-10T18:32:31.434Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Completed",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 0 }
-            },
-            {
-              "fulfillment_id": "6523f7f10a9003d447f9741e-C2",
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 }
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "001" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-delivered" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:45:15.628Z",
-                    "end": "2024-11-19T16:45:15.628Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T18:04:27.308Z",
-                  "range": {
-                    "start": "2025-02-16T17:45:15.628Z",
-                    "end": "2025-02-25T16:45:15.628Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-delivered" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T18:04:27.308Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            },
-            {
-              "id": "6730f91cf13c5168daa70754",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Return_Delivered" } },
-              "start": {
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "range": {
-                    "start": "2024-11-10T18:27:26.296Z",
-                    "end": "2024-11-10T23:27:28.241Z"
-                  },
-                  "timestamp": "2024-11-10T18:27:47.162Z"
-                }
-              },
-              "end": {
-                "location": {
-                  "id": "6523f7f10a9003d447f97420",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "name": "HEXBit.io",
-                    "country": "IND",
-                    "locality": "Doddanekkundi",
-                    "building": "Sri Venkata Shiva PG",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": { "timestamp": "2024-11-10T18:32:31.434Z" }
-              },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "id", "value": "6730f91cf13c5168daa70754" },
-                    { "code": "item_id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "parent_item_id", "value": "" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "001" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/d22efb31-e832-4ddb-981b-51126a2edab0.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-5996" }
-                  ]
-                }
-              ]
-            }
-          ],
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "509" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "5996",
-                "settlement_timestamp": "2024-11-10T18:27:48.688Z"
-              },
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "1190",
-                "settlement_timestamp": "2024-11-10T17:45:16.776Z"
-              },
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ],
-          "created_at": "2024-11-10T18:19:10.499Z",
-          "updated_at": "2024-11-10T18:27:53.999Z"
-        }
-      }
-    },
-    "update_liquidated": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "2ba0893a-4d0a-4e61-9e15-a34e4b61abeb",
-        "timestamp": "2024-11-10T18:41:10.750Z",
-        "bpp_id": "techondc.hexbit.io",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "update_target": "item",
-        "order": {
-          "id": "2024-11-10-388834",
-          "fulfillments": [
-            {
-              "type": "Return",
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "id", "value": "6730fe46f13c5168daa709b3" },
-                    { "code": "item_id", "value": "667eda2af0b342c442711c72" },
-                    { "code": "parent_item_id", "value": "" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "003" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/85e501dd-8afa-4bbb-90aa-ed70c177cf91.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    "on_update_interim_liquidated": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "2ba0893a-4d0a-4e61-9e15-a34e4b61abeb",
-        "timestamp": "2024-11-10T18:41:11.126Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Completed",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e"
-            },
-            {
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e"
-            },
-            {
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e"
-            }
-          ],
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "001" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-delivered" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:45:15.628Z",
-                    "end": "2024-11-19T16:45:15.628Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T18:04:27.308Z",
-                  "range": {
-                    "start": "2025-02-16T17:45:15.628Z",
-                    "end": "2025-02-25T16:45:15.628Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-delivered" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T18:04:27.308Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            },
-            {
-              "id": "6730f91cf13c5168daa70754",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Return_Delivered" } },
-              "start": {
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "range": {
-                    "start": "2024-11-10T18:27:26.296Z",
-                    "end": "2024-11-10T23:27:28.241Z"
-                  },
-                  "timestamp": "2024-11-10T18:27:47.162Z"
-                }
-              },
-              "end": {
-                "location": {
-                  "id": "6523f7f10a9003d447f97420",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "name": "HEXBit.io",
-                    "country": "IND",
-                    "locality": "Doddanekkundi",
-                    "building": "Sri Venkata Shiva PG",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": { "timestamp": "2024-11-10T18:32:31.434Z" }
-              },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "id", "value": "6730f91cf13c5168daa70754" },
-                    { "code": "item_id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "parent_item_id", "value": "" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "001" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/d22efb31-e832-4ddb-981b-51126a2edab0.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-5996" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6730fe46f13c5168daa709b3",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Return_Initiated" } },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "item_id", "value": "667eda2af0b342c442711c72" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "003" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/85e501dd-8afa-4bbb-90aa-ed70c177cf91.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "509" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 2 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "400" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "5996",
-                "settlement_timestamp": "2024-11-10T18:27:48.688Z"
-              },
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "1190",
-                "settlement_timestamp": "2024-11-10T17:45:16.776Z"
-              },
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ],
-          "created_at": "2024-11-10T17:36:22.730Z",
-          "updated_at": "2024-11-10T18:41:11.126Z"
-        }
-      }
-    },
-    "on_update_liquidated": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "on_update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "b3a39555-c3e7-44a3-8a9c-0bff95155e50",
-        "timestamp": "2024-11-10T18:48:24.350Z",
-        "ttl": "PT30S"
-      },
-      "message": {
-        "order": {
-          "id": "2024-11-10-388834",
-          "state": "Completed",
-          "provider": {
-            "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e_Location" }]
-          },
-          "items": [
-            {
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6730fe46f13c5168daa709b3"
-            },
-            {
-              "id": "667eda2af0b342c442711c72",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67134662fa255f9635fb394d",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            },
-            {
-              "id": "67227f8490f83dffd682a117",
-              "quantity": { "count": 2 },
-              "fulfillment_id": "6523f7f10a9003d447f9741e_Delivery"
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "6523f7f10a9003d447f9741e-C2",
-              "type": "Cancel",
-              "state": { "descriptor": { "code": "Cancelled" } },
-              "tags": [
-                {
-                  "code": "cancel_request",
-                  "list": [
-                    { "code": "reason_id", "value": "001" },
-                    { "code": "initiated_by", "value": "techondc.hexbit.io" }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67227f8490f83dffd682a117" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-1190" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6523f7f10a9003d447f9741e_Delivery",
-              "@ondc/org/provider_name": "HEXBit.io",
-              "type": "Delivery",
-              "@ondc/org/TAT": "P8D",
-              "tracking": true,
-              "state": { "descriptor": { "code": "Order-delivered" } },
-              "start": {
-                "location": {
-                  "id": "6523f7f10a9003d447f9741e",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "locality": "Doddanekkundi",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T17:55:32.459Z",
-                  "range": {
-                    "start": "2024-11-10T17:45:15.628Z",
-                    "end": "2024-11-19T16:45:15.628Z"
-                  }
-                },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                }
-              },
-              "end": {
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "timestamp": "2024-11-10T18:04:27.308Z",
-                  "range": {
-                    "start": "2025-02-16T17:45:15.628Z",
-                    "end": "2025-02-25T16:45:15.628Z"
-                  }
-                }
-              },
-              "tags": [
-                {
-                  "code": "state",
-                  "list": [{ "code": "ready_to_ship", "value": "yes" }]
-                },
-                {
-                  "code": "tracking",
-                  "list": [
-                    { "code": "gps_enabled", "value": "no" },
-                    { "code": "url_enabled", "value": "yes" },
-                    {
-                      "code": "url",
-                      "value": "https://hexbit.io/Tracking/2024-11-10-388834"
-                    }
-                  ]
-                },
-                {
-                  "code": "fulfillment_delay",
-                  "list": [
-                    { "code": "state", "value": "Order-delivered" },
-                    { "code": "reason_id", "value": "002" },
-                    { "code": "timestamp", "value": "2024-11-10T18:04:27.308Z" }
-                  ]
-                },
-                {
-                  "code": "routing",
-                  "list": [{ "code": "type", "value": "P2H2P" }]
-                }
-              ]
-            },
-            {
-              "id": "6730f91cf13c5168daa70754",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Return_Delivered" } },
-              "start": {
-                "contact": {
-                  "email": "rishavrajcrj@gmail.com",
-                  "phone": "9939197376"
-                },
-                "person": { "name": "RISHAV RAJ SINGH" },
-                "location": {
-                  "gps": "12.982980,77.686515",
-                  "address": {
-                    "name": "RISHAV RAJ SINGH",
-                    "building": "Sri Venkatesa Siva",
-                    "locality": "4th A Cross Road",
-                    "city": "Bengaluru",
-                    "state": "Karnataka",
-                    "country": "IND",
-                    "area_code": "560048"
-                  }
-                },
-                "time": {
-                  "range": {
-                    "start": "2024-11-10T18:27:26.296Z",
-                    "end": "2024-11-10T23:27:28.241Z"
-                  },
-                  "timestamp": "2024-11-10T18:27:47.162Z"
-                }
-              },
-              "end": {
-                "location": {
-                  "id": "6523f7f10a9003d447f97420",
-                  "descriptor": { "name": "HEXBit.io" },
-                  "gps": "12.982981,77.686527",
-                  "address": {
-                    "name": "HEXBit.io",
-                    "country": "IND",
-                    "locality": "Doddanekkundi",
-                    "building": "Sri Venkata Shiva PG",
-                    "city": "BENGALURU",
-                    "state": "KARNATAKA",
-                    "area_code": "560037"
-                  }
-                },
-                "time": { "timestamp": "2024-11-10T18:32:31.434Z" }
-              },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "id", "value": "6730f91cf13c5168daa70754" },
-                    { "code": "item_id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "parent_item_id", "value": "" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "001" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/d22efb31-e832-4ddb-981b-51126a2edab0.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "67134662fa255f9635fb394d" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-5996" }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "6730fe46f13c5168daa709b3",
-              "type": "Return",
-              "state": { "descriptor": { "code": "Liquidated" } },
-              "tags": [
-                {
-                  "code": "return_request",
-                  "list": [
-                    { "code": "id", "value": "6730fe46f13c5168daa709b3" },
-                    { "code": "item_id", "value": "667eda2af0b342c442711c72" },
-                    { "code": "parent_item_id", "value": "" },
-                    { "code": "item_quantity", "value": "2" },
-                    { "code": "reason_id", "value": "003" },
-                    {
-                      "code": "reason_desc",
-                      "value": "detailed description for return"
-                    },
-                    {
-                      "code": "images",
-                      "value": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/2024-11-10-388834/85e501dd-8afa-4bbb-90aa-ed70c177cf91.png"
-                    },
-                    { "code": "ttl_approval", "value": "PT24H" },
-                    { "code": "ttl_reverseqc", "value": "P3D" },
-                    {
-                      "code": "initiated_by",
-                      "value": "buyer-app-preprod-v2.ondc.org"
-                    }
-                  ]
-                },
-                {
-                  "code": "quote_trail",
-                  "list": [
-                    { "code": "type", "value": "item" },
-                    { "code": "id", "value": "667eda2af0b342c442711c72" },
-                    { "code": "currency", "value": "INR" },
-                    { "code": "value", "value": "-400" }
-                  ]
-                }
-              ]
-            }
-          ],
-          "quote": {
-            "ttl": "P1D",
-            "price": { "currency": "INR", "value": "109" },
-            "breakup": [
-              {
-                "@ondc/org/item_id": "667eda2af0b342c442711c72",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "Lush Red Cream for Oily Skin Hexbit",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "200" } }
-              },
-              {
-                "@ondc/org/item_id": "67134662fa255f9635fb394d",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "Day face serum | Nature 4 Nature",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "2998" } }
-              },
-              {
-                "@ondc/org/item_id": "67227f8490f83dffd682a117",
-                "@ondc/org/item_quantity": { "count": 0 },
-                "title": "LOreal Concealer",
-                "@ondc/org/title_type": "item",
-                "price": { "currency": "INR", "value": "0" },
-                "item": { "price": { "currency": "INR", "value": "595" } }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Delivery charges",
-                "@ondc/org/title_type": "delivery",
-                "price": { "currency": "INR", "value": "99.00" }
-              },
-              {
-                "@ondc/org/item_id": "6523f7f10a9003d447f9741e_Delivery",
-                "title": "Convenience Fee",
-                "@ondc/org/title_type": "misc",
-                "price": { "currency": "INR", "value": "10.00" }
-              }
-            ]
-          },
-          "documents": [
-            {
-              "url": "https://hexbitbucket2023.s3.ap-south-1.amazonaws.com/Images/1731267435672.pdf",
-              "label": "Invoice"
-            }
-          ],
-          "billing": {
-            "address": {
-              "name": "RISHAV RAJ SINGH",
-              "building": "Sri Venkatesa Siva",
-              "locality": "4th A Cross Road",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IND",
-              "area_code": "560048"
-            },
-            "phone": "9939197376",
-            "name": "RISHAV RAJ SINGH",
-            "email": "rishavrajcrj@gmail.com",
-            "created_at": "2024-11-10T17:35:58.997Z",
-            "updated_at": "2024-11-10T17:35:58.997Z"
-          },
-          "payment": {
-            "uri": "https://razorpay.com/",
-            "tl_method": "http/get",
-            "params": {
-              "amount": "7695.00",
-              "currency": "INR",
-              "transaction_id": "order_PJgdEJpXKU3Hq5"
-            },
-            "status": "PAID",
-            "type": "ON-ORDER",
-            "collected_by": "BAP",
-            "@ondc/org/buyer_app_finder_fee_type": "percent",
-            "@ondc/org/buyer_app_finder_fee_amount": "3.0",
-            "@ondc/org/settlement_basis": "return_window_expiry",
-            "@ondc/org/settlement_window": "P1D",
-            "@ondc/org/withholding_amount": "0.00",
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "5996",
-                "settlement_timestamp": "2024-11-10T18:27:48.688Z"
-              },
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "1190",
-                "settlement_timestamp": "2024-11-10T17:45:16.776Z"
-              },
-              {
-                "settlement_counterparty": "seller-app",
-                "settlement_phase": "sale-amount",
-                "settlement_type": "neft",
-                "upi_address": "gft@oksbi",
-                "settlement_bank_account_no": "123456789087",
-                "settlement_ifsc_code": "SBIN0070074",
-                "settlement_timestamp": "2024-11-10T17:35:59.239Z",
-                "beneficiary_name": "Xilligence PRIVATE LIMITED",
-                "bank_name": "SBI",
-                "branch_name": "Andheri"
-              }
-            ]
-          },
-          "created_at": "2024-11-10T18:41:12.517Z",
-          "updated_at": "2024-11-10T18:41:12.517Z"
-        }
-      }
-    },
-    "update_settlement_liquidated": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "city": "std:080",
-        "action": "update",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "5557bd62-a9a7-405d-b9b7-5e89c7c8de20",
-        "timestamp": "2024-11-10T18:48:25.350Z"
-      },
-      "message": {
-        "update_target": "payment",
-        "order": {
-          "id": "2024-11-10-388834",
-          "fulfillments": [
-            {
-              "id": "6730fe46f13c5168daa709b3",
-              "type": "Return"
-            }
-          ],
-          "payment": {
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "400",
-                "settlement_timestamp": "2024-11-10T18:48:25.350Z"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "update_settlement_reverse_qc": {
-      "context": {
-        "domain": "ONDC:RET13",
-        "country": "IND",
-        "action": "update",
-        "city": "std:080",
-        "core_version": "1.2.0",
-        "bap_id": "buyer-app-preprod-v2.ondc.org",
-        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "bpp_id": "techondc.hexbit.io",
-        "bpp_uri": "https://techondc.hexbit.io/",
-        "transaction_id": "02ac9ba3-372a-42de-be0e-90e4b9c5b860",
-        "message_id": "551857c6-18a1-47e9-ada5-56374c882b4b",
-        "timestamp": "2024-11-10T18:27:48.688Z"
-      },
-      "message": {
-        "update_target": "payment",
-        "order": {
-          "id": "2024-11-10-388834",
-          "fulfillments": [
-            {
-              "id": "6730f91cf13c5168daa70754",
-              "type": "Return"
-            }
-          ],
-          "payment": {
-            "@ondc/org/settlement_details": [
-              {
-                "settlement_counterparty": "buyer",
-                "settlement_phase": "refund",
-                "settlement_type": "wallet",
-                "settlement_amount": "5996",
-                "settlement_timestamp": "2024-11-10T18:27:48.688Z"
-              }
-            ]
-          }
-        }
-      }
-    }
+    "on_update_part_cancel": {},
+    "update_settlement_part_cancel": {},
+    "update_reverse_qc": {},
+    "on_update_interim_reverse_qc": {},
+    "on_update_approval": {},
+    "on_update_picked": {},
+    "on_update_delivered": {},
+    "update_liquidated": {},
+    "on_update_interim_liquidated": {},
+    "on_update_liquidated": {},
+    "update_settlement_liquidated": {},
+    "update_settlement_reverse_qc": {}
   },
   "flow": "6"
 }
