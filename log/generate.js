@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 5; i++) {
   const readData = fs.readFileSync(`./log/Flow/${i + 1}.json`, "utf-8");
   const data = JSON.parse(readData);
 
