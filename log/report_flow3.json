@@ -6,8 +6,8 @@
     "bpp_id": "techondc.hexbit.io",
     "bap_id": "buyer-app-preprod-v2.ondc.org",
     "domain": "ONDC:RET13",
-    "reportTimestamp": "2024-11-17T14:22:32.787Z"
+    "reportTimestamp": "2024-11-20T18:54:07.741Z"
   },
-  "signature": "WXAncgBaX+AD5P648M2u7E41eiGAdSnqoUX0UY6OVdgN9cNa0DQykwljfXIC8FtGInIw170zhxJV9Sri1P7TCg==",
-  "signTimestamp": "2024-11-17T14:22:32.787Z"
+  "signature": "ROZrvD62O+UBfOg5YnEMTav9noyMaiBbtevcoOasWPAu+AYYBGUosKKyjedj/RJH1xFqi9Bk064vsYLoBuN7Bg==",
+  "signTimestamp": "2024-11-20T18:54:07.741Z"
 }
