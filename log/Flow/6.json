@@ -1972,7 +1972,7 @@
           "state": "Created",
           "provider": {
             "id": "6523f7f10a9003d447f9741e",
-            "locations": [{ "id": "6523f7f10a9003d447f9741e" }]
+            "locations": [{ "id": "6523f7f10a9003d447f9741e12" }]
           },
           "items": [
             {
@@ -2026,7 +2026,7 @@
               "state": { "descriptor": { "code": "Pending" } },
               "type": "Delivery",
               "tracking": false,
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "start": {
                 "location": {
                   "id": "6523f7f10a9003d447f9741e",
@@ -2287,7 +2287,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Pending" } },
               "start": {
@@ -2529,7 +2529,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Packed" } },
               "start": {
@@ -2545,10 +2545,9 @@
                   }
                 },
                 "time": {
-                  "timestamp": "2024-11-22T02:55:08.355Z",
                   "range": {
-                    "start": "2024-11-22T02:55:08.355Z",
-                    "end": "2024-11-25T10:55:08.355Z"
+                    "start": "2024-11-22T03:08:50.779Z",
+                    "end": "2024-11-25T11:08:50.779Z"
                   }
                 },
                 "contact": {
@@ -2575,10 +2574,9 @@
                   }
                 },
                 "time": {
-                  "timestamp": "2024-11-22T02:55:08.355Z",
                   "range": {
-                    "start": "2025-06-16T02:55:08.355Z",
-                    "end": "2025-06-19T10:55:08.355Z"
+                    "start": "2025-06-16T03:08:50.779Z",
+                    "end": "2025-06-19T11:08:50.779Z"
                   }
                 }
               },
@@ -2773,7 +2771,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-picked-up" } },
               "start": {
@@ -2791,8 +2789,8 @@
                 "time": {
                   "timestamp": "2024-11-22T03:13:28.805Z",
                   "range": {
-                    "start": "2024-11-22T02:55:08.355Z",
-                    "end": "2024-11-25T10:55:08.355Z"
+                    "start": "2024-11-22T03:08:50.779Z",
+                    "end": "2024-11-25T11:08:50.779Z"
                   }
                 },
                 "contact": {
@@ -2819,10 +2817,9 @@
                   }
                 },
                 "time": {
-                  "timestamp": "2024-11-22T02:55:08.355Z",
                   "range": {
-                    "start": "2025-06-16T02:55:08.355Z",
-                    "end": "2025-06-19T10:55:08.355Z"
+                    "start": "2025-06-16T03:08:50.779Z",
+                    "end": "2025-06-19T11:08:50.779Z"
                   }
                 }
               },
@@ -3023,7 +3020,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Out-for-delivery" } },
               "start": {
@@ -3041,8 +3038,8 @@
                 "time": {
                   "timestamp": "2024-11-22T03:13:28.805Z",
                   "range": {
-                    "start": "2024-11-22T02:55:08.355Z",
-                    "end": "2024-11-25T10:55:08.355Z"
+                    "start": "2024-11-22T03:08:50.779Z",
+                    "end": "2024-11-25T11:08:50.779Z"
                   }
                 },
                 "contact": {
@@ -3069,10 +3066,9 @@
                   }
                 },
                 "time": {
-                  "timestamp": "2024-11-22T02:55:08.355Z",
                   "range": {
-                    "start": "2025-06-16T02:55:08.355Z",
-                    "end": "2025-06-19T10:55:08.355Z"
+                    "start": "2025-06-16T03:08:50.779Z",
+                    "end": "2025-06-19T11:08:50.779Z"
                   }
                 }
               },
@@ -3273,7 +3269,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {
@@ -3291,8 +3287,8 @@
                 "time": {
                   "timestamp": "2024-11-22T03:13:28.805Z",
                   "range": {
-                    "start": "2024-11-22T02:55:08.355Z",
-                    "end": "2024-11-25T10:55:08.355Z"
+                    "start": "2024-11-22T03:08:50.779Z",
+                    "end": "2024-11-25T11:08:50.779Z"
                   }
                 },
                 "contact": {
@@ -3321,8 +3317,8 @@
                 "time": {
                   "timestamp": "2024-11-22T03:15:09.136Z",
                   "range": {
-                    "start": "2025-06-16T02:55:08.355Z",
-                    "end": "2025-06-19T10:55:08.355Z"
+                    "start": "2025-06-16T03:08:50.779Z",
+                    "end": "2025-06-19T11:08:50.779Z"
                   }
                 }
               },
