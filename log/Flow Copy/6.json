@@ -3587,7 +3587,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {
@@ -3862,7 +3862,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {
@@ -4196,7 +4196,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {
@@ -4579,7 +4579,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {
@@ -4992,7 +4992,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {
@@ -5357,7 +5357,7 @@
               "id": "6523f7f10a9003d447f9741e04",
               "@ondc/org/provider_name": "HEXBit.io",
               "type": "Delivery",
-              "@ondc/org/TAT": "PT60M",
+              "@ondc/org/TAT": "P8D",
               "tracking": true,
               "state": { "descriptor": { "code": "Order-delivered" } },
               "start": {

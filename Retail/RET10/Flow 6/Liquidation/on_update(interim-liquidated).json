@@ -124,7 +124,7 @@
             }
           },
           "tracking": false,
-          "@ondc/org/TAT": "PT60M"
+          "@ondc/org/TAT": "P8D"
         },
         {
           "id": "6523f7f10a9003d447f9741e-C",

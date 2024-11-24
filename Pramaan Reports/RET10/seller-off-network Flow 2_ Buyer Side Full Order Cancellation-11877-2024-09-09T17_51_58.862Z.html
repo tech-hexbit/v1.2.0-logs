@@ -1,242 +1,384 @@
-
-
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>ONDC Automation Report</title>
-<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
-<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
-<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
-<style type="text/css">.vheader{background-color:#008ECC;} .search-box{display:none;} .badge.badge-primary{background-color:#249B3E;} .nav-logo{width:100% !important; position:absolute; top:24px; font-size:20px; color:#fff; font-weight:bold;}</style></head><body class="spa -report standard">
-  <div class="app">
-    <div class="layout">
-<div class="header navbar">
-<div class="vheader">
-<div class="nav-logo">
-<a href="#">
-<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
-</a>
-</div>
-<ul class="nav-left">
-<li class="search-box">
-<a class="search-toggle" href="#">
-<i class="search-icon fa fa-search"></i>
-<i class="search-icon-close fa fa-close"></i>
-</a>
-</li>
-<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
-</ul>
-<ul class="nav-right">
-<li class="m-r-10">
-<a href="#"><span class="badge badge-primary">techondc.hexbit.io</span></a>
-</li>
-<li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 9, 2024 11:20:18 PM</span></a>
-</li>
-</ul>
-</div>
-</div><div class="side-nav">
-<div class="side-nav-inner">
-<ul class="side-nav-menu">
-<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
-<a id="nav-dashboard" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bar-chart"></i></span>
-</a>
-</li>
-<li class="nav-item dropdown" onclick="toggleView('test-view')">
-<a id="nav-test" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-list"></i></span>
-</a>
-</li>
-</ul>
-</div>
-</div>      <div class="vcontainer">
-        <div class="main-content">
-<div class="container-fluid p-4 view dashboard-view">
-<div class="row">
-<div class="col-md-3">
-<div class="card"><div class="card-body">
-<p class="m-b-0">Started</p>
-<h3>Sep 9, 2024 11:20:18 PM</h3>
-</div></div>
-</div>
-<div class="col-md-3">
-<div class="card"><div class="card-body">
-<p class="m-b-0">Ended</p>
-<h3>Sep 9, 2024 11:20:56 PM</h3>
-</div></div>
-</div>
-<div class="col-md-3">
-<div class="card"><div class="card-body">
-<p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
-</div></div>
-</div>
-<div class="col-md-3">
-<div class="card"><div class="card-body">
-<p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
-</div></div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-6">
-<div class="card">
-<div class="card-header">
-<h6 class="card-title">Tests</h6>
-</div>
-<div class="card-body">
-<div class="">
-<canvas id='parent-analysis' width='115' height='90'></canvas>
-</div>
-</div>
-<div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
-</small>
-</div>
-<div>
-<small data-tooltip='100%'><b>1</b> tests failed,
-<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
-</small>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="card">
-<div class="card-header">
-<h6 class="card-title">Log events</h6>
-</div>
-<div class="card-body">
-<div class="">
-<canvas id='events-analysis' width='115' height='90'></canvas>
-</div>
-</div>
-<div class="card-footer">
-<div><small data-tooltip='59%'><b>104</b> events passed</small></div>
-<div>
-<small data-tooltip='14%'><b>25</b> events failed,
-<b data-tooltip='%'>45</b> others
-</small>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row"><div class="col-md-12">
-<div class="card"><div class="card-header"><p>Timeline</p></div>
-<div class="card-body pt-0"><div>
-<canvas id="timeline" height="120"></canvas>
-</div></div>
-</div>
-</div></div>
-<script>
-var timeline = {
-"FLOW 2: BUYER SIDE FULL ORDER CANCELLATION":32.831
-};
-</script>
-<div class="row">
-</div>
-</div>
-<script>
-var statusGroup = {
-parentCount: 5,
-passParent: 0,
-failParent: 1,
-warningParent: 0,
-skipParent: 0,
-childCount: 5,
-passChild: 0,
-failChild: 0,
-warningChild: 0,
-skipChild: 0,
-infoChild: 0,
-grandChildCount: 5,
-passGrandChild: 0,
-failGrandChild: 0,
-warningGrandChild: 0,
-skipGrandChild: 0,
-infoGrandChild: 0,
-eventsCount: 5,
-passEvents: 104,
-failEvents: 25,
-warningEvents: 0,
-skipEvents: 0,
-infoEvents: 45
-};
-</script><div class="test-wrapper row view test-view">
-  <div class="test-list">
-    <div class="test-list-tools">
-<ul class="tools pull-left">
-<li><a href="#"><span class="font-size-14">Tests</span></a></li>
-</ul>
-<ul class="tools text-right">
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
-<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
-<div class="dropdown-divider"></div>
-<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
-</ul>
-</li>
-</ul>
-</div>    <div class="test-list-wrapper scrollable">
-      <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">FLOW 2: BUYER SIDE FULL ORDER CANCELLATION</p>
-            <p class="text-sm">
-              <span>11:20:21 PM</span> / <span>00:00:32:831</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>ONDC Automation Report</title>
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+    <style type="text/css">
+      .vheader {
+        background-color: #008ecc;
+      }
+      .search-box {
+        display: none;
+      }
+      .badge.badge-primary {
+        background-color: #249b3e;
+      }
+      .nav-logo {
+        width: 100% !important;
+        position: absolute;
+        top: 24px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body class="spa -report standard">
+    <div class="app">
+      <div class="layout">
+        <div class="header navbar">
+          <div class="vheader">
+            <div class="nav-logo">
+              <a href="#">
+                <div
+                  class="logo"
+                  style="
+                    background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png');
+                  "
+                ></div>
+              </a>
+            </div>
+            <ul class="nav-left">
+              <li class="search-box">
+                <a class="search-toggle" href="#">
+                  <i class="search-icon fa fa-search"></i>
+                  <i class="search-icon-close fa fa-close"></i>
+                </a>
+              </li>
+              <li class="search-input">
+                <input
+                  id="search-tests"
+                  class="form-control"
+                  type="text"
+                  placeholder="Search..."
+                />
+              </li>
+            </ul>
+            <ul class="nav-right">
+              <li class="m-r-10">
+                <a href="#"
+                  ><span class="badge badge-primary"
+                    >techondc.hexbit.io</span
+                  ></a
+                >
+              </li>
+              <li class="m-r-10">
+                <a href="#"
+                  ><span class="badge badge-primary"
+                    >Sep 9, 2024 11:20:18 PM</span
+                  ></a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">FLOW 2: BUYER SIDE FULL ORDER CANCELLATION</h5>
-<span class='badge badge-success'>09.09.2024 11:20:21 PM</span>
-<span class='badge badge-danger'>09.09.2024 11:20:54 PM</span>
-<span class='badge badge-default'>00:00:32:831</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:21 PM</td>
-        <td>
-          Started executing: FLOW 2: BUYER SIDE FULL ORDER CANCELLATION
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:21 PM</td>
-        <td>
-          /search: call payload
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:21 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+        </div>
+        <div class="side-nav">
+          <div class="side-nav-inner">
+            <ul class="side-nav-menu">
+              <li
+                class="nav-item dropdown"
+                onclick="toggleView('dashboard-view')"
+              >
+                <a id="nav-dashboard" class="dropdown-toggle" href="#">
+                  <span class="ico"><i class="fa fa-bar-chart"></i></span>
+                </a>
+              </li>
+              <li class="nav-item dropdown" onclick="toggleView('test-view')">
+                <a id="nav-test" class="dropdown-toggle" href="#">
+                  <span class="ico"><i class="fa fa-list"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="vcontainer">
+          <div class="main-content">
+            <div class="container-fluid p-4 view dashboard-view">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="m-b-0">Started</p>
+                      <h3>Sep 9, 2024 11:20:18 PM</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="m-b-0">Ended</p>
+                      <h3>Sep 9, 2024 11:20:56 PM</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="m-b-0 text-pass">Tests Passed</p>
+                      <h3>0</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="m-b-0 text-fail">Tests Failed</p>
+                      <h3>1</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card-header">
+                      <h6 class="card-title">Tests</h6>
+                    </div>
+                    <div class="card-body">
+                      <div class="">
+                        <canvas
+                          id="parent-analysis"
+                          width="115"
+                          height="90"
+                        ></canvas>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <div>
+                        <small data-tooltip="0%"> <b>0</b> tests passed </small>
+                      </div>
+                      <div>
+                        <small data-tooltip="100%"
+                          ><b>1</b> tests failed, <b>0</b> skipped,
+                          <b data-tooltip="0%">0</b> others
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card-header">
+                      <h6 class="card-title">Log events</h6>
+                    </div>
+                    <div class="card-body">
+                      <div class="">
+                        <canvas
+                          id="events-analysis"
+                          width="115"
+                          height="90"
+                        ></canvas>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <div>
+                        <small data-tooltip="59%"
+                          ><b>104</b> events passed</small
+                        >
+                      </div>
+                      <div>
+                        <small data-tooltip="14%"
+                          ><b>25</b> events failed,
+                          <b data-tooltip="%">45</b> others
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card">
+                    <div class="card-header"><p>Timeline</p></div>
+                    <div class="card-body pt-0">
+                      <div>
+                        <canvas id="timeline" height="120"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script>
+                var timeline = {
+                  "FLOW 2: BUYER SIDE FULL ORDER CANCELLATION": 32.831,
+                };
+              </script>
+              <div class="row"></div>
+            </div>
+            <script>
+              var statusGroup = {
+                parentCount: 5,
+                passParent: 0,
+                failParent: 1,
+                warningParent: 0,
+                skipParent: 0,
+                childCount: 5,
+                passChild: 0,
+                failChild: 0,
+                warningChild: 0,
+                skipChild: 0,
+                infoChild: 0,
+                grandChildCount: 5,
+                passGrandChild: 0,
+                failGrandChild: 0,
+                warningGrandChild: 0,
+                skipGrandChild: 0,
+                infoGrandChild: 0,
+                eventsCount: 5,
+                passEvents: 104,
+                failEvents: 25,
+                warningEvents: 0,
+                skipEvents: 0,
+                infoEvents: 45,
+              };
+            </script>
+            <div class="test-wrapper row view test-view">
+              <div class="test-list">
+                <div class="test-list-tools">
+                  <ul class="tools pull-left">
+                    <li>
+                      <a href="#"><span class="font-size-14">Tests</span></a>
+                    </li>
+                  </ul>
+                  <ul class="tools text-right">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        ><i class="fa fa-exclamation-circle"></i
+                      ></a>
+                      <ul
+                        id="status-toggle"
+                        class="dropdown-menu dropdown-md p-v-0"
+                      >
+                        <a class="dropdown-item" status="fail" href="#"
+                          ><span>Fail</span><span class="status danger"></span
+                        ></a>
+                        <div class="dropdown-divider"></div>
+                        <a status="clear" class="dropdown-item" href="#"
+                          ><span>Clear</span
+                          ><span class="pull-right"
+                            ><i class="fa fa-close"></i></span
+                        ></a>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="test-list-wrapper scrollable">
+                  <ul class="test-list-item">
+                    <li
+                      class="test-item"
+                      status="fail"
+                      test-id="1"
+                      author=""
+                      tag=""
+                      device=""
+                    >
+                      <div class="test-detail">
+                        <p class="name">
+                          FLOW 2: BUYER SIDE FULL ORDER CANCELLATION
+                        </p>
+                        <p class="text-sm">
+                          <span>11:20:21 PM</span> / <span>00:00:32:831</span>
+                          <span class="badge fail-bg log float-right"
+                            >Fail</span
+                          >
+                        </p>
+                      </div>
+                      <div class="test-contents d-none">
+                        <div class="detail-head">
+                          <div class="p-v-10">
+                            <div class="info">
+                              <h5 class="test-status text-fail">
+                                FLOW 2: BUYER SIDE FULL ORDER CANCELLATION
+                              </h5>
+                              <span class="badge badge-success"
+                                >09.09.2024 11:20:21 PM</span
+                              >
+                              <span class="badge badge-danger"
+                                >09.09.2024 11:20:54 PM</span
+                              >
+                              <span class="badge badge-default"
+                                >00:00:32:831</span
+                              >
+                              &middot;
+                              <span class="uri-anchor badge badge-default"
+                                >#test-id=1</span
+                              >
+                              <span
+                                title="Skip to the next failed step"
+                                class="badge badge-danger pointer float-right ne ml-1"
+                                ><i class="fa fa-fast-forward"></i
+                              ></span>
+                              <span
+                                title="Collapse all nodes"
+                                class="badge badge-default pointer float-right ct ml-1"
+                                ><i class="fa fa-compress"></i
+                              ></span>
+                              <span
+                                title="Expand all nodes"
+                                class="badge badge-default pointer float-right et"
+                                ><i class="fa fa-expand"></i
+                              ></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="detail-body mt-4">
+                          <table class="table table-sm">
+                            <thead>
+                              <tr>
+                                <th class="status-col">Status</th>
+                                <th class="timestamp-col">Timestamp</th>
+                                <th class="details-col">Details</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:21 PM</td>
+                                <td>
+                                  Started executing: FLOW 2: BUYER SIDE FULL
+                                  ORDER CANCELLATION
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:21 PM</td>
+                                <td>/search: call payload</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:21 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "action": "search",
         "country": "IND",
@@ -280,33 +422,36 @@ infoEvents: 45
             ]
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:21 PM</td>
-        <td>
-          search-by-city request to Gateway
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:22 PM</td>
-        <td>
-          Gateway response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:22 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:21 PM</td>
+                                <td>search-by-city request to Gateway</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:22 PM</td>
+                                <td>Gateway response</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:22 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "domain": "ONDC:RET10",
         "action": "search",
@@ -322,33 +467,39 @@ infoEvents: 45
             "status": "ACK"
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:22 PM</td>
-        <td>
-          Received ACK response from Gateway
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Received ON_SEARCH from seller: techondc.hexbit.io
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:22 PM</td>
+                                <td>Received ACK response from Gateway</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Received ON_SEARCH from seller:
+                                  techondc.hexbit.io
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "domain": "ONDC:RET10",
         "action": "on_search",
@@ -700,33 +851,39 @@ infoEvents: 45
             ]
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Validating ON_SEARCH response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#/message/catalog/bpp~01providers/0/fulfillments/0: extraneous key [start] is not permitted
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>Validating ON_SEARCH response</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#/message/catalog/bpp~01providers/0/fulfillments/0: extraneous key [start] is not permitted
 #/message/catalog/bpp~00001providers/0/items/0/@ondc~1org~1contact_details_consumer_care: string [hexbit.in,support@hexbit.in,+919939197376] does not match pattern ^[A-Za-z]+,[\w\-.]+@[A-Za-z]+\.[A-Za-z]+,[0-9]+$
 #/message/catalog/bpp~000001providers/0/items/0/@ondc~01org~01statutory_reqs_packaged_commodities: extraneous key [net_quantity_or_measure_of_commodity_in_pkg] is not permitted
 #/message/catalog/bpp~000001providers/0/items/0/@ondc~01org~01statutory_reqs_packaged_commodities: extraneous key [imported_product_country_of_origin] is not permitted
@@ -738,257 +895,332 @@ infoEvents: 45
 #/message/catalog/bpp~000001providers/0/items/1/@ondc~01org~01statutory_reqs_packaged_commodities: extraneous key [imported_product_country_of_origin] is not permitted
 #/message/catalog/bpp~000001providers/0/items/1/@ondc~01org~01statutory_reqs_prepackaged_food: extraneous key [imported_product_country_of_origin] is not permitted
 #/message/catalog/bpp~000001providers/0/items/1/@ondc~01org~01statutory_reqs_prepackaged_food: extraneous key [net_quantity] is not permitted
-#/message/catalog/bpp~000001providers/0/items/1/category_id: Fashion is not a valid enum value</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Successfully validated action for action: on_search
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Successfully validated core version for action: on_search
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Successfully validated BAP id for action: on_search
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Successfully validated BAP URI for action: on_search
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Successfully validated BPP URI for action: on_search
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Successfully validated BPP ID for action: on_search
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:32 PM</td>
-        <td>
-          Successfully validated message ID for action: on_search
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully validated context.timestamp difference. total duration between: 1.861
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Mobile Number
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Email Id
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully validated TTL
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          location.timestamp 2024-09-09T17:50:23.340Z is after Context.Timestamp 2024-09-09T17:50:23.340Z (JSON Pointer: /message/catalog['bpp/providers'][0].locations[0].time.timestamp)
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Item Code matches the criteria: 3:29AAICP2912R1ZR
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Item Code matches the criteria: 3:29AAICP2912R1ZR
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Max Item Count
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Contact Info do not match expected [true] but found [false]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Country Code
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Item is Veg/NonVeg/Egg
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Item Delivery
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Selling Price [232.00] is Less or equal to MRP [245.00]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Successfully Validated Selling Price [468.16] is Less or equal to MRP [532.00]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Category_id :'RET-12-14' is not available in the On-Search Grocery Category List
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-          Category_id :'Fashion' is not available in the On-Search Grocery Category List
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:33 PM</td>
-        <td>
-           Category Item Id should not be Empty  expected object to not be null
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully validated all the list of codes in message.catalog['bpp/providers'].tags.code.list.code where message.catalog['bpp/providers'].tags.code is serviceability
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Skipped Custom Menu validation check as message.catalog.bpp/providers[0].categories is null 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully validated GPS Coordinates length after decimal
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully Validated np_type: MSN
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully Validated Serviceability for Type [10] and unit [km]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully Validated Back Image Type
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully Validated Back Image URL
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully Validated Back Image Type
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Successfully Validated Back Image URL
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          /select: call payload
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+#/message/catalog/bpp~000001providers/0/items/1/category_id: Fashion is not a valid enum value</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Successfully validated action for action:
+                                  on_search
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Successfully validated core version for
+                                  action: on_search
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Successfully validated BAP id for action:
+                                  on_search
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Successfully validated BAP URI for action:
+                                  on_search
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Successfully validated BPP URI for action:
+                                  on_search
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Successfully validated BPP ID for action:
+                                  on_search
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:32 PM</td>
+                                <td>
+                                  Successfully validated message ID for action:
+                                  on_search
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Successfully validated context.timestamp
+                                  difference. total duration between: 1.861
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>Successfully Validated Mobile Number</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>Successfully Validated Email Id</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>Successfully validated TTL</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  location.timestamp 2024-09-09T17:50:23.340Z is
+                                  after Context.Timestamp
+                                  2024-09-09T17:50:23.340Z (JSON Pointer:
+                                  /message/catalog['bpp/providers'][0].locations[0].time.timestamp)
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Item Code matches the criteria:
+                                  3:29AAICP2912R1ZR
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Item Code matches the criteria:
+                                  3:29AAICP2912R1ZR
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>Successfully Validated Max Item Count</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Contact Info do not match expected [true] but
+                                  found [false]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>Successfully Validated Country Code</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Successfully Validated Item is Veg/NonVeg/Egg
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>Successfully Validated Item Delivery</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Successfully Validated Selling Price [232.00]
+                                  is Less or equal to MRP [245.00]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Successfully Validated Selling Price [468.16]
+                                  is Less or equal to MRP [532.00]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Category_id :'RET-12-14' is not available in
+                                  the On-Search Grocery Category List
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Category_id :'Fashion' is not available in the
+                                  On-Search Grocery Category List
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:33 PM</td>
+                                <td>
+                                  Category Item Id should not be Empty expected
+                                  object to not be null
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>
+                                  Successfully validated all the list of codes
+                                  in
+                                  message.catalog['bpp/providers'].tags.code.list.code
+                                  where
+                                  message.catalog['bpp/providers'].tags.code is
+                                  serviceability
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>
+                                  Skipped Custom Menu validation check as
+                                  message.catalog.bpp/providers[0].categories is
+                                  null
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>
+                                  Successfully validated GPS Coordinates length
+                                  after decimal
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>Successfully Validated np_type: MSN</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>
+                                  Successfully Validated Serviceability for Type
+                                  [10] and unit [km]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>Successfully Validated Back Image Type</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>Successfully Validated Back Image URL</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>Successfully Validated Back Image Type</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>Successfully Validated Back Image URL</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>/select: call payload</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "action": "select",
         "bap_id": "pramaan.ondc.org/alpha/mock-server",
@@ -1040,26 +1272,29 @@ infoEvents: 45
             }
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:34 PM</td>
-        <td>
-          Executing /SELECT call
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:34 PM</td>
+                                <td>Executing /SELECT call</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "message": {
         "ack": {
             "status": "ACK"
@@ -1114,7 +1349,7 @@ infoEvents: 45
                             "type": "Delivery",
                             "tracking": false,
                             "@ondc/org/category": "Standard Delivery",
-                            "@ondc/org/TAT": "PT60M",
+                            "@ondc/org/TAT": "P8D",
                             "state": {
                                 "descriptor": {
                                     "code": "Serviceable"
@@ -1190,52 +1425,64 @@ infoEvents: 45
             }
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Received ACK response of: /select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#: required key [context] not found</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Received ON_SELECT from seller: techondc.hexbit.io
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>Received ACK response of: /select</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#: required key [context] not found</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Received ON_SELECT from seller:
+                                  techondc.hexbit.io
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "domain": "ONDC:RET10",
         "action": "on_select",
@@ -1285,7 +1532,7 @@ infoEvents: 45
                     "type": "Delivery",
                     "tracking": false,
                     "@ondc/org/category": "Standard Delivery",
-                    "@ondc/org/TAT": "PT60M",
+                    "@ondc/org/TAT": "P8D",
                     "state": {
                         "descriptor": {
                             "code": "Serviceable"
@@ -1359,207 +1606,270 @@ infoEvents: 45
             }
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Validating ON_SELECT response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#/message/order/quote/breakup/0: extraneous key [tags] is not permitted
-#/message/order/items/0: extraneous key [tags] is not permitted</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated action for action: on_select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated core version for action: on_select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated BAP id for action: on_select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated BAP URI for action: on_select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated BPP URI for action: on_select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated BPP ID for action: on_select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated message ID for action: on_select
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated context.timestamp difference. total duration between: 0.523
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Order is not valid for Immediate Delivery, [OPTIONAL] 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated serviceable enum
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated Item Ids
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated title type
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:36 PM</td>
-        <td>
-          Successfully validated price of item with itemId: {65a648f9c5a7f79e0e4fee19} in /on_select is according to catalog
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Successfully validated non zero packing charge
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Successfully validated non zero tax charge
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Successfully validated non zero discount charge
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Successfully validated non zero misc charge
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Successfully validated Quote.TTL
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Successfully validated delivery charge applicable for Fulfillment Id: 6523f7f10a9003d447f9741e
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Skipping Validation of Tax as Tax Block is not present
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Successfully Validated Total Amount [1045.32] with Total Breakup Amount [1045.32]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Cannot Validate Slotted delivery as message.order.fulfillments[0].end.time.range.start is null [OPTIONAL] 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          /init: call payload
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>Validating ON_SELECT response</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#/message/order/quote/breakup/0: extraneous key [tags] is not permitted
+#/message/order/items/0: extraneous key [tags] is not permitted</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated action for action:
+                                  on_select
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated core version for
+                                  action: on_select
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated BAP id for action:
+                                  on_select
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated BAP URI for action:
+                                  on_select
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated BPP URI for action:
+                                  on_select
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated BPP ID for action:
+                                  on_select
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated message ID for action:
+                                  on_select
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated context.timestamp
+                                  difference. total duration between: 0.523
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Order is not valid for Immediate Delivery,
+                                  [OPTIONAL]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>Successfully validated serviceable enum</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>Successfully validated Item Ids</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>Successfully validated title type</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:36 PM</td>
+                                <td>
+                                  Successfully validated price of item with
+                                  itemId: {65a648f9c5a7f79e0e4fee19} in
+                                  /on_select is according to catalog
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Successfully validated non zero packing charge
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Successfully validated non zero tax charge
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Successfully validated non zero discount
+                                  charge
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Successfully validated non zero misc charge
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>Successfully validated Quote.TTL</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Successfully validated delivery charge
+                                  applicable for Fulfillment Id:
+                                  6523f7f10a9003d447f9741e
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Skipping Validation of Tax as Tax Block is not
+                                  present
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Successfully Validated Total Amount [1045.32]
+                                  with Total Breakup Amount [1045.32]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  Cannot Validate Slotted delivery as
+                                  message.order.fulfillments[0].end.time.range.start
+                                  is null [OPTIONAL]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>/init: call payload</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "action": "init",
         "bap_id": "pramaan.ondc.org/alpha/mock-server",
@@ -1637,26 +1947,29 @@ infoEvents: 45
             }
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:37 PM</td>
-        <td>
-          Executing /INIT call
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:38 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:37 PM</td>
+                                <td>Executing /INIT call</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:38 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "message": {
         "ack": {
             "status": "ACK"
@@ -1930,52 +2243,64 @@ infoEvents: 45
             }
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:38 PM</td>
-        <td>
-          Received ACK response of: /init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:38 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:38 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#: required key [context] not found</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:38 PM</td>
-        <td>
-          Received ON_INIT from seller: techondc.hexbit.io
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:38 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:38 PM</td>
+                                <td>Received ACK response of: /init</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:38 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:38 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#: required key [context] not found</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:38 PM</td>
+                                <td>
+                                  Received ON_INIT from seller:
+                                  techondc.hexbit.io
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:38 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "domain": "ONDC:RET10",
         "action": "on_init",
@@ -2242,200 +2567,268 @@ infoEvents: 45
             ]
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:38 PM</td>
-        <td>
-          Validating ON_INIT response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#/message/order/fulfillments/0: required key [tracking] not found
-#/message/order/tags/0/list/5/value: string [29AAICP2912R1ZR] does not match pattern ^\d{2}[A-Z]{5}\d{4}[A-Z]\d[A-Z]\d$</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated action for action: on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated core version for action: on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated BAP id for action: on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated BAP URI for action: on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated BPP URI for action: on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated BPP ID for action: on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated message ID for action: on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated context.timestamp difference. total duration between: 0.341
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated billing timestamps are equal in init and on_init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated tax number
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated settlement basis : return_window_expiry
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated: message.order.payment['@ondc/org/settlement_details']
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          message.order.fulfillments[%d].tags.size() cannot be null did not expect [0] but found [0]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated billing 'created at' and 'updated at'
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully Validated billing.created_at date less than billing.updated_at
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully Validated billing.updated_at date less than Context.timestamp
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated quote.breakup
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Cannot Validate Min Value as 'order_value' key is not present in bpp/providers.tags [OPTIONAL]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Cannot validate Payment Type as message.order.payment.type is null in On-Init 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated: message.order.payment.tags presence [OPTIONAL]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Successfully validated: message.order.payment['@ondc/org/settlement_details']
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          /confirm: call payload
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:38 PM</td>
+                                <td>Validating ON_INIT response</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#/message/order/fulfillments/0: required key [tracking] not found
+#/message/order/tags/0/list/5/value: string [29AAICP2912R1ZR] does not match pattern ^\d{2}[A-Z]{5}\d{4}[A-Z]\d[A-Z]\d$</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated action for action:
+                                  on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated core version for
+                                  action: on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated BAP id for action:
+                                  on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated BAP URI for action:
+                                  on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated BPP URI for action:
+                                  on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated BPP ID for action:
+                                  on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated message ID for action:
+                                  on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated context.timestamp
+                                  difference. total duration between: 0.341
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated billing timestamps are
+                                  equal in init and on_init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>Successfully validated tax number</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated settlement basis :
+                                  return_window_expiry
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated:
+                                  message.order.payment['@ondc/org/settlement_details']
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  message.order.fulfillments[%d].tags.size()
+                                  cannot be null did not expect [0] but found
+                                  [0]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated billing 'created at'
+                                  and 'updated at'
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully Validated billing.created_at date
+                                  less than billing.updated_at
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully Validated billing.updated_at date
+                                  less than Context.timestamp
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>Successfully validated quote.breakup</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Cannot Validate Min Value as 'order_value' key
+                                  is not present in bpp/providers.tags
+                                  [OPTIONAL]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Cannot validate Payment Type as
+                                  message.order.payment.type is null in On-Init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated:
+                                  message.order.payment.tags presence [OPTIONAL]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  Successfully validated:
+                                  message.order.payment['@ondc/org/settlement_details']
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>/confirm: call payload</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "action": "confirm",
         "bap_id": "pramaan.ondc.org/alpha/mock-server",
@@ -2494,7 +2887,7 @@ infoEvents: 45
                         }
                     },
                     "id": "6523f7f10a9003d447f9741e",
-                    "@ondc/org/TAT": "PT60M",
+                    "@ondc/org/TAT": "P8D",
                     "type": "Delivery"
                 }
             ],
@@ -2652,26 +3045,29 @@ infoEvents: 45
             "updated_at": "2024-09-09T17:50:39.555Z"
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:39 PM</td>
-        <td>
-          Executing /CONFIRM call
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:50 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:39 PM</td>
+                                <td>Executing /CONFIRM call</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:50 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "message": {
         "ack": {
             "status": "ACK"
@@ -2955,52 +3351,64 @@ infoEvents: 45
             }
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:50 PM</td>
-        <td>
-          Received ACK response of: /confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:50 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:50 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#: required key [context] not found</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:50 PM</td>
-        <td>
-          Received ON_CONFIRM from seller: techondc.hexbit.io
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:50 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:50 PM</td>
+                                <td>Received ACK response of: /confirm</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:50 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:50 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#: required key [context] not found</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:50 PM</td>
+                                <td>
+                                  Received ON_CONFIRM from seller:
+                                  techondc.hexbit.io
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:50 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "domain": "ONDC:RET10",
         "action": "on_confirm",
@@ -3277,33 +3685,39 @@ infoEvents: 45
             "updated_at": "2024-09-09T17:50:39.555Z"
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Validating ON_CONFIRM response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#/context: extraneous key [ttl] is not permitted
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>Validating ON_CONFIRM response</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#/context: extraneous key [ttl] is not permitted
 #/message/order/provider: extraneous key [rateable] is not permitted
 #/message/order/items/0: extraneous key [tags] is not permitted
 #/message/order/fulfillments/0: required key [@ondc/org/TAT] not found
@@ -3316,145 +3730,197 @@ infoEvents: 45
 #/message/order/fulfillments/0/start/location/address: extraneous key [building] is not permitted
 #/message/order/payment/@ondc~01org~01settlement_details/0: extraneous key [settlement_timestamp] is not permitted
 #/message/order/cancellation_terms/0: extraneous key [refund_eligible] is not permitted
-#/message/order/cancellation_terms/0: extraneous key [reason_required] is not permitted</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated action for action: on_confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated core version for action: on_confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated BAP id for action: on_confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated BAP URI for action: on_confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated BPP URI for action: on_confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated BPP ID for action: on_confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated message ID for action: on_confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated context.timestamp difference. total duration between: 0.324
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated billing 'created at' and 'updated at'
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully Validated billing.created_at date less than billing.updated_at
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully Validated billing.updated_at date less than Context.timestamp
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Skipping PCC validation as message.order.fulfillments.instructions is null
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          The fulfillment ID and fulfillment.end.locations are matching between on_confirm call and On-Init call
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Store Address in On-Confirm does not match with Store Address On-Search: Lists differ at element [1]: Maharashtra != T 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully validated quote.breakup
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully Validated: BPP terms from on-init
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Successfully Validated: BAP terms with confirm
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          /cancel: call payload
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+#/message/order/cancellation_terms/0: extraneous key [reason_required] is not permitted</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated action for action:
+                                  on_confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated core version for
+                                  action: on_confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated BAP id for action:
+                                  on_confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated BAP URI for action:
+                                  on_confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated BPP URI for action:
+                                  on_confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated BPP ID for action:
+                                  on_confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated message ID for action:
+                                  on_confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated context.timestamp
+                                  difference. total duration between: 0.324
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully validated billing 'created at'
+                                  and 'updated at'
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully Validated billing.created_at date
+                                  less than billing.updated_at
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully Validated billing.updated_at date
+                                  less than Context.timestamp
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Skipping PCC validation as
+                                  message.order.fulfillments.instructions is
+                                  null
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  The fulfillment ID and
+                                  fulfillment.end.locations are matching between
+                                  on_confirm call and On-Init call
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Store Address in On-Confirm does not match
+                                  with Store Address On-Search: Lists differ at
+                                  element [1]: Maharashtra != T
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>Successfully validated quote.breakup</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully Validated: BPP terms from on-init
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  Successfully Validated: BAP terms with confirm
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>/cancel: call payload</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "action": "cancel",
         "bap_id": "pramaan.ondc.org/alpha/mock-server",
@@ -3493,26 +3959,29 @@ infoEvents: 45
             ]
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:51 PM</td>
-        <td>
-          Executing /CANCEL call
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:51 PM</td>
+                                <td>Executing /CANCEL call</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "message": {
         "ack": {
             "status": "ACK"
@@ -3689,45 +4158,57 @@ infoEvents: 45
             }
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#: required key [context] not found</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Received ON_CANCEL from seller: techondc.hexbit.io
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>{
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#: required key [context] not found</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Received ON_CANCEL from seller:
+                                  techondc.hexbit.io
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+{
     "context": {
         "domain": "ONDC:RET10",
         "action": "on_cancel",
@@ -3897,33 +4378,39 @@ infoEvents: 45
             "updated_at": "2024-09-09T17:50:52.077Z"
         }
     }
-}</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Validating ON_CANCEL response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Following are the errors occurred while validating Schema:
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          <div class='row'>
- <div class='col-md-12'>
-  <textarea readonly class='code-block'>#/message/order: required key [quote] not found
+}</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>Validating ON_CANCEL response</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log info-bg">Info</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Following are the errors occurred while
+                                  validating Schema:
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <textarea readonly class="code-block">
+#/message/order: required key [quote] not found
 #/message/order: extraneous key [tags] is not permitted
 #/message/order/items: expected minimum item count: 2, found: 1
 #/message/order/billing: extraneous key [tax_number] is not permitted
@@ -3931,184 +4418,402 @@ infoEvents: 45
 #/message/order/fulfillments/0/end: required key [time] not found
 #/message/order/fulfillments/0/start/contact/phone: string [+919970968305] does not match pattern ^\d{10,11}$
 #/message/order/fulfillments/0/start/location: required key [id] not found
-#/message/order/payment/@ondc~01org~01settlement_details/0: extraneous key [settlement_timestamp] is not permitted</textarea>
- </div>
-</div>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated action for action: on_cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated core version for action: on_cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated BAP id for action: on_cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated BAP URI for action: on_cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated BPP URI for action: on_cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated BPP ID for action: on_cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated message ID for action: on_cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully validated reason id: 006
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully Validated Cancellation Reason Id from Cancel and On-Cancel
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully Validated: Descriptor code is Cancelled, if message order state is: Cancelled
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully Validated billing.created_at date less than billing.updated_at
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully Validated billing.updated_at date less than Context.timestamp
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          End time is null for fulfillment at index 0. Unable to test the validity of the start and end timestamps for this fulfillment. 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          The fulfillment ID and fulfillment.end.locations are matching between on_cancel call and On-Init call
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully Validated: Tags block Required if fulfillment descriptor code is 'Cancelled'
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Successfully Validated: Descriptor code is Cancelled, if message order state is: Cancelled
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Succesfully validated: Cancel block present in message.order.items containing quantity.count [0]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Object of type cancel is not present in fulfillments 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Fulfillment delivery Id should not be empty 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          Fulfillment delivery Id should not be empty 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:53 PM</td>
-        <td>
-          item price list should not be more than 1 
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:54 PM</td>
-        <td>
-          delivery price list should not be more than 1 
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
+#/message/order/payment/@ondc~01org~01settlement_details/0: extraneous key [settlement_timestamp] is not permitted</textarea
+                                      >
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully validated action for action:
+                                  on_cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully validated core version for
+                                  action: on_cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully validated BAP id for action:
+                                  on_cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully validated BAP URI for action:
+                                  on_cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully validated BPP URI for action:
+                                  on_cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully validated BPP ID for action:
+                                  on_cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully validated message ID for action:
+                                  on_cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>Successfully validated reason id: 006</td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully Validated Cancellation Reason Id
+                                  from Cancel and On-Cancel
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully Validated: Descriptor code is
+                                  Cancelled, if message order state is:
+                                  Cancelled
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully Validated billing.created_at date
+                                  less than billing.updated_at
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully Validated billing.updated_at date
+                                  less than Context.timestamp
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  End time is null for fulfillment at index 0.
+                                  Unable to test the validity of the start and
+                                  end timestamps for this fulfillment.
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  The fulfillment ID and
+                                  fulfillment.end.locations are matching between
+                                  on_cancel call and On-Init call
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully Validated: Tags block Required if
+                                  fulfillment descriptor code is 'Cancelled'
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Successfully Validated: Descriptor code is
+                                  Cancelled, if message order state is:
+                                  Cancelled
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log pass-bg">Pass</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Succesfully validated: Cancel block present in
+                                  message.order.items containing quantity.count
+                                  [0]
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Object of type cancel is not present in
+                                  fulfillments
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Fulfillment delivery Id should not be empty
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  Fulfillment delivery Id should not be empty
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:53 PM</td>
+                                <td>
+                                  item price list should not be more than 1
+                                </td>
+                              </tr>
+                              <tr class="event-row">
+                                <td>
+                                  <span class="badge log fail-bg">Fail</span>
+                                </td>
+                                <td>11:20:54 PM</td>
+                                <td>
+                                  delivery price list should not be more than 1
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="test-content scrollable">
+                <div class="test-content-tools">
+                  <ul>
+                    <li>
+                      <a class="back-to-test" href="#"
+                        ><i class="fa fa-arrow-left"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="test-content-detail">
+                  <div class="detail-body"></div>
+                </div>
+              </div>
+            </div>
           </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-<div class="test-content scrollable">
-<div class="test-content-tools">
-<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
-</div>
-<div class="test-content-detail"><div class="detail-body"></div></div>
-</div></div>
         </div>
       </div>
     </div>
-  </div>
-<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
-<script type="text/javascript">const data = [["Flow 2: Buyer Side Full Order Cancellation", "104", "23", "2", "45", "Yes", "174"]];const table = document.createElement('table');                  table.style.borderCollapse = 'collapse';                  table.style.width = '100%';                  table.style.margin = '0 0 10px 0';                  const row = table.insertRow(0);                  const cell1 = row.insertCell(0);                  cell1.textContent = 'Flow Name';                  cell1.style.border = '1px solid #ddd';                  cell1.style.padding = '8px';                  cell1.style.fontWeight = 'bold';                 cell1.style.textAlign = 'left';                  const cell2 = row.insertCell(1);                  cell2.textContent = 'Pass';                  cell2.style.border = '1px solid #ddd';                  cell2.style.padding = '8px';                  cell2.style.textAlign = 'left';                  cell2.style.fontWeight = 'bold';                 cell2.style.color = 'green';                 const cell3 = row.insertCell(2);                  cell3.textContent = 'Failed_Mandatory';                  cell3.style.border = '1px solid #ddd';                  cell3.style.padding = '8px';                  cell3.style.textAlign = 'left';                  cell3.style.fontWeight = 'bold';                 cell3.style.color = '#dc3545';                 const cell4 = row.insertCell(3);                  cell4.textContent = 'Failed_Optional';                  cell4.style.border = '1px solid #ddd';                  cell4.style.padding = '8px';                  cell4.style.textAlign = 'left';                  cell4.style.fontWeight = 'bold';                 cell4.style.color = '#dc3545';                 const cell5 = row.insertCell(4);                  cell5.textContent = 'Info';                  cell5.style.border = '1px solid #ddd';                  cell5.style.padding = '8px';                  cell5.style.textAlign = 'left';                 cell5.style.fontWeight = 'bold';                 cell5.style.color = '#007bff';                 const cell6 = row.insertCell(5);                  cell6.textContent = 'Test Completed';                  cell6.style.border = '1px solid #ddd';                  cell6.style.padding = '8px';                  cell6.style.textAlign = 'left';                  cell6.style.fontWeight = 'bold';                 cell6.style.color = 'green';                 const cell7 = row.insertCell(6);                  cell7.textContent = 'Total';                  cell7.style.border = '1px solid #ddd';                  cell7.style.padding = '8px';                  cell7.style.textAlign = 'left';                  cell7.style.fontWeight = 'bold';                                  for (let i = 0; i < data.length; i++) {                  const rowData = table.insertRow(i+1);                  const flowName = rowData.insertCell(0);                  flowName.textContent = data[i][0];                  flowName.style.border = '1px solid #ddd';                  flowName.style.padding = '8px';                  flowName.style.textAlign = 'left';                  const passData = rowData.insertCell(1);                  passData.textContent = data[i][1];                  passData.style.border = '1px solid #ddd';                  passData.style.padding = '8px';                  passData.style.textAlign = 'left';                  const failDataM = rowData.insertCell(2);                  failDataM.textContent = data[i][2];                  failDataM.style.border = '1px solid #ddd';                  failDataM.style.padding = '8px';                  failDataM.style.textAlign = 'left';                  const failDataO = rowData.insertCell(3);                  failDataO.textContent = data[i][3];                  failDataO.style.border = '1px solid #ddd';                  failDataO.style.padding = '8px';                  failDataO.style.textAlign = 'left';                 const infoData = rowData.insertCell(4);                  infoData.textContent = data[i][4];                  infoData.style.border = '1px solid #ddd';                  infoData.style.padding = '8px';                  infoData.style.textAlign = 'left';                  const isLastcall = rowData.insertCell(5);                  isLastcall.textContent = data[i][5];                  isLastcall.style.border = '1px solid #ddd';                  isLastcall.style.padding = '8px';                  isLastcall.style.textAlign = 'left';                  const totalData = rowData.insertCell(6);                  totalData.textContent = data[i][6];                  totalData.style.border = '1px solid #ddd';                  totalData.style.padding = '8px';                  totalData.style.textAlign = 'left';                 };let greenCard = document.evaluate('//ul[@class="nav-right"]',document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;const liElement = document.createElement('li');liElement.className = "m-r-10";const spanElement = document.createElement('span');spanElement.textContent= 'Test Id: 11877';spanElement.className = 'badge badge-primary';liElement.appendChild(spanElement);greenCard.appendChild(liElement);        let cardBody = document.evaluate('//div[@class="card-body pt-0"]',document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;         cardBody.remove();         let card = document.evaluate('//div[@class="col-md-12"]/div[@class="card"]',document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;         card.appendChild(table);                let summary = document.evaluate('//div[@class="col-md-12"]/div/div',document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;  summary.style.fontWeight = 'bold';  summary.innerText = 'Test Summary';summary.style.fontSize = '24px';document.getElementsByClassName('nav-logo')[0].textContent = 'SELLER'; document.getElementsByClassName('logo')[0].style.display='none';</script></body>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+    <script type="text/javascript">
+      const data = [
+        [
+          "Flow 2: Buyer Side Full Order Cancellation",
+          "104",
+          "23",
+          "2",
+          "45",
+          "Yes",
+          "174",
+        ],
+      ];
+      const table = document.createElement("table");
+      table.style.borderCollapse = "collapse";
+      table.style.width = "100%";
+      table.style.margin = "0 0 10px 0";
+      const row = table.insertRow(0);
+      const cell1 = row.insertCell(0);
+      cell1.textContent = "Flow Name";
+      cell1.style.border = "1px solid #ddd";
+      cell1.style.padding = "8px";
+      cell1.style.fontWeight = "bold";
+      cell1.style.textAlign = "left";
+      const cell2 = row.insertCell(1);
+      cell2.textContent = "Pass";
+      cell2.style.border = "1px solid #ddd";
+      cell2.style.padding = "8px";
+      cell2.style.textAlign = "left";
+      cell2.style.fontWeight = "bold";
+      cell2.style.color = "green";
+      const cell3 = row.insertCell(2);
+      cell3.textContent = "Failed_Mandatory";
+      cell3.style.border = "1px solid #ddd";
+      cell3.style.padding = "8px";
+      cell3.style.textAlign = "left";
+      cell3.style.fontWeight = "bold";
+      cell3.style.color = "#dc3545";
+      const cell4 = row.insertCell(3);
+      cell4.textContent = "Failed_Optional";
+      cell4.style.border = "1px solid #ddd";
+      cell4.style.padding = "8px";
+      cell4.style.textAlign = "left";
+      cell4.style.fontWeight = "bold";
+      cell4.style.color = "#dc3545";
+      const cell5 = row.insertCell(4);
+      cell5.textContent = "Info";
+      cell5.style.border = "1px solid #ddd";
+      cell5.style.padding = "8px";
+      cell5.style.textAlign = "left";
+      cell5.style.fontWeight = "bold";
+      cell5.style.color = "#007bff";
+      const cell6 = row.insertCell(5);
+      cell6.textContent = "Test Completed";
+      cell6.style.border = "1px solid #ddd";
+      cell6.style.padding = "8px";
+      cell6.style.textAlign = "left";
+      cell6.style.fontWeight = "bold";
+      cell6.style.color = "green";
+      const cell7 = row.insertCell(6);
+      cell7.textContent = "Total";
+      cell7.style.border = "1px solid #ddd";
+      cell7.style.padding = "8px";
+      cell7.style.textAlign = "left";
+      cell7.style.fontWeight = "bold";
+      for (let i = 0; i < data.length; i++) {
+        const rowData = table.insertRow(i + 1);
+        const flowName = rowData.insertCell(0);
+        flowName.textContent = data[i][0];
+        flowName.style.border = "1px solid #ddd";
+        flowName.style.padding = "8px";
+        flowName.style.textAlign = "left";
+        const passData = rowData.insertCell(1);
+        passData.textContent = data[i][1];
+        passData.style.border = "1px solid #ddd";
+        passData.style.padding = "8px";
+        passData.style.textAlign = "left";
+        const failDataM = rowData.insertCell(2);
+        failDataM.textContent = data[i][2];
+        failDataM.style.border = "1px solid #ddd";
+        failDataM.style.padding = "8px";
+        failDataM.style.textAlign = "left";
+        const failDataO = rowData.insertCell(3);
+        failDataO.textContent = data[i][3];
+        failDataO.style.border = "1px solid #ddd";
+        failDataO.style.padding = "8px";
+        failDataO.style.textAlign = "left";
+        const infoData = rowData.insertCell(4);
+        infoData.textContent = data[i][4];
+        infoData.style.border = "1px solid #ddd";
+        infoData.style.padding = "8px";
+        infoData.style.textAlign = "left";
+        const isLastcall = rowData.insertCell(5);
+        isLastcall.textContent = data[i][5];
+        isLastcall.style.border = "1px solid #ddd";
+        isLastcall.style.padding = "8px";
+        isLastcall.style.textAlign = "left";
+        const totalData = rowData.insertCell(6);
+        totalData.textContent = data[i][6];
+        totalData.style.border = "1px solid #ddd";
+        totalData.style.padding = "8px";
+        totalData.style.textAlign = "left";
+      }
+      let greenCard = document.evaluate(
+        '//ul[@class="nav-right"]',
+        document,
+        null,
+        XPathResult.FIRST_ORDERED_NODE_TYPE,
+        null
+      ).singleNodeValue;
+      const liElement = document.createElement("li");
+      liElement.className = "m-r-10";
+      const spanElement = document.createElement("span");
+      spanElement.textContent = "Test Id: 11877";
+      spanElement.className = "badge badge-primary";
+      liElement.appendChild(spanElement);
+      greenCard.appendChild(liElement);
+      let cardBody = document.evaluate(
+        '//div[@class="card-body pt-0"]',
+        document,
+        null,
+        XPathResult.FIRST_ORDERED_NODE_TYPE,
+        null
+      ).singleNodeValue;
+      cardBody.remove();
+      let card = document.evaluate(
+        '//div[@class="col-md-12"]/div[@class="card"]',
+        document,
+        null,
+        XPathResult.FIRST_ORDERED_NODE_TYPE,
+        null
+      ).singleNodeValue;
+      card.appendChild(table);
+      let summary = document.evaluate(
+        '//div[@class="col-md-12"]/div/div',
+        document,
+        null,
+        XPathResult.FIRST_ORDERED_NODE_TYPE,
+        null
+      ).singleNodeValue;
+      summary.style.fontWeight = "bold";
+      summary.innerText = "Test Summary";
+      summary.style.fontSize = "24px";
+      document.getElementsByClassName("nav-logo")[0].textContent = "SELLER";
+      document.getElementsByClassName("logo")[0].style.display = "none";
+    </script>
+  </body>
 </html>
