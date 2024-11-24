@@ -2729,7 +2729,7 @@
         }
       }
     },
-    "on_status_rto_delivered/disposed": {
+    "on_status_rto_delivered_disposed": {
       "context": {
         "domain": "ONDC:RET13",
         "country": "IND",
