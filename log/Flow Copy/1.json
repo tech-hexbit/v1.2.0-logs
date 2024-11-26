@@ -110,37 +110,11 @@
                       "list": [
                         {
                           "code": "name",
-                          "value": "item.quantity.unitized.colour"
+                          "value": "item.quantity.unitized.measure"
                         },
                         {
                           "code": "seq",
                           "value": "1"
-                        }
-                      ]
-                    },
-                    {
-                      "code": "attr",
-                      "list": [
-                        {
-                          "code": "name",
-                          "value": "item.quantity.unitized.conscious"
-                        },
-                        {
-                          "code": "seq",
-                          "value": "2"
-                        }
-                      ]
-                    },
-                    {
-                      "code": "attr",
-                      "list": [
-                        {
-                          "code": "name",
-                          "value": "item.quantity.unitized.formulation"
-                        },
-                        {
-                          "code": "seq",
-                          "value": "3"
                         }
                       ]
                     }
@@ -171,7 +145,7 @@
                     "days": "1,2,3,4,5,6,7",
                     "range": {
                       "start": "0830",
-                      "end": "2300"
+                      "end": "2330"
                     },
                     "schedule": {
                       "holidays": []
@@ -227,6 +201,12 @@
                   "@ondc/org/time_to_ship": "P1D",
                   "@ondc/org/available_on_cod": false,
                   "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
+                  "@ondc/org/statutory_reqs_packaged_commodities": {
+                    "manufacturer_or_packer_name": "Hindustan Unilever Limited",
+                    "manufacturer_or_packer_address": "Hindustan Unilever Limited, Unilever House, B D Sawant Marg, Chakala, Anderi E, Mumbai - 400099 Best before 19-09-2025",
+                    "common_or_generic_name_of_commodity": "Skin Oil",
+                    "month_year_of_manufacture_packing_import": "04/2024"
+                  },
                   "tags": [
                     {
                       "code": "origin",
@@ -243,42 +223,6 @@
                         {
                           "code": "brand",
                           "value": "Lush"
-                        },
-                        {
-                          "code": "colour",
-                          "value": "#ff0000"
-                        },
-                        {
-                          "code": "gender",
-                          "value": "Unisex"
-                        },
-                        {
-                          "code": "concern",
-                          "value": "Acne"
-                        },
-                        {
-                          "code": "ingredient",
-                          "value": "Tea Tree Oil"
-                        },
-                        {
-                          "code": "conscious",
-                          "value": "Cruelty-Free"
-                        },
-                        {
-                          "code": "preference",
-                          "value": "Vegan"
-                        },
-                        {
-                          "code": "formulation",
-                          "value": "Cream"
-                        },
-                        {
-                          "code": "skin_type",
-                          "value": "Oily"
-                        },
-                        {
-                          "code": "brand",
-                          "value": "Space X"
                         }
                       ]
                     }
@@ -335,6 +279,12 @@
                   "@ondc/org/time_to_ship": "P1D",
                   "@ondc/org/available_on_cod": true,
                   "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
+                  "@ondc/org/statutory_reqs_packaged_commodities": {
+                    "manufacturer_or_packer_name": "Nature 4 Nature",
+                    "manufacturer_or_packer_address": "7B, PRIME MALL, Vile Parle West, Besides Irla Church RD, Mumbai Suburban, Maharashtra, 400056",
+                    "common_or_generic_name_of_commodity": "Face Serum",
+                    "month_year_of_manufacture_packing_import": "04/2024"
+                  },
                   "tags": [
                     {
                       "code": "origin",
@@ -348,38 +298,6 @@
                     {
                       "code": "attribute",
                       "list": [
-                        {
-                          "code": "gender",
-                          "value": "men"
-                        },
-                        {
-                          "code": "colour",
-                          "value": "#fbd593"
-                        },
-                        {
-                          "code": "concern",
-                          "value": "wwerewr"
-                        },
-                        {
-                          "code": "ingredient",
-                          "value": "errewrw"
-                        },
-                        {
-                          "code": "conscious",
-                          "value": "erwrwer"
-                        },
-                        {
-                          "code": "preference",
-                          "value": "werwerew"
-                        },
-                        {
-                          "code": "formulation",
-                          "value": "werwer"
-                        },
-                        {
-                          "code": "skin_type",
-                          "value": "Oil"
-                        },
                         {
                           "code": "brand",
                           "value": "Hexbit Orignals"
@@ -441,6 +359,12 @@
                   "@ondc/org/time_to_ship": "P1D",
                   "@ondc/org/available_on_cod": true,
                   "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
+                  "@ondc/org/statutory_reqs_packaged_commodities": {
+                    "manufacturer_or_packer_name": "L'Oreal",
+                    "manufacturer_or_packer_address": "No.7, Snc House Building, Residency Road, Bangalore - 560025 (Near to Mallya Hospital, Opposite to Ramanashree Hotel)",
+                    "common_or_generic_name_of_commodity": "Concealer",
+                    "month_year_of_manufacture_packing_import": "04/2024"
+                  },
                   "tags": [
                     {
                       "code": "origin",
@@ -454,38 +378,6 @@
                     {
                       "code": "attribute",
                       "list": [
-                        {
-                          "code": "gender",
-                          "value": "women"
-                        },
-                        {
-                          "code": "colour",
-                          "value": "#d7a77f"
-                        },
-                        {
-                          "code": "concern",
-                          "value": "Dark Spots"
-                        },
-                        {
-                          "code": "ingredient",
-                          "value": "Undecane"
-                        },
-                        {
-                          "code": "conscious",
-                          "value": "Full Coverage"
-                        },
-                        {
-                          "code": "preference",
-                          "value": "Long-Wearing"
-                        },
-                        {
-                          "code": "formulation",
-                          "value": "Liquid"
-                        },
-                        {
-                          "code": "skin_type",
-                          "value": "Normal"
-                        },
                         {
                           "code": "brand",
                           "value": "LOreal"
@@ -548,6 +440,12 @@
                   "@ondc/org/time_to_ship": "P1D",
                   "@ondc/org/available_on_cod": true,
                   "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
+                  "@ondc/org/statutory_reqs_packaged_commodities": {
+                    "manufacturer_or_packer_name": "L'Oreal",
+                    "manufacturer_or_packer_address": "No.7, Snc House Building, Residency Road, Bangalore - 560025 (Near to Mallya Hospital, Opposite to Ramanashree Hotel)",
+                    "common_or_generic_name_of_commodity": "Concealer",
+                    "month_year_of_manufacture_packing_import": "04/2024"
+                  },
                   "tags": [
                     {
                       "code": "origin",
@@ -561,38 +459,6 @@
                     {
                       "code": "attribute",
                       "list": [
-                        {
-                          "code": "gender",
-                          "value": "women"
-                        },
-                        {
-                          "code": "colour",
-                          "value": "#f3d8bb"
-                        },
-                        {
-                          "code": "concern",
-                          "value": "Dark Spots"
-                        },
-                        {
-                          "code": "ingredient",
-                          "value": "Undecane"
-                        },
-                        {
-                          "code": "conscious",
-                          "value": "Matte"
-                        },
-                        {
-                          "code": "preference",
-                          "value": "Long-Wearing"
-                        },
-                        {
-                          "code": "formulation",
-                          "value": "Light to Medium"
-                        },
-                        {
-                          "code": "skin_type",
-                          "value": "Normal"
-                        },
                         {
                           "code": "brand",
                           "value": "LOreal"
@@ -639,7 +505,7 @@
                     },
                     {
                       "code": "time_to",
-                      "value": "2230"
+                      "value": "2330"
                     }
                   ]
                 },
@@ -805,6 +671,12 @@
                   "@ondc/org/time_to_ship": "P1D",
                   "@ondc/org/available_on_cod": false,
                   "@ondc/org/contact_details_consumer_care": "hexbit.in,support@hexbit.in,9939197376",
+                  "@ondc/org/statutory_reqs_packaged_commodities": {
+                    "manufacturer_or_packer_name": "Hindustan Unilever Limited",
+                    "manufacturer_or_packer_address": "Hindustan Unilever Limited, Unilever House, B D Sawant Marg, Chakala, Anderi E, Mumbai - 400099 Best before 19-09-2025",
+                    "common_or_generic_name_of_commodity": "Skin Oil",
+                    "month_year_of_manufacture_packing_import": "04/2024"
+                  },
                   "tags": [
                     {
                       "code": "origin",
@@ -821,42 +693,6 @@
                         {
                           "code": "brand",
                           "value": "Lush"
-                        },
-                        {
-                          "code": "colour",
-                          "value": "#ff0000"
-                        },
-                        {
-                          "code": "gender",
-                          "value": "Unisex"
-                        },
-                        {
-                          "code": "concern",
-                          "value": "Acne"
-                        },
-                        {
-                          "code": "ingredient",
-                          "value": "Tea Tree Oil"
-                        },
-                        {
-                          "code": "conscious",
-                          "value": "Cruelty-Free"
-                        },
-                        {
-                          "code": "preference",
-                          "value": "Vegan"
-                        },
-                        {
-                          "code": "formulation",
-                          "value": "Cream"
-                        },
-                        {
-                          "code": "skin_type",
-                          "value": "Oily"
-                        },
-                        {
-                          "code": "brand",
-                          "value": "Space X"
                         }
                       ]
                     }
