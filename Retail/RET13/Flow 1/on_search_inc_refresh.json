@@ -54,7 +54,7 @@
               "price": {
                 "currency": "INR",
                 "value": "200.00",
-                "maximum_value": "410.00"
+                "maximum_value": "210.00"
               },
               "category_id": "Skin Care - Lotions, Moisturisers, and Creams",
               "fulfillment_id": "6523f7f10a9003d447f9741e04",
