@@ -27,9 +27,7 @@
         "symbol": "https://www.hexbit.io/assets/HexbitLogo-886adfca.png",
         "long_desc": "Hexbit - ONDC Online eCommerce Store",
         "short_desc": "Hexbit - ONDC Online eCommerce Store",
-        "images": [
-          "https://www.hexbit.io/assets/HexbitLogo-886adfca.png"
-        ],
+        "images": ["https://www.hexbit.io/assets/HexbitLogo-886adfca.png"],
         "tags": [
           {
             "code": "bpp_terms",
@@ -157,7 +155,7 @@
               },
               "price": {
                 "currency": "INR",
-                "value": "200.00",
+                "value": "190.00",
                 "maximum_value": "210.00"
               },
               "category_id": "Skin Care - Lotions, Moisturisers, and Creams",
@@ -384,7 +382,7 @@
                 "unitized": {
                   "measure": {
                     "unit": "unit",
-                    "value": "1"
+                    "value": "2"
                   }
                 },
                 "available": {
